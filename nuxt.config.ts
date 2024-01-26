@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "Harry - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "EvolveBPM - Revenue Impact Solution in USA",
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
       script: [
         {
