@@ -5724,6 +5724,10 @@ input[type=color] {
   background-color: #F8F9FA;
 }
 
+.award-bg {
+  background: linear-gradient(to bottom, #fffaf5 0%,#f8ecff 100%);
+}
+
 .grey-bg-8 {
   background-color: var(--tp-grey-8);
 }
@@ -8786,7 +8790,7 @@ input[type=color] {
 /*  SECTION TITLE CSS START
 /*----------------------------------------*/
 .section__title {
-  font-size: 50px;
+  font-size: 45px;
   color: var(--tp-common-black);
   font-weight: var(--tp-fw-bold);
   line-height: 1;
@@ -8795,22 +8799,22 @@ input[type=color] {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .section__title {
-    font-size: 60px;
+    font-size: 45px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section__title {
-    font-size: 55px;
+    font-size: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section__title {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 @media (max-width: 575px) {
   .section__title {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 .section__title-wrapper.section-title-sm .section__title {

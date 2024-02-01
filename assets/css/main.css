@@ -104,6 +104,7 @@ img,
   /**
   @color declaration
   */
+  --tp-award-gradiant: linear-gradient(329deg,#ff91fa 13.55%,#fa6490 48.54%,#f7d86a 86.44%);
   --tp-common-white: #ffffff;
   --tp-common-white-op-7: rgba(255, 255, 255, 0.7019607843);
   --tp-common-white-op-3: rgba(255, 255, 255, 0.3019607843);
@@ -5714,6 +5715,10 @@ input[type=color] {
   background-color: #F8F9FA;
 }
 
+.award-bg {
+  background: linear-gradient(to bottom, #fffaf5 0%,#f8ecff 100%);
+}
+
 .grey-bg-8 {
   background-color: var(--tp-grey-8);
 }
@@ -8761,7 +8766,7 @@ input[type=color] {
 /*  SECTION TITLE CSS START
 /*----------------------------------------*/
 .section__title {
-  font-size: 70px;
+  font-size: 45px !important;
   color: var(--tp-common-black);
   font-weight: var(--tp-fw-bold);
   line-height: 1;
@@ -8789,7 +8794,7 @@ input[type=color] {
   }
 }
 .section__title-wrapper.section-title-sm .section__title {
-  font-size: 60px;
+  font-size: 45px;
 }
 .section__title-white {
   color: var(--tp-common-white);
