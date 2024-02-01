@@ -51,16 +51,6 @@
           </div>
         </div>
       </div>
-      <div v-if="el_style" class="row">
-        <div class="col-xxl-12">
-          <div class="tp-section-wrapper-3 mb-60 text-center">
-            <span class="tp-section-subtitle-3">
-              Minimal &amp; Clean Design
-            </span>
-            <h3 class="tp-section-title-3">Bordered Icon Box</h3>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <!-- single service start -->
         <SingleService

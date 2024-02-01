@@ -8782,7 +8782,7 @@ input[type=color] {
 /*  SECTION TITLE CSS START
 /*----------------------------------------*/
 .section__title {
-  font-size: 70px;
+  font-size: 50px;
   color: var(--tp-common-black);
   font-weight: var(--tp-fw-bold);
   line-height: 1;

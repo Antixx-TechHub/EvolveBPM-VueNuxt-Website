@@ -1,33 +1,35 @@
 <template>
   <LayoutOne>
     <HomeHero />
+    <agency-services/>
+    <freelancer-portfolio/>
+    <creative-feature/>
     <HomeAbout/>
+    <start-up-counter/>
     <HomeCounter/>
-    <HomeServices/>
-    <HomeEvents/>
-    <HomeTeams/>
-    <HomeFaq/>
+    <agency-brands/>
+    <about-me-testimonial/>
     <HomePortfolio/>
     <HomeTestimonial/>
-    <HomeBlogs/>
   </LayoutOne>
 </template>
 
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
-import HomeHero from '~/components/hero-banner/HomeHero.vue';
+import HomeHero from '~/components/hero-banner/HomeHero.vue'
+import AgencyServices from '~/components/services/AgencyServices.vue';
+import FreelancerPortfolio from '~/components/portfolios/FreelancerPortfolio.vue';
+import CreativeFeature from "~/components/features/CreativeFeature.vue";
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
+import StartUpCounter from "~/components/counters/StartUpCounter.vue";
 import HomeCounter from "~/components/counters/HomeCounter.vue";
-import HomeServices from "~/components/services/HomeServices.vue";
-import HomeEvents from "~/components/events/HomeEvents.vue";
-import HomeTeams from "~/components/teams/HomeTeams.vue";
-import HomeFaq from "~/components/faqs/HomeFaq.vue";
+import AgencyBrands from '~/components/brands/AgencyBrands.vue';
+import AboutMeTestimonial from '~~/components/testimonials/AboutMeTestimonial.vue';
 import HomePortfolio from "~/components/portfolios/HomePortfolio.vue";
 import HomeTestimonial from "~/components/testimonials/HomeTestimonial.vue";
-import HomeBlogs from "~/components/blogs/HomeBlogs.vue";
 
 useHead({
-  title: "Home main - Creative Agency & Portfolio Vue Nuxt 3 Template",
+  title: "EvolveBPM - Revenue Impact Solution in USA",
 }); 
 
 </script>
