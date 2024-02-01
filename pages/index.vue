@@ -10,7 +10,7 @@
     <HomeAbout />
     <CertificationsAwards />
     <start-up-counter />
-    <HomePortfolio />
+    <HomeCTA />
     <Location />
   </LayoutOne>
 </template>
@@ -27,7 +27,7 @@ import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
 import StartUpCounter from "~/components/counters/StartUpCounter.vue";
 import AboutMeTestimonial from '~~/components/testimonials/AboutMeTestimonial.vue';
-import HomePortfolio from "~/components/portfolios/HomePortfolio.vue";
+import HomeCTA from "~/components/index/HomeCTA.vue";
 import Location from "~/components/index/Location.vue";
 
 useHead({

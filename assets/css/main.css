@@ -6687,6 +6687,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: linear-gradient(to bottom, #fffaf5 0%, #f8ecff 100%);
 }
 
+.homecta-bg {
+  background: linear-gradient(to bottom, #fffdf2 0%,#ffeff5 100%)
+}
+
 .delivery-bg {
   background: linear-gradient(to bottom, #e2f3ff 0%, #fffbef 100%);
 }
@@ -40691,12 +40695,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .cta__title-5 {
-  font-family: var(--tp-ff-space);
-  font-weight: 700;
-  font-size: 60px;
+  font-family: var(--tp-ff-inter);
+  font-weight: 600;
+  font-size: 45px;
   line-height: 1;
   letter-spacing: -0.06em;
-  color: var(--tp-common-white);
+  color: #050748;
   margin-bottom: 0;
 }
 
@@ -41368,15 +41372,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .cta__content-5 span {
-  font-family: var(--tp-ff-space);
-  font-weight: 700;
+  font-family: var(--tp-ff-inter);
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--tp-common-white);
+  text-transform: capitalize;
+  color: #6a6a8e;
   display: inline-block;
-  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .cta__content-6 {
