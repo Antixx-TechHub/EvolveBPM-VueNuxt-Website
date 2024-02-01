@@ -11,6 +11,7 @@
     <CertificationsAwards />
     <start-up-counter />
     <HomePortfolio />
+    <Location />
   </LayoutOne>
 </template>
 
@@ -27,6 +28,7 @@ import HomeAbout from "~/components/abouts/HomeAbout.vue";
 import StartUpCounter from "~/components/counters/StartUpCounter.vue";
 import AboutMeTestimonial from '~~/components/testimonials/AboutMeTestimonial.vue';
 import HomePortfolio from "~/components/portfolios/HomePortfolio.vue";
+import Location from "~/components/index/Location.vue";
 
 useHead({
   title: "EvolveBPM - Revenue Impact Solution in USA",
