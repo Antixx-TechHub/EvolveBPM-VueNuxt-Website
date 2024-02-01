@@ -1,5 +1,5 @@
 <template>
-  <section class="services__area grey-bg-8 pt-110 pb-130 p-relative z-index-1">
+  <section class="services__area grey-bg-8 pt-110 pb-50 p-relative z-index-1">
     <div class="services__shape">
       <img
         class="services__shape-4"
@@ -42,10 +42,10 @@
             data-sal-duration="1000"
           >
             <div class="section__title-wrapper-5 mb-70 text-center">
-              <span class="section__title-pre-5">What We Create</span>
               <h3 class="section__title-5">
-                We provide wide range of digital services
+                Services Tailored for You
               </h3>
+              <span class="section__title-pre-5">Tailor-made demand generation services, meticulously designed to align with your unique business needs and drive optimal results.</span>
             </div>
           </div>
         </div>
@@ -65,6 +65,9 @@
             <div
               class="services__item-5-inner text-center transition-3 white-bg"
             >
+            <div class="services__thumb-5">
+                <img :src="item.img" alt="" />
+              </div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
                   <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
@@ -84,56 +87,6 @@
                   </nuxt-link>
                 </div>
               </div>
-              <div class="services__thumb-5">
-                <img :src="item.img" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-xl-8 col-lg-10">
-          <div
-            class="ticket__wrapper mt-50 d-md-flex align-items-center justify-content-between"
-            data-bg-color="blue-bg-2"
-          >
-            <div class="ticket__inner d-sm-flex align-items-center">
-              <div class="ticket__shape">
-                <img
-                  class="ticket__shape-1"
-                  data-sal="slide-down"
-                  data-sal-delay="130"
-                  data-sal-duration="1000"
-                  src="~/assets/img/ticket/ticket-shape-1.png"
-                  alt=""
-                />
-                <img
-                  class="ticket__shape-2 wow fadeInDown"
-                  data-sal="slide-down"
-                  data-sal-delay="150"
-                  data-sal-duration="1000"
-                  src="~/assets/img/ticket/ticket-shape-2.png"
-                  alt=""
-                />
-                <img
-                  class="ticket__shape-3 wow fadeInUp"
-                  data-sal="slide-up"
-                  data-sal-delay="170"
-                  data-sal-duration="1000"
-                  src="~/assets/img/ticket/ticket-shape-3.png"
-                  alt=""
-                />
-              </div>
-              <div class="ticket__icon mr-15">
-                <img src="~/assets/img/ticket/ticket-icon.png" alt="" />
-              </div>
-              <div class="ticket__content">
-                <h4 class="ticket__title">Contact us to</h4>
-                <p>Get a professional service.</p>
-              </div>
-            </div>
-            <div class="ticket__btn">
-              <nuxt-link href="/contact" class="tp-btn-white-sm">Submit a Ticket</nuxt-link>
             </div>
           </div>
         </div>
@@ -158,25 +111,25 @@ export default {
           id: 1,
           delay: "130",
           img: agn_ser_1,
-          title: "Strategy & Research.",
+          title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
           subtitle:
-            "Our design services starts and ends best in class experience.",
+            "where the i stands for ‘Impact’ and Rev is for the leads we are all set to generate to add to your ‘Revenue’! Are you looking to create a community with high growth opportunities?",
         },
         {
           id: 2,
           delay: "150",
           img: agn_ser_2,
-          title: "UI/UX Analysis",
+          title: "data build, cleanse, verify, validate, intent, install base.",
           subtitle:
-            "Our design services starts and ends best in class experience.",
+            "Your one stop shop for all your data needs. Whether it is to build a data base, cleanse an existing database, verify and validate or study intent – our expert data analysts have you covered.",
         },
         {
           id: 3,
           delay: "170",
           img: agn_ser_3,
-          title: "Search Optimization",
+          title: "research services for company and market research",
           subtitle:
-            "Our design services starts and ends best in class experience.",
+            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you!",
         },
       ],
     };

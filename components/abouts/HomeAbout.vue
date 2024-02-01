@@ -3,29 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
-          <div class="about__thumb-wrapper ml-70 pr-100">
-            <div
-              class="about__thumb w-img"
-              data-sal="slide-right"
-              data-sal-delay="130"
-              data-sal-duration="1000"
-            >
-              <div class="tp-thumb-overlay wow"></div>
-              <img src="~/assets/img/about/about-img-1.jpg" alt="" />
-            </div>
-            <div class="about__thumb-text">
-              <h3 data-text="Expert">Expert</h3>
-            </div>
-            <div class="about__experience">
-              <h4><span class="counter">12</span></h4>
-              <p>
-                Years <br />
-                Experience
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div
             class="about__wrapper pr-95"
             data-sal="slide-up"
@@ -73,6 +50,29 @@
             </div>
             <div class="about__btn">
               <nuxt-link href="/about" class="tp-btn">Discover Now</nuxt-link>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="about__thumb-wrapper ml-70 pr-100">
+            <div
+              class="about__thumb w-img"
+              data-sal="slide-right"
+              data-sal-delay="130"
+              data-sal-duration="1000"
+            >
+              <div class="tp-thumb-overlay wow"></div>
+              <img src="~/assets/img/about/about-img-1.jpg" alt="" />
+            </div>
+            <div class="about__thumb-text">
+              <h3 data-text="Expert">Expert</h3>
+            </div>
+            <div class="about__experience">
+              <h4><span class="counter">12</span></h4>
+              <p>
+                Years <br />
+                Experience
+              </p>
             </div>
           </div>
         </div>
