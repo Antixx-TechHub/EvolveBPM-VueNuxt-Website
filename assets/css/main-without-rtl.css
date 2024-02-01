@@ -7137,7 +7137,7 @@ input[type=color] {
   display: inline-block;
   font-weight: 700;
   font-size: 50px;
-  line-height: 1.4;
+  line-height: 2.4;
   color: var(--tp-common-white);
   width: 100%;
 }
@@ -22326,7 +22326,7 @@ input[type=color] {
   line-height: 24px;
 }
 .services__btn-5 {
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 .services__btn-5 .tp-link-btn-circle {
   font-family: var(--tp-ff-inter);

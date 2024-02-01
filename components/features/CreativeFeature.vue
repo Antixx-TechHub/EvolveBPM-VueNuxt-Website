@@ -32,9 +32,9 @@
         <div class="col-xxl-6 col-xl-7 col-lg-7">
           <div class="section__title-wrapper-6 mb-60 text-center">
             <h3 class="section__title-6">
-              Put the Spotlight on the Main
+              Our
               <span class="section__title-6-highlight">
-                Features.
+              Delivery Channels
                 <svg width="201" height="11" viewBox="0 0 201 11" fill="none">
                   <path
                     class="wow"
@@ -53,7 +53,7 @@
         <div
           v-for="item in feature_data"
           :key="item.id"
-          class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6"
+          class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6"
         >
           <creative-single-feature :item="item"/>
         </div>
@@ -79,7 +79,7 @@ export default {
                     <path d="M36.368 31.1748H27.1914V40.9998H40.298V35.1048C40.298 32.9433 38.5295 31.1748 36.368 31.1748Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M21.671 1.83762L22.7124 3.92052C22.85 4.21527 23.2233 4.49036 23.5377 4.52966L25.4241 4.84407C26.6228 5.04057 26.9175 5.92478 26.0529 6.76974L24.5792 8.24349C24.3237 8.49894 24.1862 8.97056 24.2648 9.30461L24.6774 11.1124C25.0115 12.5469 24.2451 13.0971 22.9875 12.3504L21.219 11.3089C20.9046 11.1124 20.3741 11.1124 20.0597 11.3089L18.2912 12.3504C17.0336 13.0971 16.2672 12.5469 16.6013 11.1124L17.0139 9.30461C17.0925 8.97056 16.955 8.47929 16.6995 8.24349L15.2454 6.7894C14.3808 5.9248 14.6559 5.06018 15.8742 4.86368L17.7606 4.54933C18.075 4.49038 18.4484 4.21529 18.5859 3.94019L19.6274 1.85723C20.1972 0.717526 21.1011 0.717567 21.671 1.83762Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                  </svg>`,
-          title: "Collect Website Leads With Embedded",
+          title: "Email",
           subtitle: "Lorem Ipsum is that it more less normal distribution.",
           color: "",
         },
@@ -93,7 +93,7 @@ export default {
                     <path d="M33.7388 19.5789L28.3188 24.9989L14.7188 38.5789C16.1187 37.1389 16.9988 35.1589 16.9988 32.9989V13.6789L22.4188 8.25894C24.5388 6.13895 27.3788 6.13895 29.4988 8.25894L33.7388 12.4989C35.8588 14.6189 35.8588 17.4589 33.7388 19.5789Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M9 34.999C10.1046 34.999 11 34.1036 11 32.999C11 31.8945 10.1046 30.999 9 30.999C7.89543 30.999 7 31.8945 7 32.999C7 34.1036 7.89543 34.999 9 34.999Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>`,
-          title: "Product Design Event Development",
+          title: "Telemarketing",
           subtitle: "Lorem Ipsum is that it more less normal distribution.",
           color: "has-green",
         },
@@ -108,21 +108,9 @@ export default {
                     <path d="M31.998 16V26C31.998 30 29.998 32 25.998 32H17.998C13.998 32 11.998 30 11.998 26V16C11.998 12 13.998 10 17.998 10H25.998C29.998 10 31.998 12 31.998 16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M35.9981 21H7.99805" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                  </svg>`,
-          title: "Website Leads Hire in Fixed Contracting",
+          title: "Webinars",
           subtitle: "Lorem Ipsum is that it more less normal distribution.",
           color: "has-pink",
-        },
-        {
-          id: 4,
-          delay: "190",
-          icon: `<svg width="42" height="42" viewBox="0 0 42 42" fill="none">
-                  <path d="M25.0001 29C25.0001 32.54 23.4601 35.74 21.0001 37.92C18.8801 39.84 16.0801 41 13.0001 41C6.38003 41 1 35.62 1 29C1 23.4799 4.76002 18.7999 9.84004 17.4199C11.22 20.8999 14.1801 23.58 17.8401 24.58C18.8401 24.86 19.9001 25 21.0001 25C22.1001 25 23.1601 24.86 24.1601 24.58C24.7001 25.94 25.0001 27.44 25.0001 29Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M33.0001 13.0001C33.0001 14.5601 32.7001 16.0601 32.1601 17.4201C30.7801 20.9001 27.8201 23.5801 24.1601 24.5801C23.1601 24.8601 22.1001 25.0001 21.0001 25.0001C19.9001 25.0001 18.84 24.8601 17.84 24.5801C14.18 23.5801 11.22 20.9001 9.84 17.4201C9.3 16.0601 9 14.5601 9 13.0001C9 6.38003 14.38 1 21.0001 1C27.6201 1 33.0001 6.38003 33.0001 13.0001Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M41.0001 29C41.0001 35.62 35.6201 41 29 41C25.92 41 23.12 39.84 21 37.92C23.46 35.74 25 32.54 25 29C25 27.44 24.7 25.94 24.16 24.58C27.82 23.58 30.78 20.8999 32.1601 17.4199C37.2401 18.7999 41.0001 23.4799 41.0001 29Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>`,
-          title: "General are Consulting Process Embedded",
-          subtitle: "Lorem Ipsum is that it more less normal distribution.",
-          color: "has-purple",
         },
       ],
     };
