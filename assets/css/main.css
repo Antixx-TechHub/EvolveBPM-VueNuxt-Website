@@ -5710,6 +5710,10 @@ input[type=color] {
   background-color: var(--tp-grey-7);
 }
 
+.grey-bg-77 {
+  background-color: #F8F9FA;
+}
+
 .grey-bg-8 {
   background-color: var(--tp-grey-8);
 }
@@ -33418,7 +33422,7 @@ div.team__details-shape-4 img {
 }
 .skill__single {
   padding: 45px 0 35px;
-  border-radius: 200px;
+  border-radius: 20px;
   background-color: var(--tp-common-white);
   box-shadow: 0px 2px 3px rgba(22, 34, 19, 0.1);
   width: 130px;
@@ -33642,7 +33646,7 @@ div.team__details-shape-4 img {
   color: var(--tp-theme-2);
 }
 .career__info {
-  width: 70%;
+  width: 100%;
 }
 @media (max-width: 575px) {
   .career__info {
@@ -40266,7 +40270,7 @@ div.team__details-shape-4 img {
   font-family: var(--tp-ff-space);
   font-weight: 500;
   font-size: 16px;
-  line-height: 2.12;
+  line-height: 1.9;
   color: var(--tp-text-1);
   list-style: none;
 }

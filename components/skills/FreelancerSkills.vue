@@ -1,5 +1,5 @@
 <template>
-  <section class="skill__area grey-bg-7 pt-145 pb-120">
+  <section class="skill__area grey-bg-77 pt-145 pb-120">
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
@@ -45,12 +45,8 @@ import skill_icon_3 from "~/assets/img/skill/skill-icon-3.png";
 import skill_icon_4 from "~/assets/img/skill/skill-icon-4.png";
 import skill_icon_5 from "~/assets/img/skill/skill-icon-5.png";
 import skill_icon_6 from "~/assets/img/skill/skill-icon-6.png";
-import skill_icon_7 from "~/assets/img/skill/skill-icon-7.png";
 // company icon
-import company_icon_1 from "~/assets/img/skill/company/company-icon-1.png";
-import company_icon_2 from "~/assets/img/skill/company/company-icon-2.png";
-import company_icon_3 from "~/assets/img/skill/company/company-icon-3.png";
-import company_icon_4 from "~/assets/img/skill/company/company-icon-4.png";
+// import company_icon_1 from "~/assets/img/skill/company/company-icon-1.png";
 // SingleCarrerItem
 import CareerItems from './CareerItems.vue';
 
@@ -61,16 +57,16 @@ export default {
       skill_data: [
         {
           skill_items: [
-            { icon: skill_icon_1, num: 98, text: "%" },
-            { icon: skill_icon_2, num: 86, text: "%" },
-            { icon: skill_icon_5, num: 65, text: "%" },
+            { icon: skill_icon_1, },
+            { icon: skill_icon_2, },
+            { icon: skill_icon_5, },
           ],
         },
         {
           skill_items: [
-            { icon: skill_icon_3, num: 92, text: "%" },
-            { icon: skill_icon_4, num: 73, text: "%" },
-            { icon: skill_icon_5, num: 65, text: "%" },
+            { icon: skill_icon_3, },
+            { icon: skill_icon_4, },
+            { icon: skill_icon_5, },
           ],
         },
       ],
@@ -78,7 +74,7 @@ export default {
         {
           delay: "130",
           title: "Here is where your audiences thrive in the Evolve ecosystem.",
-          designation: "Do you wonder the impact of reaching your audience through sources they trust? With the changing spam laws, the best way to reach your audience remains committees they frequently visit. We actively function to create a hub of those!  We further leverage this audience to curate disruptive lead generation strategies. Each strategy is uniquely suited to your needs – adding our end users as highly qualified leads to your dedicated community, one campaign at a time.",
+          designation: "Do you wonder the impact of reaching your audience through sources they trust? With the changing spam laws, the best way to reach your audience remains committees they frequently visit. We actively function to create a hub of those! We further leverage this audience to curate disruptive lead generation strategies. Each strategy is uniquely suited to your needs – adding our end users as highly qualified leads to your dedicated community, one campaign at a time.",
         },
       ],
     };

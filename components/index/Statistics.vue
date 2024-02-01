@@ -1,142 +1,158 @@
 <template>
-    <section class="portfolio__area pt-150 pb-110">
-      <div class="container">
-        <div class="row">
-          <div class="col-xxl-12">
-            <div class="section__title-wrapper-2 text-center mb-40">
-              <span class="section__title-pre-2">Statistics</span>
-              <h3 class="section__title-2">Statistics</h3>
-              <p>Featured projects, which my best projects be choice to show</p>
-            </div>
+  <section class="portfolio__area pt-150 pb-110">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="section__title-wrapper-2 text-center mb-40">
+            <span class="section__title-pre-2">Statistics</span>
+            <h3 class="section__title-2">Statistics</h3>
+            <p>Featured projects, which my best projects be choice to show</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xxl-12">
-            <div
-              v-for="item in portfolio_data"
-              :key="item.id"
-              :class="`portfolio__item-2 has-${item.bg_color} fix`"
-            >
-              <div class="portfolio__shape">
-                <img
-                  v-for="(s, i) in item.shapes"
-                  :key="i"
-                  :class="`portfolio__shape-${s.id} wow fadeInDown`"
-                  data-sal="slide-down" data-sal-delay="150" data-sal-duration="1000"
-                  :src="s.shape"
-                  alt="shape"
-                />
-              </div>
-              <div v-if="!item.diff" class="row">
-                <div class="col-xxl-5 col-xl-5 col-lg-6">
-                  <div class="portfolio__content-2">
-                    <div class="portfolio__icon-2">
-                      <span v-html="item.icon"> </span>
-                    </div>
-                    <div class="portfolio__tag-2">
-                      <a v-for="(t, i) in item.tags" :key="i" href="#">{{ t }}</a>
-                    </div>
-                    <h3 class="portfolio__title-2" v-html="item.title"></h3>
-                    <div class="portfolio__btn-2">
-                      <a href="portfolio-masonry" class="tp-btn-white">
-                        See Projects
-                      </a>
-                    </div>
+      </div>
+      <div class="row">
+        <div class="col-xxl-12">
+          <div v-for="item in portfolio_data" :key="item.id" :class="`portfolio__item-2 has-${item.bg_color} fix`">
+            <div class="portfolio__shape">
+              <img v-for="(s, i) in item.shapes" :key="i" :class="`portfolio__shape-${s.id} wow fadeInDown`"
+                data-sal="slide-down" data-sal-delay="150" data-sal-duration="1000" :src="s.shape" alt="shape" />
+            </div>
+            <div v-if="!item.diff" class="row">
+              <div class="col-xxl-5 col-xl-5 col-lg-6">
+                <div class="portfolio__content-2">
+                  <h3 class="portfolio__title-2" v-html="item.title"></h3>
+                  <div class="vision__list">
+                    <ul>
+                      <li>
+                        <span>
+                          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5451 1.27344L3.9201 7.04884L1.36328 4.42366" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        We work exclusively with agencies and publishers as their white-labelled delivery partner.
+                      </li>
+                      <li>
+                        <span>
+                          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5451 1.27344L3.9201 7.04884L1.36328 4.42366" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        Focussed on building and delivering best in class operational capacity for agencies.
+                      </li>
+                      <li>
+                        <span>
+                          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5451 1.27344L3.9201 7.04884L1.36328 4.42366" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        Dedicated operational teams with Chinese walls between agencies teams.
+                      </li>
+                      <li>
+                        <span>
+                          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5451 1.27344L3.9201 7.04884L1.36328 4.42366" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        Shared resources for data / technology / HR
+                      </li>
+                      <li>
+                        <span>
+                          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5451 1.27344L3.9201 7.04884L1.36328 4.42366" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        Innovation led partnership with ability to white label technology frameworks.
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-6">
-                  <div class="portfolio__thumb-wrapper-2 p-relative">
-                    <div class="portfolio__thumb-2">
-                      <img
-                        v-for="(img, i) in item.image"
-                        :key="i"
-                        :class="`portfolio-2-${img.id} wow fadeInRightPortfolio${img.id}`"
-                        data-sal="slide-down" data-sal-delay="160" data-sal-duration="1000"
-                        :src="img.img"
-                        alt="image"
-                      />
-                    </div>
+              </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-6">
+                <div class="portfolio__thumb-wrapper-2 p-relative">
+                  <div class="portfolio__thumb-2">
+                    <img v-for="(img, i) in item.image" :key="i"
+                      :class="`portfolio-2-${img.id} wow fadeInRightPortfolio${img.id}`" data-sal="slide-down"
+                      data-sal-delay="160" data-sal-duration="1000" :src="img.img" alt="image" />
                   </div>
                 </div>
               </div>
-  
-              <div v-if="item.diff" class="row">
-                <div class="col-xxl-7 col-xl-7 col-lg-6">
-                  <div class="portfolio__thumb-wrapper-2 p-relative">
-                    <div class="portfolio__thumb-2 portfolio-thumb-2">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <img
-                            :class="`portfolio-2-${item.image[0].id} 
-                             wow fadeInRightPortfolio${item.image[0].id}`"
-                            :src="item.image[0].img"
-                            data-sal="slide-down" data-sal-delay="170" data-sal-duration="1000"
-                            alt="image"
-                          />
-                        </div>
-                        <div class="col-md-5">
-                          <img
-                            v-for="(img, i) in item.image.slice(1, 3)"
-                            :key="i"
-                            :class="`portfolio-2-${img.id} wow fadeInRightPortfolio${img.id}`"
-                            data-sal="slide-down" data-sal-delay="180" data-sal-duration="1000"
-                            :src="img.img"
-                            alt="image"
-                          />
-                        </div>
+            </div>
+
+            <div v-if="item.diff" class="row">
+              <div class="col-xxl-7 col-xl-7 col-lg-6">
+                <div class="portfolio__thumb-wrapper-2 p-relative">
+                  <div class="portfolio__thumb-2 portfolio-thumb-2">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <img
+                          :class="`portfolio-2-${item.image[0].id} 
+                                                                                                       wow fadeInRightPortfolio${item.image[0].id}`"
+                          :src="item.image[0].img" data-sal="slide-down" data-sal-delay="170" data-sal-duration="1000"
+                          alt="image" />
+                      </div>
+                      <div class="col-md-5">
+                        <img v-for="(img, i) in item.image.slice(1, 3)" :key="i"
+                          :class="`portfolio-2-${img.id} wow fadeInRightPortfolio${img.id}`" data-sal="slide-down"
+                          data-sal-delay="180" data-sal-duration="1000" :src="img.img" alt="image" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xxl-5 col-xl-5 col-lg-6">
-                  <div class="portfolio__content-2">
-                    <div class="portfolio__icon-2">
-                      <span v-html="item.icon"></span>
-                    </div>
-                    <div class="portfolio__tag-2">
-                      <a v-for="(t, i) in item.tags" :key="i" href="#">{{ t }}</a>
-                    </div>
-                    <h3 class="portfolio__title-2" v-html="item.title"></h3>
-                    <div class="portfolio__btn-2">
-                      <Link href="portfolio-masonry" class="tp-btn-white">
-                        See Projects
-                      </Link>
-                    </div>
+              </div>
+              <div class="col-xxl-5 col-xl-5 col-lg-6">
+                <div class="portfolio__content-2">
+                  <div class="portfolio__icon-2">
+                    <span v-html="item.icon"></span>
                   </div>
+                  <div class="portfolio__tag-2">
+                    <a v-for="(t, i) in item.tags" :key="i" href="#">{{ t }}</a>
+                  </div>
+                  <h3 class="portfolio__title-2" v-html="item.title"></h3>
+                  <!-- <div class="portfolio__btn-2">
+                    <Link href="portfolio-masonry" class="tp-btn-white">
+                    See Projects
+                    </Link>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </template>
+    </div>
+  </section>
+</template>
   
-  <script>
-  import { ref, onMounted } from "vue";
-  // shapes
-  import shape_1 from "~/assets/img/portfolio/2/shape/portfolio-shape-1.png";
-  import shape_2 from "~/assets/img/portfolio/2/shape/portfolio-shape-2.png";
-  import shape_3 from "~/assets/img/portfolio/2/shape/portfolio-shape-3.png";
-  import shape_4 from "~/assets/img/portfolio/2/shape/portfolio-shape-4.png";
-  // portfolio images
-  import portfolio_1 from "~/assets/img/portfolio/2/portfolio-1.jpg";
-  import portfolio_2 from "~/assets/img/portfolio/2/portfolio-2.jpg";
-  import portfolio_3 from "~/assets/img/portfolio/2/portfolio-3.jpg";
-  import portfolio_4 from "~/assets/img/portfolio/2/portfolio-4.jpg";
-  import portfolio_5 from "~/assets/img/portfolio/2/portfolio-5.jpg";
-  import portfolio_6 from "~/assets/img/portfolio/2/portfolio-6.png";
-  import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
-  
-  export default {
-    mixins: [SalScrollAnimationMixin],
-    data() {
-      return {
-        portfolio_data: [
-          {
-            id: 3,
-            shapes: [{ id: 4, shape: shape_4 }],
-            icon: `<svg
+<script>
+import { ref, onMounted } from "vue";
+// shapes
+import shape_1 from "~/assets/img/portfolio/2/shape/portfolio-shape-1.png";
+import shape_2 from "~/assets/img/portfolio/2/shape/portfolio-shape-2.png";
+import shape_3 from "~/assets/img/portfolio/2/shape/portfolio-shape-3.png";
+import shape_4 from "~/assets/img/portfolio/2/shape/portfolio-shape-4.png";
+// portfolio images
+import portfolio_1 from "~/assets/img/portfolio/2/portfolio-1.jpg";
+import portfolio_2 from "~/assets/img/portfolio/2/portfolio-2.jpg";
+import portfolio_3 from "~/assets/img/portfolio/2/portfolio-3.jpg";
+import portfolio_4 from "~/assets/img/portfolio/2/portfolio-4.jpg";
+import portfolio_5 from "~/assets/img/portfolio/2/portfolio-5.jpg";
+import portfolio_6 from "~/assets/img/portfolio/2/portfolio-6.png";
+import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
+
+export default {
+  mixins: [SalScrollAnimationMixin],
+  data() {
+    return {
+      portfolio_data: [
+        {
+          id: 3,
+          shapes: [{ id: 4, shape: shape_4 }],
+          icon: `<svg
                       width="32"
                       height="28"
                       viewBox="0 0 32 28"
@@ -149,15 +165,14 @@
                         stroke-width="0.7"
                       />
                     </svg>`,
-            tags: ["User Research", "UX Design"],
-            title: "A collaboration tool for brainstorming ideas",
-            image: [{ id: 6, img: portfolio_6 }],
-            bg_color: "pink",
-          },
-        ],
-      };
-    },
-    
-  };
-  </script>
-  
+          tags: ["User Research", "UX Design"],
+          title: "Statistics",
+          image: [{ id: 6, img: portfolio_6 }],
+          bg_color: "pink",
+        },
+      ],
+    };
+  },
+
+};
+</script>

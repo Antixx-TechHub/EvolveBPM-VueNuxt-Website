@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "swiper/css/bundle",
     "vue3-carousel/dist/carousel.css",
     "~/assets/scss/main.scss",
+    "~/assets/css/main.css",
   ],
   modules: [
     [
