@@ -7,19 +7,19 @@
         renderBullet: renderBullet,
       }">
       <SwiperSlide v-for="(item, i) in slider_data" :key="i"
-        class="slider__item slider__height slider__overlay include-bg pt-100 pb-100 d-flex align-items-center">
+        class="slider__item slider__height include-bg pt-100 pb-100 d-flex align-items-center">
         <div class="slider__bg p-relative include-bg" :style="{ backgroundImage: `url(${item.bg})` }"></div>
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xxl-12">
               <div class="slider__content text-center">
+                <h3 class="slider__title" v-html="item.title"></h3>
                 <span class="slider__title-pre">
                   {{ item.pre_title }}
                 </span>
-                <h3 class="slider__title" v-html="item.title"></h3>
-                <div class="slider__form">
+                <!-- <div class="slider__form">
                   <SliderForm />
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
 import bg_1 from "~/assets/img/slider/slider-1.jpg";
 import bg_2 from "~/assets/img/slider/slider-2.jpg";
 import bg_3 from "~/assets/img/slider/slider-3.jpg";
-import SliderForm from "~~/components/forms/SliderForm.vue";
+// import SliderForm from "~~/components/forms/SliderForm.vue";
 // external
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation, EffectFade } from "swiper";
@@ -48,7 +48,7 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    SliderForm,
+    // SliderForm,
   },
   data() {
     return {
@@ -58,8 +58,8 @@ export default {
       slider_data: [
         {
           id: 1,
-          pre_title: "Hello! Consulting",
-          title: "Workshops Business Consulting",
+          pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
+          title: "Empower your sales team with impactful revenue solutions",
           bg: bg_1,
         },
         {
