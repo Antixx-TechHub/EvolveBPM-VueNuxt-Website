@@ -1,6 +1,6 @@
 <template>
-  <section class="features__area p-relative z-index-1 grey-bg-7 pt-110 pb-90">
-    <div class="features__shape">
+  <section class="features__area p-relative z-index-1 delivery-bg pt-110 pb-90">
+    <!-- <div class="features__shape">
       <img
         class="features__shape-1"
         src="~/assets/img/features/features-shape-1.png"
@@ -26,7 +26,7 @@
         src="~/assets/img/features/features-shape-5.png"
         alt="features__shape"
       />
-    </div>
+    </div> -->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-6 col-xl-7 col-lg-7">

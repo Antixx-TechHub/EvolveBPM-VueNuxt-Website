@@ -1,5 +1,5 @@
 <template>
-    <section class="features__area p-relative z-index-1 grey-bg-7 pt-110 pb-90">
+    <section class="features__area p-relative z-index-1 delivery-bg pt-110 pb-90">
       <div class="features__shape">
         <img
           class="features__shape-1"

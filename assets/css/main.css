@@ -5719,6 +5719,10 @@ input[type=color] {
   background: linear-gradient(to bottom, #fffaf5 0%,#f8ecff 100%);
 }
 
+.delivery-bg {
+  background: linear-gradient(to bottom, #e2f3ff 0%,#fffbef 100%);
+}
+
 .grey-bg-8 {
   background-color: var(--tp-grey-8);
 }
