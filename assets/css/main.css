@@ -153,7 +153,7 @@ img,
   --tp-common-footer-bg-black: #12173E;
   --tp-common-footer-bg-black-2: #0D121E;
   --tp-common-footer-bg-black-3: #1F2235;
-  --tp-common-footer-bg-black-4: #050616;
+  --tp-common-footer-bg-black-4: #165EC9;
   --tp-common-footer-bg-green: #022B26;
   --tp-common-footer-bg-green-dark: #002E24;
   --tp-common-footer-bg-grey: #F3F3F5;
@@ -173,9 +173,9 @@ img,
   --tp-common-green-light-3: #E2F3F0;
   --tp-common-green-light-4: #DFF1EE;
   --tp-common-green-light-5: #D9E7DB;
-  --tp-common-pink: #F96B6A;
-  --tp-common-pink-2: #FF3975;
-  --tp-common-pink-3: #F21C83;
+  --tp-common-pink: #FD5257;
+  --tp-common-pink-2: #FD5257;
+  --tp-common-pink-3: #FD5257;
   --tp-common-pink-4: #E349E3;
   --tp-common-pink-light: #FFEEF1;
   --tp-common-yellow: #FFB422;
@@ -236,11 +236,11 @@ img,
   --tp-text-23: #858585;
   --tp-text-24: #C0C9C7;
   --tp-text-25: #B7B7BB;
-  --tp-theme-1: #F50963;
-  --tp-theme-1-dark: #C3004B;
+  --tp-theme-1: #FD5257;
+  --tp-theme-1-dark: #FD5257;
   --tp-theme-2: #008080;
   --tp-theme-2-dark: #065454;
-  --tp-theme-3: #F31E5E;
+  --tp-theme-3: #FD5257;
   --tp-theme-4: #AB6C56;
   --tp-theme-4-dark: #844B37;
   --tp-theme-5: #4353FF;

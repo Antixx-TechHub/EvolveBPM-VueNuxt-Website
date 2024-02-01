@@ -6,20 +6,20 @@
       <slot></slot>
     </main>
 
-    <footer-ten />
-    <BackToTop/>
+    <Footer />
+    <BackToTop />
   </div>
 </template>
 
 <script>
 import HeaderOne from "./headers/HeaderOne.vue";
-import FooterTen from "./footers/FooterTen.vue";
+import Footer from "./footers/Footer.vue";
 import BackToTop from "./footers/component/BackToTop.vue";
 
 export default {
   components: {
     HeaderOne,
-    FooterTen,
+    Footer,
     BackToTop,
   },
 };
