@@ -5,7 +5,7 @@
     <Statistics />
     <FunFact />
     <OurProducts />
-    <creative-feature />
+    <DeliveryChannels />
     <OurMediaAssets />
     <DataStrategy />
     <CertificationsAwards />
@@ -21,7 +21,7 @@ import TailoredServices from '~/components/index/TailoredServices.vue';
 import Statistics from '~/components/index/Statistics.vue';
 import FunFact from '~~/components/index/FunFact.vue';
 import OurProducts from "~/components/index/OurProducts.vue";
-import CreativeFeature from "~/components/features/CreativeFeature.vue";
+import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
 import OurMediaAssets from '~/components/skills/FreelancerSkills.vue';
 import DataStrategy from "~/components/index/DataStrategy";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
