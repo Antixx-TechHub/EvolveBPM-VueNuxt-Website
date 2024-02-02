@@ -12055,7 +12055,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .logo-border::after {
   position: absolute;
   content: "";
-  right: 23%;
+  right: -10%;
   top: 0;
   width: 1px;
   height: 102%;
@@ -12077,7 +12077,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .logo-border::after {
-    right: 0;
+    right: -10px;
   }
 
   [dir=rtl] .logo-border::after {
