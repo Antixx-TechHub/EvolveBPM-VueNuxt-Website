@@ -11,16 +11,17 @@
         <div class="slider__bg p-relative include-bg" :style="{ backgroundImage: `url(${item.bg})` }"></div>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xxl-12">
-              <div class="slider__content text-center">
-                <h3 class="slider__title" v-html="item.title"></h3>
-                <span class="slider__title-pre">
-                  {{ item.pre_title }}
-                </span>
-                <!-- <div class="slider__form">
-                  <SliderForm />
-                </div> -->
+            <div class="col-xxl-6 col-xl-6 col-lg-6">
+              <div class="slider__content-5">
+                <span class="slider__title-pre-5">Digital Experience</span>
+                <h3 class="slider__title-5" v-html="item.title"></h3>
+                <p>{{ item.pre_title }}</p>
+
+                <nuxt-link href="/about" class="tp-btn-blue-sm">More About Us</nuxt-link>
               </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6">
+
             </div>
           </div>
         </div>
@@ -64,14 +65,14 @@ export default {
         },
         {
           id: 2,
-          pre_title: "Hello! Consulting",
-          title: "To This Template Than What You Can See",
+          pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
+          title: "Empower your sales team with impactful revenue solutions",
           bg: bg_2,
         },
         {
           id: 3,
-          pre_title: "Hello! Consulting",
-          title: "Digital Age Adventure <br /> In Marketing",
+          pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
+          title: "Empower your sales team with impactful revenue solutions",
           bg: bg_3,
         },
       ],

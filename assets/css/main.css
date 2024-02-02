@@ -16479,18 +16479,18 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .slider__height {
-  min-height: 950px;
+  min-height: 710px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider__height {
-    min-height: 800px;
+    min-height: 710px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider__height {
-    min-height: 750px;
+    min-height: 710px;
   }
 }
 
@@ -18108,27 +18108,29 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .slider__title-5 {
   font-family: var(--tp-ff-space);
   font-weight: 700;
-  font-size: 86px;
+  font-size: 45px;
   line-height: 1;
+  color: #ffffff;
+  line-height: 50px;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .slider__title-5 {
-    font-size: 75px;
+    font-size: 45px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .slider__title-5 {
-    font-size: 68px;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider__title-5 {
-    font-size: 60px;
+    font-size: 35px;
   }
 }
 
@@ -18777,7 +18779,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__content-5>p {
   font-size: 18px;
   line-height: 28px;
-  color: #525258;
+  color: #ffffff;
   padding-right: 150px;
   margin-bottom: 40px;
 }
