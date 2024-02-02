@@ -3,10 +3,10 @@
     <HomeHero />
     <TailoredServices />
     <Statistics />
+    <FunFact />
     <OurProducts />
     <creative-feature />
     <OurMediaAssets />
-    <about-me-testimonial />
     <HomeAbout />
     <CertificationsAwards />
     <start-up-counter />
@@ -20,13 +20,13 @@ import LayoutOne from '~/layouts/LayoutOne.vue';
 import HomeHero from '~/components/index/HomeHero.vue'
 import TailoredServices from '~/components/index/TailoredServices.vue';
 import Statistics from '~/components/index/Statistics.vue';
+import FunFact from '~~/components/index/FunFact.vue';
 import OurProducts from "~/components/index/OurProducts.vue";
 import CreativeFeature from "~/components/features/CreativeFeature.vue";
 import OurMediaAssets from '~/components/skills/FreelancerSkills.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
 import StartUpCounter from "~/components/counters/StartUpCounter.vue";
-import AboutMeTestimonial from '~~/components/testimonials/AboutMeTestimonial.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Location from "~/components/index/Location.vue";
 

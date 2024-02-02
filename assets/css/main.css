@@ -10907,7 +10907,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .section__title-6 {
-  font-size: 46px;
+  font-size: 25px;
   color: var(--tp-common-black);
   font-weight: var(--tp-fw-bold);
   line-height: 1;
@@ -25074,7 +25074,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .about__list {
-  padding-right: 200px;
+  padding-right: 20px;
   margin-bottom: 27px;
 }
 
@@ -26368,8 +26368,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .counter__item-7 {
   box-shadow: 0px 1px 2px rgba(4, 41, 35, 0.08);
-  border-radius: 40px;
+  border-radius: 8px 8px 8px 40px;
   padding: 57px 0 33px;
+  background: -webkit-linear-gradient(#FD5257, #165EC9);
 }
 
 .counter__item-8 {
@@ -26483,9 +26484,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .counter__content-7 h4 {
   font-family: var(--tp-ff-inter);
-  font-weight: 400;
-  font-size: 60px;
-  color: var(--tp-common-black-11);
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--tp-common-white);
   margin-bottom: 5px;
   line-height: 1;
 }
@@ -26493,6 +26494,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .counter__content-7 p {
   font-family: var(--tp-ff-inter);
   font-size: 16px;
+  color: #fff;
 }
 
 .counter__content-8 h4 {
