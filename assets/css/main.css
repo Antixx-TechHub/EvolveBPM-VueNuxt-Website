@@ -60340,7 +60340,7 @@ blockquote cite::before {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #C5C5C5;
+  color: #ffffff;
 }
 
 .footer__widget-10 ul li {
@@ -60350,7 +60350,7 @@ blockquote cite::before {
 }
 
 .footer__widget-10 ul li a {
-  color: #C5C5C5;
+  color: #ffffff;
   padding-left: 15px;
   font-family: var(--tp-ff-space);
 }
@@ -61228,7 +61228,7 @@ blockquote cite::before {
 .footer__copyright-10 p {
   font-family: var(--tp-ff-space);
   font-size: 15px;
-  color: #C5C5C5;
+  color: #ffffff;
 }
 
 .footer__copyright-10 p a {
@@ -61880,7 +61880,7 @@ blockquote cite::before {
 .footer__link-10 a {
   font-family: var(--tp-ff-space);
   font-size: 15px;
-  color: #C5C5C5;
+  color: #ffffff;
   margin-right: 15px;
   display: inline-block;
 }
