@@ -7,7 +7,7 @@
     <OurProducts />
     <creative-feature />
     <OurMediaAssets />
-    <HomeAbout />
+    <DataStrategy />
     <CertificationsAwards />
     <HomeCTA />
     <Location />
@@ -23,8 +23,8 @@ import FunFact from '~~/components/index/FunFact.vue';
 import OurProducts from "~/components/index/OurProducts.vue";
 import CreativeFeature from "~/components/features/CreativeFeature.vue";
 import OurMediaAssets from '~/components/skills/FreelancerSkills.vue';
+import DataStrategy from "~/components/index/DataStrategy";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
-import HomeAbout from "~/components/abouts/HomeAbout.vue";
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Location from "~/components/index/Location.vue";
 
