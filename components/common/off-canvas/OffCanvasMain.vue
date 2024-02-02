@@ -28,7 +28,7 @@
             <nav>
               <ul>
                 <li><nuxt-link href="/">Home</nuxt-link></li>
-                <li><nuxt-link href="/about">About</nuxt-link></li>
+                <li><nuxt-link href="/">About</nuxt-link></li>
                 <li class="has-dropdown">
                   <nuxt-link href="/">Service</nuxt-link>
                   <ul class="submenu">
@@ -38,7 +38,7 @@
                   </ul>
                 </li>
                 <li class="has-dropdown">
-                  <nuxt-link href="/services">Products</nuxt-link>
+                  <nuxt-link href="/">Products</nuxt-link>
                   <ul class="submenu">
                     <li><nuxt-link href="/">Predictor</nuxt-link></li>
                     <li><nuxt-link href="/">Innovator</nuxt-link></li>
@@ -72,8 +72,8 @@
         <div class="row align-items-center">
           <div class="col-xl-3">
             <div class="offcanvas__full-link">
-              <nuxt-link href="/policy">Privacy Policy</nuxt-link>
-              <nuxt-link href="/terms">Use of terms</nuxt-link>
+              <nuxt-link href="/">Privacy Policy</nuxt-link>
+              <nuxt-link href="/">Use of terms</nuxt-link>
             </div>
           </div>
           <div class="col-xl-9 order-first order-xl-last">
@@ -81,14 +81,14 @@
               <div class="offcanvas__info d-flex flex-wrap justify-content-lg-end align-items-center">
                 <div class="offcanvas__info-item">
                   <h4 class="offcanvas__info-item-title">Information</h4>
-                  <p><a href="tel:964-742-44-763">+964 742 44 763</a></p>
-                  <p><a href="mailto:support@harry.com">support@harry.com</a></p>
+                  <p><a href="tel:+91-020-69029999">+91-020-69029999</a></p>
+                  <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
                 </div>
                 <div class="offcanvas__info-item">
                   <h4 class="offcanvas__info-item-title">Address</h4>
                   <p><a
-                      href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723"
-                      target="_blank">32 East Trusel Court <br> North Tonawanda, NY 14120</a></p>
+                      href="#"
+                      target="_blank">Old Madras Road, 903 Brigade <br> Paramount, Bangalore 560093, IN.</a></p>
                 </div>
               </div>
               <div class="offcanvas__full-social offcanvas__social-3">
