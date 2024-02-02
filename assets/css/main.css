@@ -6699,6 +6699,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: var(--tp-grey-8);
 }
 
+.services-bg {
+  background-image: url(../img/home/dot-shape.png), linear-gradient(to bottom, #FD5257 60%, white 40%);
+  background-repeat: no-repeat, repeat;
+  background-position: center top, center top;
+  background-size: contain, cover;
+}
+
 .grey-bg-10 {
   background-color: var(--tp-grey-10);
 }
@@ -10801,11 +10808,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .section__title-5 {
-  font-family: var(--tp-ff-space);
-  font-size: 60px;
+  font-family: var(--tp-ff-poppins);
+  font-size: 40px;
   line-height: 1;
-  letter-spacing: -0.04em;
-  color: var(--tp-common-black);
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -10879,11 +10887,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .section__title-pre-5 {
   display: inline-block;
   font-family: var(--tp-ff-space);
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 17px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--tp-theme-5);
+  text-transform: initial;
+  color: var(--tp-common-white);
+  line-height: 28px;
 }
 
 .section__title-wrapper-6>p {

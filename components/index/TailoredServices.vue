@@ -1,40 +1,8 @@
 <template>
-    <section class="services__area grey-bg-8 pt-110 pb-50 p-relative z-index-1">
-      <div class="services__shape">
-        <img
-          class="services__shape-4"
-          src="~/assets/img/services/5/shape/services-shape-1.png"
-          alt="shape"
-        />
-        <img
-          class="services__shape-5"
-          src="~/assets/img/services/5/shape/services-shape-2.png"
-          alt="shape"
-        />
-        <img
-          class="services__shape-6"
-          src="~/assets/img/services/5/shape/services-shape-3.png"
-          alt="shape"
-        />
-        <img
-          class="services__shape-7"
-          src="~/assets/img/services/5/shape/services-shape-4.png"
-          alt="shape"
-        />
-        <img
-          class="services__shape-8"
-          src="~/assets/img/services/5/shape/services-shape-5.png"
-          alt="shape"
-        />
-        <img
-          class="services__shape-9"
-          src="~/assets/img/services/5/shape/services-shape-6.png"
-          alt="shape"
-        />
-      </div>
+    <section class="services__area services-bg pt-110 pb-50 p-relative z-index-1">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-xxl-8 col-xl-8 col-lg-10">
+          <div class="col-xxl-10 col-xl-10 col-lg-10">
             <div
               class="services__section-title-5"
               data-sal="slide-up"
