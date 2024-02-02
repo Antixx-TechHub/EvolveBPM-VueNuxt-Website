@@ -13,11 +13,14 @@
           <div class="row justify-content-center">
             <div class="col-xxl-6 col-xl-6 col-lg-6">
               <div class="slider__content-5">
-                <span class="slider__title-pre-5">Digital Experience</span>
+                <span class="slider__title-pre-5">Revenue Impact Solutions</span>
                 <h3 class="slider__title-5" v-html="item.title"></h3>
                 <p>{{ item.pre_title }}</p>
 
-                <nuxt-link href="/about" class="tp-btn-blue-sm">More About Us</nuxt-link>
+                <nuxt-link href="/" class="tp-btn-blue-sm btn-main bg-btn4 lnk">Explore
+                  <i class="fas fa-chevron-right fa-icon"></i>
+                  <span class="circle"></span>
+                </nuxt-link>
               </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6">

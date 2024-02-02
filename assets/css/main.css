@@ -3398,21 +3398,77 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: var(--tp-common-black-9);
 }
 
-.tp-btn-blue-sm {
-  display: inline-block;
-  font-size: 15px;
-  color: var(--tp-common-white);
-  padding: 11px 30px 13px;
-  background-color: var(--tp-theme-5);
-  font-weight: 500;
-  letter-spacing: -0.02em;
+.btn-main {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 32px;
+  line-height: 56px;
   text-align: center;
-  border-radius: 8px;
+  outline: none;
+  color: #fff;
+  background-color: #ff1f8e;
+  border: none;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  display: inline-block;
+  position: relative;
+  -webkit-box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
+  box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
+}
+
+.header-heading .fa-icon {
+    margin-left: 5px;
+    font-size: 12px;
+    animation: 2s infinite arrowanim;
+    -webkit-animation: 2s infinite arrowanim;
+}
+
+span.circle {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  position: absolute;
+  top: -10%;
+  right: -130px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.lnk{position: relative;    overflow: hidden;}
+.animation, a, .isotope_item, input, button, .custom-btn, .circle,
+.s-block, .clients-logo, .icon-set, .link-hover, .sticky, .navbar, .dropdown-toggle, .hover-scale img, .sub-menu-sec a,.main-header.sticky, .main-header, .circle2, .hoshd{
+-webkit-transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+-o-transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+transition: 1.2s cubic-bezier(.17, .85, .438, .99);
+/*-moz-transition: all 0.4s;
+-o-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+transition: all 0.4s;*/}
+.no-shadow{box-shadow:none !important}
+span.circle{background: rgba(255, 255, 255, 0.2); display: block; position: absolute; top: -10%; right: -130px; width: 200px; height: 200px; border-radius: 50%;}
+.lnk:hover span.circle{ top: -10%;    right: -80px;}
+span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: absolute; top: -10%; right: -50px; width: 80px; height: 80px; border-radius: 50%;}
+.lnk:hover span.circle2{ top: -10%;    right: -40px;}
+
+.bg-btn4 {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #fff;
+}
+
+
+.tp-btn-blue-sm {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #fff;
 }
 
 .tp-btn-blue-sm:hover {
   color: var(--tp-common-white);
-  background-color: var(--tp-common-black);
+  background-color: var(--tp-button-gradiant);
 }
 
 .tp-btn-grey {
