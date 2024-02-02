@@ -9,7 +9,6 @@
     <OurMediaAssets />
     <HomeAbout />
     <CertificationsAwards />
-    <start-up-counter />
     <HomeCTA />
     <Location />
   </LayoutOne>
@@ -26,7 +25,6 @@ import CreativeFeature from "~/components/features/CreativeFeature.vue";
 import OurMediaAssets from '~/components/skills/FreelancerSkills.vue';
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import HomeAbout from "~/components/abouts/HomeAbout.vue";
-import StartUpCounter from "~/components/counters/StartUpCounter.vue";
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Location from "~/components/index/Location.vue";
 

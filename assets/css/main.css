@@ -270,6 +270,8 @@ img,
   /**
   @color declaration
   */
+  --tp-primary-color: #FD5257;
+  --tp-button-gradiant: linear-gradient(to right, #ffbd84 0%,#ff1f8e 100%);
   --tp-award-gradiant: linear-gradient(329deg, #ff91fa 13.55%, #fa6490 48.54%, #f7d86a 86.44%);
   --tp-common-white: #ffffff;
   --tp-common-white-op-7: rgba(255, 255, 255, 0.7019607843);
@@ -27693,12 +27695,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
   letter-spacing: -0.04em;
   margin-bottom: 12px;
   font-size: 24px;
-  color: var(--tp-common-black);
+  color: #050748;
   margin-bottom: 12px;
 }
 
 .services__title-5 a:hover {
-  color: var(--tp-theme-5);
+  color: var(--tp-primary-color);
 }
 
 .services__title-7 {
@@ -27801,9 +27803,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__content-5 p {
   font-family: var(--tp-ff-inter);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
-  color: var(--tp-text-1);
+  color: #6a6a8e;
   margin-bottom: 35px;
 }
 
