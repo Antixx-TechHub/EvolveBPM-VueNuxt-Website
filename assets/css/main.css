@@ -10944,10 +10944,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .section__title-pre-5 {
   display: inline-block;
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 400;
-  font-size: 17px;
-  letter-spacing: 0.1em;
+  font-size: 18px;
+  letter-spacing: normal;
   text-transform: initial;
   color: var(--tp-common-white);
   line-height: 28px;
@@ -27748,13 +27748,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__title-5 {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-inter);
   font-size: 24px;
   letter-spacing: -0.04em;
   margin-bottom: 12px;
   font-size: 24px;
   color: #050748;
   margin-bottom: 12px;
+  margin-top: 40px;
 }
 
 .services__title-5 a:hover {

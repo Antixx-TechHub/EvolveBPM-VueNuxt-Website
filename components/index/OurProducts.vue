@@ -24,12 +24,12 @@
               </div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
-                  <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
+                  <!-- <nuxt-link href="/service-details">{{ item.title }}</nuxt-link> -->
                 </h3>
                 <p>{{ item.subtitle }}</p>
 
                 <div class="services__btn-5">
-                  <nuxt-link href="/service-details" class="tp-link-btn-circle justify-content-center">
+                  <nuxt-link href="/" class="tp-link-btn-circle justify-content-center">
                     See More
                     <span>
                       <i class="fa-regular fa-arrow-right"></i>
@@ -48,9 +48,9 @@
   
 <script>
 // service image
-import agn_ser_1 from "~/assets/img/services/5/services-1.png";
-import agn_ser_2 from "~/assets/img/services/5/services-2.png";
-import agn_ser_3 from "~/assets/img/services/5/services-3.png";
+import agn_ser_1 from "~/assets/img/home/app-img1.png";
+import agn_ser_2 from "~/assets/img/home/app-img2.png";
+import agn_ser_3 from "~/assets/img/home/app-img3.png";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
@@ -64,7 +64,7 @@ export default {
           img: agn_ser_1,
           title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
           subtitle:
-            "where the i stands for ‘Impact’ and Rev is for the leads we are all set to generate to add to your ‘Revenue’! Are you looking to create a community with high growth opportunities?",
+            "Juggling between using all your energy in planning, applying and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things.",
         },
         {
           id: 2,
@@ -72,7 +72,7 @@ export default {
           img: agn_ser_2,
           title: "data build, cleanse, verify, validate, intent, install base.",
           subtitle:
-            "Your one stop shop for all your data needs. Whether it is to build a data base, cleanse an existing database, verify and validate or study intent – our expert data analysts have you covered.",
+            "Is AI smarter than us? May be when it comes to reading data. Which is why it sees patters, practices and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
         },
         {
           id: 3,
@@ -80,7 +80,7 @@ export default {
           img: agn_ser_3,
           title: "research services for company and market research",
           subtitle:
-            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you!",
+            "All those numbers we keep referring our audience as, its time to strengthen our base foundation with client connections! The perfect tech is one that helps you eliminate communication barriers and build long term trust – want to build.",
         },
       ],
     };
