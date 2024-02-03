@@ -1,8 +1,8 @@
 <template>
-  <section :class="`features__list-area pt-100 pb-100 ${el_style?'':''}`">
+  <section :class="`features__list-area pt-50 pb-100 ${el_style?'':''}`">
     <div class="container">
       <div
-        class="features__list-inner green-light-bg-4 pt-50 pb-50 pl-100 pr-100 p-relative z-index-1"
+        class="features__list-inner green-light-bg-4 pl-100 pr-100 p-relative z-index-1"
       >
         <div class="row">
           <div class="col-xl-12">

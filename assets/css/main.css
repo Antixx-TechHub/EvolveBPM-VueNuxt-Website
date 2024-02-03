@@ -6845,7 +6845,7 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .green-light-bg-4 {
-  background-color: var(--tp-common-green-light-4);
+  background-color: var(--tp-common-grey-bg-77);
 }
 
 .green-bg-6 {
@@ -10359,12 +10359,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*  SECTION TITLE CSS START
 /*----------------------------------------*/
 .section__title {
-  font-size: 45px !important;
+  font-size: 40px !important;
   color: var(--tp-common-black);
-  font-weight: var(--tp-fw-bold);
   line-height: 1;
-  font-family: var(--tp-ff-space);
-  letter-spacing: -0.04em;
+  font-family: var(--tp-ff-poppins);
+  letter-spacing: 0em;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -10431,7 +10431,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .section__title-highlight svg {
   position: absolute;
-  bottom: -12%;
+  bottom: -50%;
   left: 0%;
   width: 100%;
 }
@@ -18205,6 +18205,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 @media (max-width: 575px) {
   .slider__title-5 {
     font-size: 38px;
+    line-height: 38px;
   }
 }
 
@@ -60391,6 +60392,7 @@ blockquote cite::before {
 
 .footer__widget-10 .footer__logo {
   margin-bottom: 21px;
+  margin-right: 70px;
 }
 
 .footer__widget-10 .footer__widget-title {
