@@ -40800,11 +40800,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .cta__title-5 {
-  font-family: var(--tp-ff-inter);
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 45px;
+  font-size: 34px;
   line-height: 1;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.0em;
   color: #050748;
   margin-bottom: 0;
 }
@@ -41477,11 +41477,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .cta__content-5 span {
-  font-family: var(--tp-ff-inter);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.0em;
   text-transform: capitalize;
   color: #6a6a8e;
   display: inline-block;
