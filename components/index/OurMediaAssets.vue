@@ -59,7 +59,7 @@
             skill_items: [
               { icon: skill_icon_1, },
               { icon: skill_icon_2, },
-              { icon: skill_icon_5, },
+              { icon: skill_icon_6, },
             ],
           },
           {

@@ -36627,11 +36627,11 @@ div.team__details-shape-4 img {
   left: -3px;
 }
 .features__list-wrapper .nav-tabs .nav-item .nav-link:hover .features__list-title, .features__list-wrapper .nav-tabs .nav-item .nav-link.active .features__list-title {
-  color: var(--tp-theme-7);
+  color: #050748;
 }
 .features__list-wrapper .nav-tabs .nav-item .nav-link:hover .features__list-btn a, .features__list-wrapper .nav-tabs .nav-item .nav-link.active .features__list-btn a {
   color: var(--tp-common-white);
-  background-color: var(--tp-theme-7);
+  background-color: #050748;
 }
 .features__list-item {
   border-radius: 45px;
