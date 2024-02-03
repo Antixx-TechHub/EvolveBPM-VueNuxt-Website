@@ -6,8 +6,6 @@
             <div class="section__title-wrapper-2 text-center mb-65">
               <span class="section__title-pre-2">Our Media Assets</span>
               <h3 class="section__title-2">Our Media Assets</h3>
-              <span>Our happy customers
-              </span>
             </div>
           </div>
         </div>

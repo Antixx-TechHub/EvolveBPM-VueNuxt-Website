@@ -46568,11 +46568,11 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .features__title {
-  font-family: var(--tp-ff-roboto);
-  font-weight: 700;
-  font-size: 20px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 600;
+  font-size: 22px;
   line-height: 26px;
-  color: var(--tp-common-black-9);
+  color: #050748;
   margin-bottom: 10px;
 }
 
@@ -46635,8 +46635,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .features__content>p {
-  color: var(--tp-text-18);
-  font-size: 15px;
+  color: var(--tp-ff-poppins);
+  font-size: 17px;
   margin-bottom: 30px;
   font-family: var(--tp-ff-roboto);
 }
