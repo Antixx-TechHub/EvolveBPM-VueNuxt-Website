@@ -1,6 +1,6 @@
 <template>
   <section class="features__area p-relative z-index-1 delivery-bg pt-110 pb-90">
-    <!-- <div class="features__shape">
+    <div class="features__shape">
       <img
         class="features__shape-1"
         src="~/assets/img/features/features-shape-1.png"
@@ -11,22 +11,22 @@
         src="~/assets/img/features/features-shape-2.png"
         alt="features__shape"
       />
-      <img
+      <!-- <img
         class="features__shape-3"
         src="~/assets/img/features/features-shape-3.png"
         alt="features__shape"
-      />
-      <img
+      /> -->
+      <!-- <img
         class="features__shape-4"
         src="~/assets/img/features/features-shape-4.png"
         alt="features__shape"
-      />
+      /> -->
       <img
         class="features__shape-5"
         src="~/assets/img/features/features-shape-5.png"
         alt="features__shape"
       />
-    </div> -->
+    </div>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-6 col-xl-7 col-lg-7">
@@ -81,7 +81,7 @@ export default {
                  </svg>`,
           title: "Email",
           subtitle: "Lorem Ipsum is that it more less normal distribution.",
-          color: "",
+          color: "has-pink",
         },
         {
           id: 2,
@@ -95,7 +95,7 @@ export default {
                 </svg>`,
           title: "Telemarketing",
           subtitle: "Lorem Ipsum is that it more less normal distribution.",
-          color: "has-green",
+          color: "has-pink",
         },
         {
           id: 3,

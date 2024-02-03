@@ -12,7 +12,7 @@
       <p>{{ item.subtitle }}</p>
 
       <div class="features__btn">
-        <nuxt-link href="/service-details">
+        <nuxt-link href="/">
           <svg
             width="45"
             height="44"
