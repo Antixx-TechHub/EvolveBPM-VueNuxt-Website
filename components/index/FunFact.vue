@@ -2,9 +2,9 @@
     <section class="counter__area p-relative z-index-1 green-light-bg-4 pt-20 pb-110 fix">
         <div class="counter__border-animation"></div>
         <div class="container">
-            <div class="row align-items-top">
+            <div class="row align-items-center">
                 <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-7">
-                    <div class="section__title-wrapper-6 mb-60">
+                    <div class="section__title-wrapper-6">
                         <h5 class="section__title-6">
                             At Evolve, we have curated a comprehensive lead generation ecosystem – built on best-in-class
                             practices. Within this ecosystem of industry experts, we provide unique dedicated communities
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5">
-                    <div class="blog__more-6 text-md-end mb-70">
+                    <div class="blog__more-6 text-md-end mb-30">
                         <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                             Request A Demo 
                             <i class="fas fa-chevron-right fa-icon"></i>
@@ -36,9 +36,9 @@
                     <div class="about__list about__list-counter">
                         <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-content">
-                                <h3 class="about__list-title">Having a dedicated unit just for your needs allows us to
+                                <h4 class="about__list-title">Having a dedicated unit just for your needs allows us to
                                     ensure-
-                                </h3>
+                                </h4>
                             </div>
                         </div>
                         <div class="about__list-item d-flex align-items-center">

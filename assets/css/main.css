@@ -10575,7 +10575,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .section__title-2 {
   font-size: 60px;
   font-weight: 600;
-  font-family: var(--tp-ff-oswald);
+  font-family: var(--tp-ff-poppins);
   text-transform: capitalize;
   color: var(--tp-common-black);
 }
@@ -10603,7 +10603,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  font-family: var(--tp-ff-oswald);
+  font-family: var(--tp-ff-poppins);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11029,7 +11029,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (max-width: 575px) {
   .section__title-6 {
-    font-size: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--tp-ff-poppins);
+    line-height: normal;
   }
 }
 
@@ -25249,7 +25252,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .about__list-content h4 {
   font-family: var(--tp-ff-inter);
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   color: var(--tp-common-black-11);
 }
 
@@ -26469,6 +26472,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border-radius: 8px 8px 8px 40px;
   padding: 57px 0 33px;
   background: -webkit-linear-gradient(#FD5257, #165EC9);
+  border-bottom: 4px solid #b0bdff;
 }
 
 .counter__item-8 {
@@ -27312,7 +27316,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   top: -4px;
   left: auto;
   right: 0;
-  background-color: var(--tp-common-purple-3);
+  background-color: #673AB7;
   border-radius: 10px;
   z-index: -1;
 }
@@ -28610,12 +28614,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__btn-5 .tp-link-btn-circle:hover {
-  color: var(--tp-theme-5);
+  color: #E91E63;
 }
 
 .services__btn-5 .tp-link-btn-circle:hover span {
-  border-color: var(--tp-theme-5);
-  background-color: var(--tp-theme-5);
+  border-color: #ffbd84;
+  background-color: #ff1f8e;
   color: var(--tp-common-white);
 }
 
@@ -40076,7 +40080,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .career__item:hover {
   position: relative;
   z-index: 1;
-  box-shadow: 0px 30px 50px rgba(3, 4, 28, 0.1), 0px 6px 0px #008080;
+  box-shadow: 0px 30px 50px rgba(3, 4, 28, 0.1), 0px 6px 0px #E91E63;
 }
 
 .career__logo {
