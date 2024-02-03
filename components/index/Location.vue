@@ -72,7 +72,12 @@
                                     <p><a href="mailto:hello@contact.com">hello@contact.com</a></p>
                                 </div>
                             </div>
-                            <div class="tp-button-demo pt-20"><a href="#" class="tp-btn-border-pink">View Locations</a>
+                            <div class="tp-button-demo pt-20">
+                                <nuxt-link href="/" class="tp-btn-border-pink bg-btn lnk">
+                                    View Locations
+                                    <i class="fas fa-chevron-right fa-icon"></i>
+                                    <span class="circle"></span>
+                                </nuxt-link>
                             </div>
                         </div>
                     </div>
@@ -96,9 +101,9 @@
   
 <script>
 // internal
-import icon_1 from "~/assets/img/features/7/features-icon-1.png";
-import icon_2 from "~/assets/img/features/7/features-icon-2.png";
-import icon_3 from "~/assets/img/features/7/features-icon-3.png";
+import icon_1 from "~/assets/img/home/newyork.png";
+import icon_2 from "~/assets/img/home/uk.png";
+import icon_3 from "~/assets/img/home/india.png";
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {
