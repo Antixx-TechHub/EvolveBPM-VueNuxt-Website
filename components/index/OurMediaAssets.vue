@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-xxl-7 col-xl-7 col-lg-7">
+          <div class="col-xxl-7 col-xl-7 col-lg-7 pb-30">
             <OurMediaAssetsItems :career_data="career_data" />
           </div>
           <div class="col-xxl-5 col-xl-5 col-lg-5">
