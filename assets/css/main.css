@@ -3398,6 +3398,34 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-color: var(--tp-common-black-9);
 }
 
+.bg-btn {
+  background: #ffbd84;
+  background: -moz-linear-gradient(left, #ffbd84 0%, #ff1f8e 100%);
+  background: -webkit-linear-gradient(left, #ffbd84 0%,#ff1f8e 100%);
+  background: linear-gradient(to right, #ffbd84 0%,#ff1f8e 100%);
+  -webkit-box-shadow: 0 10px 15px 0px rgba(175, 0, 87, .2);
+  box-shadow: 0 10px 15px 0px rgba(175, 0, 87, .2);
+}
+
+.btn-cta {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 32px;
+  line-height: 56px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #ff1f8e;
+  border: none;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  display: inline-block;
+  position: relative;
+  -webkit-box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
+  box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
+}
+
 .btn-main {
   font-size: 16px;
   font-weight: 400;
@@ -57199,7 +57227,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .blog__more-6 a {
-  padding: 9px 26px;
+  padding: 0px 32px;
 }
 
 .blog__more-10 a {
