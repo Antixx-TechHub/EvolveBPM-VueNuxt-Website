@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio__area pt-150 pb-110">
+  <section class="portfolio__area pt-70 pb-70">
     <div class="container">
       <div class="row">
         <div class="col-xxl-12">
@@ -20,7 +20,7 @@
             <div v-if="!item.diff" class="row">
               <div class="col-xxl-5 col-xl-5 col-lg-6">
                 <div class="portfolio__content-2">
-                  <h3 class="portfolio__title-2" v-html="item.title"></h3>
+                  <!-- <h3 class="portfolio__title-2" v-html="item.title"></h3> -->
                   <div class="vision__list">
                     <ul>
                       <li>
@@ -166,7 +166,7 @@ export default {
                       />
                     </svg>`,
           tags: ["User Research", "UX Design"],
-          title: "Statistics",
+          // title: "Statistics",
           image: [{ id: 6, img: portfolio_6 }],
           bg_color: "pink",
         },

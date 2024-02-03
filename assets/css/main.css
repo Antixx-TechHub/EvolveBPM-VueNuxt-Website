@@ -48081,12 +48081,13 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .vision__list ul li {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   color: var(--tp-text-1);
   list-style: none;
+  margin-bottom: 20px;
 }
 
 .vision__list ul li span {
