@@ -42,7 +42,7 @@
                 <li class="has-dropdown">
                   <nuxt-link href="/">Products</nuxt-link>
                   <ul class="submenu">
-                    <li><nuxt-link href="/">Predictor</nuxt-link></li>
+                    <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
                     <li><nuxt-link href="/">Innovator</nuxt-link></li>
                     <li><nuxt-link href="/">TechBase</nuxt-link></li>
                   </ul>
