@@ -13,7 +13,7 @@
           <div class="row justify-content-center">
             <div class="col-xxl-6 col-xl-6 col-lg-6">
               <div class="slider__content-5">
-                <span class="slider__title-pre-5">Revenue Impact Solutions</span>
+                <span class="slider__title-pre-5">Revenue Impact Solutions!</span>
                 <h3 class="slider__title-5" v-html="item.title"></h3>
                 <p>{{ item.pre_title }}</p>
 
