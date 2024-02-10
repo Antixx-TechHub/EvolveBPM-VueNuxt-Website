@@ -60,7 +60,7 @@
 
                 <div class="footer__widget-content">
                   <ul>
-                    <li><nuxt-link href="/">Innovator</nuxt-link></li>
+                    <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
                     <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
                     <li><nuxt-link href="/intello">Intello</nuxt-link></li>
                   </ul>
