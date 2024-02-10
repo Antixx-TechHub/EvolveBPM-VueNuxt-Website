@@ -6,9 +6,7 @@
                 <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-7">
                     <div class="section__title-wrapper-6">
                         <h5 class="section__title-6">
-                            At Evolve, we have curated a comprehensive lead generation ecosystem – built on best-in-class
-                            practices. Within this ecosystem of industry experts, we provide unique dedicated communities
-                            for each client.<br />
+                           <br />
                             <span class="section__title-6-highlight">
 
                                 <svg width="201" height="11" viewBox="0 0 201 11" fill="none">
@@ -20,7 +18,7 @@
                         </h5>
                     </div>
                 </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5">
+                <!-- <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-5">
                     <div class="blog__more-6 text-md-end mb-30">
                         <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
                             Request A Demo 
@@ -28,7 +26,7 @@
                   <span class="circle"></span>
                         </nuxt-link>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="row align-items-top">
@@ -39,6 +37,9 @@
                                 <h4 class="about__list-title">Having a dedicated unit just for your needs allows us to
                                     ensure-
                                 </h4>
+                                <h4>At Evolve, we have curated a comprehensive lead generation ecosystem – built on best-in-class
+                            practices. Within this ecosystem of industry experts, we provide unique dedicated communities
+                            for each client.</h4>
                             </div>
                         </div>
                         <div class="about__list-item d-flex align-items-center">
@@ -83,9 +84,19 @@
                             <div class="about__list-content">
                                 <p>Security – Of your & clients and data.</p>
                             </div>
+                            
                         </div>
+                        
+                    </div>
+                    <div class="blog__more-6 text-md-end mb-30">
+                        <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+                            Request A Demo 
+                            <i class="fas fa-chevron-right fa-icon"></i>
+                  <span class="circle"></span>
+                        </nuxt-link>
                     </div>
                 </div>
+                
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-5">
                     <div class="row">
                         <div v-for="(item, i) in counter_data" :key="i"

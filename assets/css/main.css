@@ -57233,6 +57233,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .blog__more-6 a {
   padding: 0px 32px;
+  /*  New one css adedd */
+  right: 304px;
 }
 
 .blog__more-10 a {

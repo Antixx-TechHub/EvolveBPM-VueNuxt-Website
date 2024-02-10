@@ -24,7 +24,7 @@
               </div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
-                  <nuxt-link href="/">{{ item.title }}</nuxt-link>
+                 <i> <nuxt-link href="/">{{ item.title }}</nuxt-link> </i>
                 </h3>
                 <p>{{ item.subtitle }}</p>
 
@@ -80,7 +80,7 @@ export default {
           img: agn_ser_3,
           title: "research services for company and market research.",
           subtitle:
-            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you!",
+            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you! ",
         },
 
       ],
