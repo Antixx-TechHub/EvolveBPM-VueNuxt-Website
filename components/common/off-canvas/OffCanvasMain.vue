@@ -34,7 +34,7 @@
                   <ul class="submenu">
                     <li><nuxt-link href="/irev">iRev</nuxt-link></li>
                     <li><nuxt-link href="/idata">iData</nuxt-link></li>
-                    <li><nuxt-link href="/">iIntel</nuxt-link></li>
+                    <li><nuxt-link href="/intel">iIntel</nuxt-link></li>
                   </ul>
                 </li>
                 <li class="has-dropdown">
