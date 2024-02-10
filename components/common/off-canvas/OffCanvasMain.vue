@@ -33,7 +33,7 @@
                   <nuxt-link href="/">Service</nuxt-link>
                   <ul class="submenu">
                     <li><nuxt-link href="/irev">iRev</nuxt-link></li>
-                    <li><nuxt-link href="/">iData</nuxt-link></li>
+                    <li><nuxt-link href="/idata">iData</nuxt-link></li>
                     <li><nuxt-link href="/">iIntel</nuxt-link></li>
                   </ul>
                 </li>

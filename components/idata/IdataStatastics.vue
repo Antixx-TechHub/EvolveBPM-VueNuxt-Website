@@ -21,8 +21,8 @@
                 <div class="portfolio__content-2">
                   <!-- <h3 class="portfolio__title-2" v-html="item.title"></h3> -->
                   <div class="vision__list">
-                    <h4>iRev – Pioneering Revenue Impact</h4>
-                    <p>Welcome to iRev, where we redefine the landscape of B2B lead generation for elite agencies and publishing houses globally. Our comprehensive approach encompasses the entire spectrum of lead nurturing, from MQL and SQL to high-quality HQL appointments. With "i" symbolizing the transformative impact we bring and "Rev" signifying the revenue-driving leads we deliver, iRev stands as the gold standard for those seeking to cultivate thriving communities and unlock unparalleled growth opportunities.</p>
+                    <h4>iData – Empowering Data Excellence</h4>
+                    <p> Step into the realm of data excellence with iData, the premier choice for top-tier B2B entities worldwide. Our suite of services covers everything from database construction and cleansing to meticulous verification, validation, and intent analysis. At iData, we understand that for agencies and publishing houses at the forefront of their industries, precision and accuracy are non-negotiable. Trust our seasoned data analysts to empower your decision-making with insights that drive tangible results. </p>
                   </div>
                 </div>
               </div>
