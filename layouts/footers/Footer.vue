@@ -47,9 +47,9 @@
 
                 <div class="footer__widget-content">
                   <ul>
-                    <li><nuxt-link href="/">iRev</nuxt-link></li>
-                    <li><nuxt-link href="/">iData</nuxt-link></li>
-                    <li><nuxt-link href="/">iMedia</nuxt-link></li>
+                    <li><nuxt-link href="/irev">iRev</nuxt-link></li>
+                    <li><nuxt-link href="/idata">iData</nuxt-link></li>
+                    <li><nuxt-link href="/imedia">iMedia</nuxt-link></li>
                   </ul>
                 </div>
               </div>
