@@ -28,7 +28,7 @@
             <nav>
               <ul>
                 <li><nuxt-link href="/">Home</nuxt-link></li>
-                <li><nuxt-link href="/">About</nuxt-link></li>
+                <li><nuxt-link href="/about-us">About</nuxt-link></li>
                 <li class="has-dropdown">
                   <nuxt-link href="/">Service</nuxt-link>
                   <ul class="submenu">
