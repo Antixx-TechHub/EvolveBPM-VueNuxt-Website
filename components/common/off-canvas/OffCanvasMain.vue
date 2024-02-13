@@ -63,7 +63,7 @@
                     <li><nuxt-link href="/">FAQ's</nuxt-link></li>
                   </ul>
                 </li>
-                <li><nuxt-link href="/">Contact Us</nuxt-link></li>
+                <li><nuxt-link href="/contact-us">Contact Us</nuxt-link></li>
               </ul>
             </nav>
           </div>

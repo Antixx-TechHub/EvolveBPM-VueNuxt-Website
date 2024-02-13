@@ -35,7 +35,7 @@
                     <li><nuxt-link href="/">Our Methodology (DDIA)</nuxt-link></li>
                     <li><nuxt-link href="/">Careers</nuxt-link></li>
                     <li><nuxt-link href="/">CSR Activities</nuxt-link></li>
-                    <li><nuxt-link href="/">Contact us</nuxt-link></li>
+                    <li><nuxt-link href="/contact-us">Contact us</nuxt-link></li>
                     <li><nuxt-link href="/">Request Demo</nuxt-link></li>
                   </ul>
                 </div>
