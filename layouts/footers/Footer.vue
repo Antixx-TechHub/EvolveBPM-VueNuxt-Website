@@ -63,6 +63,9 @@
                     <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
                     <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
                     <li><nuxt-link href="/intello">Intello</nuxt-link></li>
+                    <li><nuxt-link href="/connect-metrics">Connect Met</nuxt-link></li>
+                    <li><nuxt-link href="/profile-forge">Profile Forge</nuxt-link></li>
+
                   </ul>
                 </div>
               </div>
