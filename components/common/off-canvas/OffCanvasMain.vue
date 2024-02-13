@@ -60,7 +60,7 @@
                     <li><nuxt-link href="/">Careers</nuxt-link></li>
                     <li><nuxt-link href="/">Our Team</nuxt-link></li>
                     <li><nuxt-link href="/">Team Details</nuxt-link></li>
-                    <li><nuxt-link href="/">FAQ's</nuxt-link></li>
+                    <li><nuxt-link href="/faq">FAQ's</nuxt-link></li>
                   </ul>
                 </li>
                 <li><nuxt-link href="/contact-us">Contact Us</nuxt-link></li>
