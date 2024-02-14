@@ -105,8 +105,8 @@
               <div class="col-md-6">
                 <div class="footer__link-10 text-md-end">
                   <nuxt-link href="/policy">Privacy</nuxt-link>
-                  <nuxt-link href="/">GDPR</nuxt-link>
-                  <nuxt-link href="/">CASL</nuxt-link>
+                  <nuxt-link href="/gdpr">GDPR</nuxt-link>
+                  <nuxt-link href="/casl">CASL</nuxt-link>
                 </div>
               </div>
             </div>
