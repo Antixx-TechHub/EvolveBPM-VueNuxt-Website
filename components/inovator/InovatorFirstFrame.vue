@@ -5,7 +5,7 @@
         <div class="col-xxl-12">
           <div class="section__title-wrapper-2 text-center mb-40">
             <span class="section__title-pre-2"></span>
-            <h3 class="section__title-2">Innovator - Content Strategy Redefined</h3>
+            <h3 class="section__title-2"></h3>
           </div>
         </div>
       </div>
