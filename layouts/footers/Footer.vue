@@ -32,7 +32,7 @@
                   <ul>
                     <li><nuxt-link href="/about-us">About Us</nuxt-link></li>
                     <li><nuxt-link href="/leadership">Leadership</nuxt-link></li>
-                    <li><nuxt-link href="/">Our Methodology (DDIA)</nuxt-link></li>
+                    <li><nuxt-link href="/our-methodology">Our Methodology (DDIA)</nuxt-link></li>
                     <li><nuxt-link href="/">Careers</nuxt-link></li>
                     <li><nuxt-link href="/">CSR Activities</nuxt-link></li>
                     <li><nuxt-link href="/contact-us">Contact us</nuxt-link></li>
