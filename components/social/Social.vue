@@ -15,19 +15,19 @@ export default {
     return {
       social_links: [
         {
-          link: "http://facebook.com",
+          link: "https://www.facebook.com/EvolveBPM",
           target: "_blank",
           icon: "fa-brands fa-facebook-f",
           name: "Facebook",
         },
         {
-          link: "http://twitter.com",
+          link: "https://twitter.com/evolvebpm",
           target: "_blank",
           icon: "fa-brands fa-twitter",
           name: "Twitter",
         },
         {
-          link: "https://www.linkedin.com/",
+          link: "https://www.linkedin.com/company/evolve-bpm",
           target: "_blank",
           icon: "fa-brands fa-linkedin-in",
           name: "Linkedin",

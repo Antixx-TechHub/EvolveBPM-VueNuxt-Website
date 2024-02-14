@@ -50,6 +50,8 @@
                     <li><nuxt-link href="/irev">iRev</nuxt-link></li>
                     <li><nuxt-link href="/idata">iData</nuxt-link></li>
                     <li><nuxt-link href="/imedia">iMedia</nuxt-link></li>
+                    <li><nuxt-link href="/ilntel">ilntel</nuxt-link></li>
+
                   </ul>
                 </div>
               </div>
@@ -63,7 +65,7 @@
                     <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
                     <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
                     <li><nuxt-link href="/intello">Intello</nuxt-link></li>
-                    <li><nuxt-link href="/connect-metrics">Connect Met</nuxt-link></li>
+                    <li><nuxt-link href="/connect-metrics">Connect Metrics</nuxt-link></li>
                     <li><nuxt-link href="/profile-forge">Profile Forge</nuxt-link></li>
 
                   </ul>
