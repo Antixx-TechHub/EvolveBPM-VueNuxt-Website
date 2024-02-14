@@ -1,5 +1,5 @@
 <template>
-  <contact-top-area title="GET TO KNOW US" subtitle="Have a project in mind? Let’s talk."/>
+  <contact-top-area title="Connect with Us to Harness the Power of Our Customer Intelligence Platform. Have questions? Need help? Get in touch with us by completing the form below." subtitle="you can directly call or drop us an email!"/>
   <!-- contact item start -->
   <div class="contact__item-area contact__translate-2">
     <div class="container">
@@ -11,8 +11,8 @@
                 </div>
                 <div class="contact__content">
                     <span class="contact-item-subtitle">Contact</span>
-                    <p><a href="mailto:location@website.com">location@website.com</a></p>
-                    <p><a href="tel:602-762-472-96">+(602) 762 472 96</a></p>
+                    <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
+                    <p><a href="tel:+91-020-69029999">+91-020-69029999</a></p>
                 </div>
               </div>
           </div>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="contact__content">
                     <span class="contact-item-subtitle">Location</span>
-                    <p><a href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723" target="_blank">88 New South Head Rd, Triple, New York</a></p>
+                    <p><a href="https://www.google.com/maps/dir//99+Wall+St+%233966,+New+York,+NY+10005,+USA/@40.7049469,-74.0076795,19.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a161aaa68c5:0x6d908c6e5aa1e52d!2m2!1d-74.0072444!2d40.7049014?entry=ttu" target="_blank">99 Wall Street #3966 New York, NY 10005</a></p>
                 </div>
               </div>
           </div>
@@ -36,9 +36,9 @@
                     <span class="contact-item-subtitle">Social Media</span>
                     <p>Follow on social media</p>
                     <div class="contact__social">
-                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://www.facebook.com/EvolveBPM"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/evolvebpm"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/company/evolve-bpm"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
               </div>
@@ -79,22 +79,34 @@
           <div class="col-xl-10 ">
               <div class="contact__location-wrapper">
                 <contact-location-item
-                title="Australia Office"
+                title="UK Registered Office"
                 :icon="location_icon_1"
-                location="contact.location@website.com"
-                tel="686-324-6838"
+                location="corporate@evolvebpm.com"
+                tel="+91-020-69029999"
               />
               <contact-location-item
-                title="San Francisco Office"
+                title="PHL Registered Office"
                 :icon="location_icon_2"
-                location="contact.location@website.com"
-                tel="686-324-6810"
+                location="corporate@evolvebpm.com"
+                tel="+91-020-69029999"
               />
               <contact-location-item
-                title="Egpyt Office"
+                title="INDIA Head Office"
                 :icon="location_icon_3"
-                location="contact.location@website.com"
-                tel="786-324-6810"
+                location="corporate@evolvebpm.com"
+                tel="+91-020-69029999"
+              />
+              <contact-location-item
+                title="INDIA Operations Unit 1"
+                :icon="location_icon_1"
+                location="corporate@evolvebpm.com"
+                tel="+91-020-69029999"
+              />
+              <contact-location-item
+                title="INDIA Operations Unit 2"
+                :icon="location_icon_2"
+                location="corporate@evolvebpm.com"
+                tel="+91-020-69029999"
               />
               </div>
           </div>

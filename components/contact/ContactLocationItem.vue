@@ -23,7 +23,7 @@
       <div class="col-lg-3 col-md-4 col-sm-5">
         <div class="contact__location-btn text-sm-end">
           <a
-            href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723"
+            href="https://www.google.com/maps/dir//99+Wall+St+%233966,+New+York,+NY+10005,+USA/@40.7049469,-74.0076795,19.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a161aaa68c5:0x6d908c6e5aa1e52d!2m2!1d-74.0072444!2d40.7049014?entry=ttu"
             target="_blank"
             class="tp-btn-border"
             >
