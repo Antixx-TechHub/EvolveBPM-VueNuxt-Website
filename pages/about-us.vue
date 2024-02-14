@@ -3,12 +3,14 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <about-top-bar />
     <about-text-area />
-    <personal-port-services :style_2="true" />
+    <!-- <personal-port-services :style_2="true" /> -->
     <about-gallery />
     <personal-port-awards :style_2="true" />
     <about-faqs />
     <home-teams :style_2="true" />
     <agency-brands :spacing="true" :style_2="true" />
+    <HomeCTA />
+    <Location />
     <Footer/>
     <back-to-top />
   </div>
@@ -18,12 +20,14 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import AboutTopBar from "~~/components/abouts/about-page-com/AboutTopBar.vue";
 import AboutTextArea from "~~/components/abouts/about-page-com/AboutTextArea.vue";
-import PersonalPortServices from "~~/components/services/PersonalPortServices.vue";
+// import PersonalPortServices from "~~/components/services/PersonalPortServices.vue";
 import AboutGallery from "~~/components/abouts/about-page-com/AboutGallery.vue";
 import PersonalPortAwards from "~~/components/awards/PersonalPortAwards.vue";
 import AboutFaqs from "~~/components/faqs/AboutFaqs.vue";
 import HomeTeams from "~~/components/teams/HomeTeams.vue";
 import AgencyBrands from '~~/components/brands/AgencyBrands.vue';
+import HomeCTA from "~/components/index/HomeCTA.vue";
+import Location from "~/components/index/Location.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from "~~/layouts/footers/component/BackToTop.vue";
 
@@ -33,12 +37,14 @@ export default {
     BackToTop,
     AboutTopBar,
     AboutTextArea,
-    PersonalPortServices,
+    // PersonalPortServices,
     AboutGallery,
     PersonalPortAwards,
     AboutFaqs,
     HomeTeams,
     AgencyBrands,
+    Location,
+    HomeCTA,
     Footer,
   },
   setup() {

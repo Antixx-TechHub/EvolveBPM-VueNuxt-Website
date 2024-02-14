@@ -27,7 +27,7 @@
                   <div class="award__content-9">
                     <h3 class="award__title-9">
                       <nuxt-link
-                        href="/portfolio-details"
+                        href="/"
                         class="tp-img-reveal tp-img-reveal-item"
                         data-fx="1"
                         >
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-2">
                   <div class="award__btn-9 text-md-end">
-                    <nuxt-link href="/portfolio-details" class="career-link-btn">
+                    <nuxt-link href="/" class="career-link-btn">
                       <svg
                         width="22"
                         height="18"
@@ -95,32 +95,32 @@ export default {
       award_data: [
         {
           id: "one",
-          topic: "Art direction 2021",
-          title: "Modern painting award jump",
+          topic: "Whole Organization 2022",
+          title: "Certificate Of Assurance",
           data_src: award_img_1,
-          subtitle: "Runner Up - “ Decor of the week “",
+          subtitle: "Winner “ Whole organization “",
           delay: ".3s",
         },
         {
           id: "two",
-          topic: "Main Developer 2020",
-          title: "People's choice: best design",
+          topic: "Cyber Essentials 2022",
+          title: "Cyber Essentials Certificate Of Assurance ",
           data_src: award_img_2,
-          subtitle: "Runner Up - “ Decor of the week “",
+          subtitle: "Winner - “ Decor of the week “",
           delay: ".5s",
         },
         {
           id: "three",
-          topic: "Art direction 2021",
-          title: "Webby's, Site of the Year",
+          topic: "B2B Markrting 2021",
+          title: "B2B Marketing ",
           data_src: award_img_3,
-          subtitle: "Runner Up - “ Decor of the week “",
+          subtitle: "Winner- “ Whole Organization “",
           delay: ".7s",
         },
         {
           id: "four",
-          topic: "CSS Design 2018",
-          title: "Awwwards site of the day",
+          topic: "Certficate Of Registration 2022-25",
+          title: "Certficate Of Registration",
           data_src: award_img_4,
           subtitle: "Runner Up - “ Decor of the week “",
           delay: ".7s",
