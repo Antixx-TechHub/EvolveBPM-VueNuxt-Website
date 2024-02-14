@@ -75,7 +75,7 @@
         <div class="row align-items-center">
           <div class="col-xl-3">
             <div class="offcanvas__full-link">
-              <nuxt-link href="/">Privacy Policy</nuxt-link>
+              <nuxt-link href="/policy">Privacy Policy</nuxt-link>
               <nuxt-link href="/">Use of terms</nuxt-link>
             </div>
           </div>
