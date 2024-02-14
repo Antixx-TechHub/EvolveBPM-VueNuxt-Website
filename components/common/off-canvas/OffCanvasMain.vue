@@ -35,7 +35,7 @@
                     <li><nuxt-link href="/irev">iRev</nuxt-link></li>
                     <li><nuxt-link href="/idata">iData</nuxt-link></li>
                     <li><nuxt-link href="/intel">iIntel</nuxt-link></li>
-
+                    <li><nuxt-link href="/imedia">iMedia</nuxt-link></li>
                   </ul>
                 </li>
                 <li class="has-dropdown">
@@ -43,7 +43,9 @@
                   <ul class="submenu">
                     <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
                     <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
-                    <li><nuxt-link href="/">TechBase</nuxt-link></li>
+                    <li><nuxt-link href="/intello">lntello</nuxt-link></li>
+                    <li><nuxt-link href="/connect-metrics">Connect Metrics</nuxt-link></li>
+                    <li><nuxt-link href="/profile-forge">Profile Forge</nuxt-link></li>
                   </ul>
                 </li>
                 <li class="has-dropdown">
