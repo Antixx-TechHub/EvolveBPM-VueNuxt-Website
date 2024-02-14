@@ -1,19 +1,29 @@
 <template>
-  <LayoutOne>
-    <ContactFirstFrame />
-    <CertificationsAwards />
-    <HomeCTA />
-  </LayoutOne>
+  <div>
+    <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
+    <contact-area/>
+    <Footer/>
+    <back-to-top/>
+  </div>
 </template>
 
-<script setup>
-import LayoutOne from '~/layouts/LayoutOne.vue';
-import ContactFirstFrame from '~/components/contact/ContactFirstFrame.vue';
-import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+<script>
+import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
+import ContactArea from '~~/components/contact/ContactArea.vue';
+import Footer from '~~/layouts/footers/Footer.vue';
+import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
-useHead({
-  title: "EvolveBPM - Revenue Impact Solution in USA",
-});
-
+export default {
+  components: {
+    HeaderOne,
+    ContactArea,
+    Footer,
+    BackToTop,
+  },
+  setup() {
+    useHead({
+      title: "Contact - Creative Agency & Portfolio Vue Nuxt 3 Template",
+    });
+  },
+};
 </script>

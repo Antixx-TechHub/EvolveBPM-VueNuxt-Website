@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="row">
-        <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div v-for="item in service_data" :key="item.id" class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
           <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="item.delay"
             data-sal-duration="1000">
             <div class="services__item-5-inner text-center transition-3 white-bg">
@@ -76,6 +76,14 @@ export default {
         },
         {
           id: 3,
+          delay: "170",
+          img: agn_ser_3,
+          title: "research services for company and market research.",
+          subtitle:
+            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you! ",
+        },
+        {
+          id: 4,
           delay: "170",
           img: agn_ser_3,
           title: "research services for company and market research.",

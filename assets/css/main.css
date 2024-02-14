@@ -27785,7 +27785,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-size: 24px;
   letter-spacing: -0.04em;
   margin-bottom: 12px;
-  font-size: 24px;
+  font-size: 16px;
   color: #050748;
   margin-bottom: 12px;
   margin-top: 40px;
@@ -27895,7 +27895,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__content-5 p {
   font-family: var(--tp-ff-inter);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 13px;
   line-height: 24px;
   color: #6a6a8e;
   margin-bottom: 35px;
