@@ -7,6 +7,7 @@
     />
     <team-area />
     <!-- <job-area/> -->
+    <HomeCTA />
     <Footer />
     <back-to-top />
   </div>
@@ -17,6 +18,7 @@ import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import TeamBreadcrumb from "~~/components/breadcrumb/CommonBreadcrumb.vue";
 import TeamArea from "~~/components/teams/TeamArea.vue";
 // import JobArea from '~~/components/job-position/JobArea.vue';
+import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
@@ -27,6 +29,7 @@ export default {
     TeamArea,
     Footer,
     // JobArea,
+    HomeCTA,
     BackToTop,
   },
   setup() {
