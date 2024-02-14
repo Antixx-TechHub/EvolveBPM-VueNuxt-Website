@@ -6,8 +6,8 @@
       subtitle="Team Members"
     />
     <team-area />
-    <job-area/>
-    <footer-six :style_2="true" />
+    <!-- <job-area/> -->
+    <Footer />
     <back-to-top />
   </div>
 </template>
@@ -16,8 +16,8 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import TeamBreadcrumb from "~~/components/breadcrumb/CommonBreadcrumb.vue";
 import TeamArea from "~~/components/teams/TeamArea.vue";
-import JobArea from '~~/components/job-position/JobArea.vue';
-import FooterSix from "~~/layouts/footers/FooterSix.vue";
+// import JobArea from '~~/components/job-position/JobArea.vue';
+import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
@@ -25,8 +25,8 @@ export default {
     HeaderOne,
     TeamBreadcrumb,
     TeamArea,
-    FooterSix,
-    JobArea,
+    Footer,
+    // JobArea,
     BackToTop,
   },
   setup() {

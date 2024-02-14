@@ -60,8 +60,7 @@
                   <nuxt-link href="/">Company</nuxt-link>
                   <ul class="submenu">
                     <li><nuxt-link href="/">Careers</nuxt-link></li>
-                    <li><nuxt-link href="/">Our Team</nuxt-link></li>
-                    <li><nuxt-link href="/">Team Details</nuxt-link></li>
+                    <li><nuxt-link href="/team">Our Team</nuxt-link></li>
                     <li><nuxt-link href="/faq">FAQ's</nuxt-link></li>
                   </ul>
                 </li>
