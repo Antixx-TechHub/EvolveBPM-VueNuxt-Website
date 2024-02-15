@@ -62,9 +62,9 @@ export default {
           id: 1,
           delay: "130",
           img: agn_ser_1,
-          title: "cross funnel lead generation including MQL / SQL & HQL- appointment.",
+          title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
           subtitle:
-            "where the i stands for ‘Impact’ and Rev is for the leads we are all set to generate to add to your ‘Revenue’! Are you looking to create a community with high growth.",
+            "where the i stands for ‘Impact’ and Rev is for the leads we are all set to generate to add to your ‘Revenue’! Are you looking to create a community with high growth opportunities? ",
         },
         {
           id: 2,
@@ -72,7 +72,7 @@ export default {
           img: agn_ser_2,
           title: "data build, cleanse, verify, validate, intent, install base.",
           subtitle:
-            "Your one stop shop for all your data needs. Whether it is to build a data base, cleanse an existing database, verify and validate or study intent – our expert data analysts have you.",
+            "Your one stop shop for all your data needs. Whether it is to build a data base, cleanse an existing database, verify and validate or study intent – our expert data analysts have you covered.",
         },
         {
           id: 3,
@@ -80,15 +80,15 @@ export default {
           img: agn_ser_3,
           title: "research services for company and market research.",
           subtitle:
-            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you! ",
+            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you!.",
         },
         {
           id: 4,
           delay: "170",
           img: agn_ser_3,
-          title: "research services for company and market research.",
+          title: "digital services including programmatic display, LinkedIn, paid social media.",
           subtitle:
-            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you! ",
+            "How strong would your social language be if your media content creation was built on two pillars – audience demand and our corresponding solutions? With expertise and in-depth research, we are set to hijack engagement!",
         },
 
       ],

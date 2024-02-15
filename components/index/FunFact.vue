@@ -37,9 +37,9 @@
                                 <h4 class="about__list-title">Having a dedicated unit just for your needs allows us to
                                     ensure-
                                 </h4>
-                                <h4>At Evolve, we have curated a comprehensive lead generation ecosystem – built on best-in-class
+                                <P>At Evolve, we have curated a comprehensive lead generation ecosystem – built on best-in-class
                             practices. Within this ecosystem of industry experts, we provide unique dedicated communities
-                            for each client.</h4>
+                            for each client.</P>
                             </div>
                         </div>
                         <div class="about__list-item d-flex align-items-center">
