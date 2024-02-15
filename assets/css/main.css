@@ -7775,9 +7775,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .offcanvas__social-3 a {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  line-height: 44px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px !important;
   text-align: center;
   background: transparent;
   color: var(--tp-common-white);

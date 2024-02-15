@@ -75,7 +75,7 @@
           <div class="col-xl-3">
             <div class="offcanvas__full-link">
               <nuxt-link href="/policy">Privacy Policy</nuxt-link>
-              <nuxt-link href="/terms">Use of terms</nuxt-link>
+              <nuxt-link href="/terms">Terms of use</nuxt-link>
             </div>
           </div>
           <div class="col-xl-9 order-first order-xl-last">
