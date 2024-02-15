@@ -52,7 +52,7 @@
                   <nuxt-link href="/">Resourcs</nuxt-link>
                   <ul class="submenu">
                     <li><nuxt-link href="/blog-grid-2">Blogs</nuxt-link></li>
-                    <li><nuxt-link href="/">Success Stories</nuxt-link></li>
+                    <li><nuxt-link href="/success-stories">Success Stories</nuxt-link></li>
                     <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
                   </ul>
                 </li>
