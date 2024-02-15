@@ -78,11 +78,11 @@
 
                 <div class="footer__widget-content">
                   <ul>
-                    <li><nuxt-link href="/">Blogs</nuxt-link></li>
+                    <li><nuxt-link href="/blog-grid-2">Blogs</nuxt-link></li>
                     <li><nuxt-link href="/pillar-pages">Pillar pages</nuxt-link></li>
                     <li><nuxt-link href="/whitepaper">Whitepapers</nuxt-link></li>
-                    <li><nuxt-link href="/">Ebooks</nuxt-link></li>
-                    <li><nuxt-link href="/">Case studies</nuxt-link></li>
+                    <li><nuxt-link href="/ebook">Ebooks</nuxt-link></li>
+                    <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
                   </ul>
                 </div>
               </div>
