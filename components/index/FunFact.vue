@@ -6,7 +6,7 @@
                 <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-7">
                     <div class="section__title-wrapper-6">
                         <h5 class="section__title-6">
-                           <br />
+                            <br />
                             <span class="section__title-6-highlight">
 
                                 <svg width="201" height="11" viewBox="0 0 201 11" fill="none">
@@ -34,12 +34,13 @@
                     <div class="about__list about__list-counter">
                         <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-content">
-                                <h4 class="about__list-title">Having a dedicated unit just for your needs allows us to
-                                    ensure-
-                                </h4>
-                                <P>At Evolve, we have curated a comprehensive lead generation ecosystem – built on best-in-class
-                            practices. Within this ecosystem of industry experts, we provide unique dedicated communities
-                            for each client.</P>
+                                <h4 class="about__list-title">At Evolve, we have curated a comprehensive lead generation
+                                    ecosystem – built on best-in-class
+                                    practices. Within this ecosystem of industry experts, we provide unique dedicated
+                                    communities
+                                    for each client.</h4>
+                                <p>Having a dedicated unit just for your needs allows us to ensure-
+                                </p>
                             </div>
                         </div>
                         <div class="about__list-item d-flex align-items-center">
@@ -57,14 +58,19 @@
                         <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
+                                <p>Ability to identify and engage the best of talent, partnered recruitment.</p>
+                            </div>
+                        </div>
+                        <div class="about__list-item d-flex align-items-center">
+                            <div class="about__list-icon"><span></span></div>
+                            <div class="about__list-content">
                                 <p>Predictable outcomes through shared planning and execution.</p>
                             </div>
                         </div>
                         <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
-                                <p>Transparency – Of how your unit is functioning through access to operational metrics and
-                                    systems.</p>
+                                <p>Transparency – Of how your unit is functioning through access to operational metrics and systems.</p>
                             </div>
                         </div>
                         <div class="about__list-item d-flex align-items-center">
@@ -84,19 +90,17 @@
                             <div class="about__list-content">
                                 <p>Security – Of your & clients and data.</p>
                             </div>
-                            
                         </div>
-                        
                     </div>
                     <div class="blog__more-6 text-md-end mb-30">
                         <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
-                            Request A Demo 
+                            Request A Demo
                             <i class="fas fa-chevron-right fa-icon"></i>
-                  <span class="circle"></span>
+                            <span class="circle"></span>
                         </nuxt-link>
                     </div>
                 </div>
-                
+
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-5">
                     <div class="row">
                         <div v-for="(item, i) in counter_data" :key="i"
