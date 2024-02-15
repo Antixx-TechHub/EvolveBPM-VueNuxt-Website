@@ -8,7 +8,8 @@
     <personal-port-awards :style_2="true" />
     <about-faqs />
     <home-teams :style_2="true" />
-    <agency-brands :spacing="true" :style_2="true" />
+    <!-- <agency-brands :spacing="true" :style_2="true" /> -->
+    <CertificationsAwards />
     <HomeCTA />
     <Location />
     <Footer/>
@@ -25,8 +26,9 @@ import AboutGallery from "~~/components/abouts/about-page-com/AboutGallery.vue";
 import PersonalPortAwards from "~~/components/awards/PersonalPortAwards.vue";
 import AboutFaqs from "~~/components/faqs/AboutFaqs.vue";
 import HomeTeams from "~~/components/teams/HomeTeams.vue";
-import AgencyBrands from '~~/components/brands/AgencyBrands.vue';
+// import AgencyBrands from '~~/components/brands/AgencyBrands.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
+import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
 import Location from "~/components/index/Location.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from "~~/layouts/footers/component/BackToTop.vue";
@@ -42,7 +44,8 @@ export default {
     PersonalPortAwards,
     AboutFaqs,
     HomeTeams,
-    AgencyBrands,
+    // AgencyBrands,
+    CertificationsAwards,
     Location,
     HomeCTA,
     Footer,
