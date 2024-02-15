@@ -3,27 +3,27 @@
     <div class="row">
       <div class="col-md-6">
         <div class="contact__input-2">
-          <input name="name" v-model="formValue.name" type="text" placeholder="Enter your name" />
+          <input name="name" v-model="formValue.name" type="text" required placeholder="Enter your name" />
         </div>
       </div>
       <div class="col-md-6">
         <div class="contact__input-2">
-          <input name="email" v-model="formValue.email" type="email" placeholder="Enter your email" />
+          <input name="email" v-model="formValue.email" type="email" required placeholder="Enter your email" />
         </div>
       </div>
       <div class="col-md-6">
         <div class="contact__input-2">
-          <input name="phone" v-model="formValue.phone" type="text" placeholder="Mobile no" />
+          <input name="phone" v-model="formValue.phone" type="text" required placeholder="Mobile no" />
         </div>
       </div>
       <div class="col-md-6">
         <div class="contact__input-2">
-          <input name="company" v-model="formValue.company" type="text" placeholder="Company" />
+          <input name="company" v-model="formValue.company" type="text" required placeholder="Company" />
         </div>
       </div>
       <div class="col-md-12">
         <div class="contact__input-2">
-          <textarea name="message" v-model="formValue.msg" placeholder="Your message"></textarea>
+          <textarea name="message" v-model="formValue.msg" required placeholder="Your message"></textarea>
         </div>
       </div>
       <div class="col-md-12">

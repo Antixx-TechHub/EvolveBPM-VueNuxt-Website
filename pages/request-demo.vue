@@ -1,0 +1,24 @@
+<template>
+    <header-one :top_bar="false" :commonOffcanvas="true" />
+    <DemoTopBar />
+    <contact-area/>
+    <HomeCTA />
+    <Footer />
+</template>
+
+<script setup>
+
+import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
+import DemoTopBar from '~/components/requestdemo/DemoTopBar.vue';
+import ContactArea from '~~/components/contact/ContactArea.vue';
+import HomeCTA from "~/components/index/HomeCTA.vue";
+import Footer from '~~/layouts/footers/Footer.vue';
+
+
+useHead({
+  title: "EvolveBPM - Revenue Impact Solution in USA",
+});
+
+
+
+</script>

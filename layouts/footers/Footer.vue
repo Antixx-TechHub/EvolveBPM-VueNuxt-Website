@@ -36,7 +36,7 @@
                     <li><nuxt-link href="/">Careers</nuxt-link></li>
                     <li><nuxt-link href="/csr-activities">CSR Activities</nuxt-link></li>
                     <li><nuxt-link href="/contact-us">Contact us</nuxt-link></li>
-                    <li><nuxt-link href="/">Request Demo</nuxt-link></li>
+                    <li><nuxt-link href="/request-demo">Request Demo</nuxt-link></li>
                   </ul>
                 </div>
               </div>
