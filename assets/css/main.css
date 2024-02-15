@@ -11740,6 +11740,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .tp-section-wrapper-3 p {
   font-size: 16px;
+  text-align: justify;
 }
 
 .tp-section-wrapper-5 p {

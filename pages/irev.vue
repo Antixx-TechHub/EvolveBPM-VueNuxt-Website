@@ -1,15 +1,15 @@
 <template>
-    <header-one :top_bar="false" :commonOffcanvas="true" />
-    <IrevTopBar />
-    <IrevStatastics />
-    <HomeCTA />
-    <Footer />
+  <header-one :top_bar="false" :commonOffcanvas="true" />
+  <IrevTopBar />
+  <IrevStatastics />
+  <HomeCTA />
+  <Footer />
 </template>
 
 <script setup>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import IrevStatastics from '~/components/Irev/IrevStatastics.vue';
 import IrevTopBar from '~/components/Irev/IrevTopBar.vue';
+import IrevStatastics from '~/components/Irev/IrevStatastics.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 
