@@ -2,7 +2,7 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <IntelloTopBar />
     <IntelStatastics />
-    <HomeCTA />
+    <ServicesCTA />
     <Footer />
 
 </template>
@@ -11,7 +11,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import IntelloTopBar from '~/components/inltel/IntelloTopBar.vue';
 import IntelStatastics from '~/components/inltel/IntelStatastics.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+import ServicesCTA from "~/components/common/ServicesCTA.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 
 
