@@ -23,7 +23,7 @@
       <div class="col-lg-3 col-md-4 col-sm-5">
         <div class="contact__location-btn text-sm-end">
           <a
-            href="https://www.google.com/maps/dir//99+Wall+St+%233966,+New+York,+NY+10005,+USA/@40.7049469,-74.0076795,19.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a161aaa68c5:0x6d908c6e5aa1e52d!2m2!1d-74.0072444!2d40.7049014?entry=ttu"
+            href="/"
             target="_blank"
             class="tp-btn-border"
             >

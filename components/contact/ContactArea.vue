@@ -1,5 +1,5 @@
 <template>
-  <contact-top-area title="Connect with Us to Harness the Power of Our Customer Intelligence Platform. Have questions? Need help? Get in touch with us by completing the form below." subtitle="you can directly call or drop us an email!"/>
+  <contact-top-area title="you can directly call or drop us an email!" subtitle="Connect with Us "/>
   <!-- contact item start -->
   <div class="contact__item-area contact__translate-2">
     <div class="container">
@@ -23,7 +23,7 @@
                 </div>
                 <div class="contact__content">
                     <span class="contact-item-subtitle">Location</span>
-                    <p><a href="https://www.google.com/maps/dir//99+Wall+St+%233966,+New+York,+NY+10005,+USA/@40.7049469,-74.0076795,19.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a161aaa68c5:0x6d908c6e5aa1e52d!2m2!1d-74.0072444!2d40.7049014?entry=ttu" target="_blank">99 Wall Street #3966 New York, NY 10005</a></p>
+                    <p><a href="https://www.google.com/maps/dir//99+Wall+St+%233966,+New+York,+NY+10005,+USA/@40.7049469,-74.0076795,19.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a161aaa68c5:0x6d908c6e5aa1e52d!2m2!1d-74.0072444!2d40.7049014?entry=ttu" target="_blank">99 Wall Street #3966 New York, NY 10005.</a></p>
                 </div>
               </div>
           </div>
@@ -39,6 +39,9 @@
                       <a href="https://www.facebook.com/EvolveBPM"><i class="fa-brands fa-facebook-f"></i></a>
                       <a href="https://twitter.com/evolvebpm"><i class="fa-brands fa-twitter"></i></a>
                       <a href="https://www.linkedin.com/company/evolve-bpm"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://www.youtube.com/@evolvebpmllc7151/videos"><i class="fa-brands fa-youtube"></i></a>
+                      <a href="https://www.instagram.com/evolvebpm/"><i class="fa-brands fa-instagram"></i></a>
+
                     </div>
                 </div>
               </div>
