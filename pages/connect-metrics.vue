@@ -2,7 +2,7 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <ConnectMetricsTopBar />
     <ConnectMetricFirstFrame />
-    <HomeCTA />
+    <ProductsCTAButton />
     <Footer />
 
 </template>
@@ -11,7 +11,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ConnectMetricsTopBar from '~/components/connectmetric/ConnectMetricsTopBar.vue';
 import ConnectMetricFirstFrame from '~/components/connectmetric/ConnectMetricFirstFrame.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+import ProductsCTAButton from "~/components/common/ProductsCTAButton.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 
 

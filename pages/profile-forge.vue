@@ -2,7 +2,7 @@
     <header-one :top_bar="false" :commonOffcanvas="true" />
     <ProfileTopBar />
     <ProfileForgeFirstFrame />
-    <HomeCTA />
+    <ProductsCTAButton />
     <Footer />
 
 </template>
@@ -11,7 +11,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import ProfileTopBar from '~/components/profile-forge/ProfileTopBar.vue';
 import ProfileForgeFirstFrame from '~/components/profile-forge/ProfileForgeFirstFrame.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+import ProductsCTAButton from "~/components/common/ProductsCTAButton.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 
 
