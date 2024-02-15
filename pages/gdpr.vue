@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <section-title title="Gdpr" subtitle=""/>
+    <section-title title="GDPR" subtitle=""/>
       <policy-area/>
       <Footer />
     <back-to-top/>

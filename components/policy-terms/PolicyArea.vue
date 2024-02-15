@@ -339,7 +339,7 @@
               <li>Call us at +1 347 627 0911 </li>
               <li>Email us at <span> </span> <a href="mailto:dpo@evolvebpm.com"> dpo@evolvebpm.com</a> </li>
               <li>Visit: Webform </li>
-              <li>Contact us by mail at: EvolveBPM LLC 99 Wall Street #3966 New York, NY 10005</li>
+              <li>Contact us by mail at: EvolveBPM LLC 99 Wall Street #3966 New York, NY 10005.</li>
 
             </ul>
           </div>
