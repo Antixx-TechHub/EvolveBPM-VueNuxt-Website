@@ -40115,9 +40115,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .career__info-title {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 500;
-  font-family: var(--tp-ff-oswald);
+  font-family: var(--tp-ff-poppins);
   margin-bottom: 4px;
 }
 
