@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <section-title title="Casl" subtitle=""/>
+    <section-title title="CASL" subtitle=""/>
       <policy-area/>
       <Footer />
     <back-to-top/>
