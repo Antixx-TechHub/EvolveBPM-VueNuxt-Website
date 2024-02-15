@@ -54123,9 +54123,10 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .policy__title {
   font-size: 34px;
-  letter-spacing: -0.04em;
   color: var(--tp-common-black-solid);
   margin-bottom: 17px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 600;
 }
 
 @media (max-width: 575px) {
@@ -54140,6 +54141,13 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .policy__item-2 p {
   margin-bottom: 25px;
+  text-align: justify;
+}
+
+.policy__item-2 h4 {
+  font-family: var(--tp-ff-poppins);
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .policy__list ul li {

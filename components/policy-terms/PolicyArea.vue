@@ -56,13 +56,13 @@
 
             <div class="policy__item policy__item-2 mb-35">
               <h3 class="policy__title">How We Collect Your Personal Data</h3>
-              <h3>Through the EVOLVEBPM LLC Websites</h3>
+              <h4 class="policy__item-2">Through the EVOLVEBPM LLC Websites</h4>
               <p>Both customers and leads may access our websites and/or communicate with us. In general, you can visit
                 the EVOLVEBPM LLC websites without identifying yourself or revealing any personal data. However, you may
                 choose to provide us with personal data (e.g., via our ‘say hello’ or ‘let’s connect’ web forms). Within
                 the EVOLVEBPM LLC websites, you can make requests for information, register to receive materials, and in
                 some cases, order products or services. </p>
-              <h3>From You</h3>
+              <h4 class="policy__item-2">From You</h4>
               <p>You may provide us additional personal data, such as when you contact us by phone or mail, or when you
                 register for or attend corporate events. In these cases, we will collect your contact information as well
                 as information regarding your communications with us. </p>
