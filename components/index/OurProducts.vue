@@ -64,7 +64,7 @@ export default {
           img: agn_ser_1,
           title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
           subtitle:
-            "Juggling between using all your energy in planning, applying and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things.",
+            "Juggling between using all your energy in planning, applying, and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things that make up your campaign.",
         },
         {
           id: 2,
@@ -72,7 +72,7 @@ export default {
           img: agn_ser_2,
           title: "data build, cleanse, verify, validate, intent, install base.",
           subtitle:
-            "Is AI smarter than us? May be when it comes to reading data. Which is why it sees patters, practices and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
+            "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
         },
         {
           id: 3,
@@ -80,7 +80,7 @@ export default {
           img: agn_ser_3,
           title: "research services for company and market research",
           subtitle:
-            "All those numbers we keep referring our audience as, its time to strengthen our base foundation with client connections! The perfect tech is one that helps you eliminate communication barriers and build long term trust – want to build.",
+            "All those numbers we keep referring our audience as it's time to strengthen our base foundation with client connections! The perfect tech helps you eliminate communication barriers and build long-term trust – want to build yours?",
         },
       ],
     };
