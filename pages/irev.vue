@@ -2,7 +2,7 @@
   <header-one :top_bar="false" :commonOffcanvas="true" />
   <IrevTopBar />
   <IrevStatastics />
-  <HomeCTA />
+  <ServicesCTA />
   <Footer />
 </template>
 
@@ -10,7 +10,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import IrevTopBar from '~/components/Irev/IrevTopBar.vue';
 import IrevStatastics from '~/components/Irev/IrevStatastics.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+import ServicesCTA from "~/components/common/ServicesCTA.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 
 

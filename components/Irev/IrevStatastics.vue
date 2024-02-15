@@ -34,13 +34,6 @@
                 "Rev" signifying the revenue-driving leads we deliver, iRev stands as the gold standard for those seeking
                 to cultivate thriving communities and unlock unparalleled growth opportunities.</p>
             </div>
-            <div class="blog__more-6 text-md-end mb-30">
-              <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
-                Request A Demo
-                <i class="fas fa-chevron-right fa-icon"></i>
-                <span class="circle"></span>
-              </nuxt-link>
-            </div>
           </div>
         </div>
       </div>
