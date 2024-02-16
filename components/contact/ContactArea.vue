@@ -1,5 +1,5 @@
 <template>
-  <contact-top-area title="you can directly call or drop us an email!" subtitle="Connect with Us "/>
+  <contact-top-area  title="you can directly call or drop us an email!" subtitle="Connect with Us"/>
   <!-- contact item start -->
   <div class="contact__item-area contact__translate-2">
     <div class="container">
@@ -39,8 +39,8 @@
                       <a href="https://www.facebook.com/EvolveBPM"><i class="fa-brands fa-facebook-f"></i></a>
                       <a href="https://twitter.com/evolvebpm"><i class="fa-brands fa-twitter"></i></a>
                       <a href="https://www.linkedin.com/company/evolve-bpm"><i class="fa-brands fa-linkedin-in"></i></a>
-                      <a href="https://www.youtube.com/@evolvebpmllc7151/videos"><i class="fa-brands fa-youtube"></i></a>
                       <a href="https://www.instagram.com/evolvebpm/"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@evolvebpmllc7151/videos"><i class="fa-brands fa-youtube"></i></a>
 
                     </div>
                 </div>
