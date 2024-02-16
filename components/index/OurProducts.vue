@@ -25,7 +25,7 @@
               <div class="tp-button-demo"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a></div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
-                  <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
+                  <nuxt-link href="/">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
 
