@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="container-fluid gx-0">
-      <div class="row gx-0">
+      <div class="justify-content-center gx-0">
         <div class="col-xl-12">
             <div
               class="elements__parallax-item p-relative z-index-1 jarallax"

@@ -29,7 +29,6 @@
             <ul>
               <li><nuxt-link href="/">Home</nuxt-link></li>
               <li><nuxt-link href="/about-us">About Us</nuxt-link></li>
-              <li><nuxt-link href="/contact-us">Contact Us</nuxt-link></li>
               
               <details class="accordion">
                 <summary class="accordion-header">
@@ -79,6 +78,7 @@
                     <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
                 </div>
               </details>
+              <li><nuxt-link href="/contact-us">Contact Us</nuxt-link></li>
             </ul>
           </nav>
         </div>

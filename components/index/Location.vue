@@ -18,8 +18,21 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
 
+            <div class="container-fluid gx-0">
+      <div class="justify-content-center gx-0">
+        <div class="col-xl-12">
+            <div
+              class="elements__parallax-item p-relative z-index-1 jarallax"
+              :style="{ backgroundImage: `url(${bg})` }"
+            ></div>
+        </div>
+      </div>
+    </div>
+
+
+
+            <!-- <div class="row">
                 <div v-for="item in feature_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                     <div class="services__item-9 text-center mb-30 white-bg transition-3" data-sal="slide-up"
                         :data-sal-delay="item.delay" data-sal-duration="1000">
@@ -82,18 +95,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="row justify-content-center">
-                <div class="col-xxl-10 col-xl-10 col-lg-11">
-                    <div class="features__offer text-center mt-20" data-sal="slide-up" data-sal-delay="190"
-                        data-sal-duration="1000">
-                        <span>NEW FEATURES</span>
-                        <p>
-                            If you want to join the effort and help with the plugin, please
-                            <nuxt-link href="/contact">Let Us Know</nuxt-link>.
-                        </p>
-                    </div>
-                </div>
             </div> -->
         </div>
     </section>
@@ -104,12 +105,14 @@
 import icon_1 from "~/assets/img/home/newyork.png";
 import icon_2 from "~/assets/img/home/uk.png";
 import icon_3 from "~/assets/img/home/india.png";
+import bg from "~/assets/img/testimonial/4/testimonial-bg.jpg";
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {
     mixins: [SalScrollAnimationMixin],
     data() {
         return {
+            bg,
             feature_data: [
                 {
                     id: 1,
