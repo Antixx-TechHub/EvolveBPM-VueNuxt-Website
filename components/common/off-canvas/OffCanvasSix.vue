@@ -28,11 +28,57 @@
           <nav>
             <ul>
               <li><nuxt-link href="/">Home</nuxt-link></li>
-              <li><nuxt-link href="/about">About</nuxt-link></li>
-              <li><nuxt-link href="/services">Service</nuxt-link></li>
-              <li><nuxt-link href="/blog">Blog</nuxt-link></li>
-              <li><nuxt-link href="/about">Pages</nuxt-link></li>
-              <li><nuxt-link href="/contact">Contact</nuxt-link></li>
+              <li><nuxt-link href="/about-us">About Us</nuxt-link></li>
+              <li><nuxt-link href="/contact-us">Contact Us</nuxt-link></li>
+              
+              <details class="accordion">
+                <summary class="accordion-header">
+                  <div class="accordion-header-content">
+                    <div class="itemss">
+                      <li><nuxt-link href="/">Services</nuxt-link></li>
+                    </div>
+                  </div>
+                </summary>
+                <div class="accordion-content">
+                  <li><nuxt-link href="/irev">iRev</nuxt-link></li>
+                    <li><nuxt-link href="/idata">iData</nuxt-link></li>
+                    <li><nuxt-link href="/ilntel">iIntel</nuxt-link></li>
+                    <li><nuxt-link href="/imedia">iMedia</nuxt-link></li>
+                </div>
+              </details>
+
+              <details class="accordion">
+                <summary class="accordion-header">
+                  <div class="accordion-header-content">
+                    <div class="itemss">
+                      <li><nuxt-link href="/">Products</nuxt-link></li>
+                    </div>
+                  </div>
+                </summary>
+                <div class="accordion-content">
+                  <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
+                    <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
+                    <li><nuxt-link href="/intello">lntello</nuxt-link></li>
+                    <li><nuxt-link href="/connect-metrics">Connect Metrics</nuxt-link></li>
+                    <li><nuxt-link href="/profile-forge">Profile Forge</nuxt-link></li>
+                </div>
+              </details>
+
+
+              <details class="accordion">
+                <summary class="accordion-header">
+                  <div class="accordion-header-content">
+                    <div class="itemss">
+                      <li><nuxt-link href="/">Resources</nuxt-link></li>
+                    </div>
+                  </div>
+                </summary>
+                <div class="accordion-content">
+                  <li><nuxt-link href="/blog-grid">Blogs</nuxt-link></li>
+                    <li><nuxt-link href="/success-stories">Success Stories</nuxt-link></li>
+                    <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
+                </div>
+              </details>
             </ul>
           </nav>
         </div>

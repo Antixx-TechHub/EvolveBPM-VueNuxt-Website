@@ -63705,4 +63705,100 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
 }
 
+.menu-box {
+  position: fixed;
+  top: 0px;
+  right: -300px;
+  background-color: #FFFFFF;
+  /* background: rgb(193, 58, 115, 0.7); */
+  padding: 60px;
+  width: 435px;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: all .35s ease-in-out;
+
+  &.active {
+      right:0px;
+      opacity: 1;
+  }
+
+  .menu2-items {
+      position: relative;
+      width: 100%;
+      font-size: 1.5rem;
+  }
+
+  .menu2-items .itemss {
+      position: relative;
+      cursor: pointer;
+      padding: 6px 81px;
+      transition: all .25s;
+      width: 300px;
+      right: 60px;
+
+      &:hover {
+          padding: 15px 70px;
+          background-color: #bbdbed;
+      }
+  }
+}
+
+
+
+/*  Collapse Menu Css Humburger Menu */
+
+details summary {
+  cursor: pointer;
+  /* transition: all 225ms ease-out; */
+  position: relative;
+}
+
+details[open] summary {
+  margin-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+}
+
+details[open] .accordion-content {
+  padding: 10px;
+  margin-top: -100px;
+  list-style-type: none;
+}
+
+details[open] .accordion-header-content-label {
+  color: black;
+}
+.accordion-header {
+  margin-bottom: 0;
+  line-height: 35px;
+}
+
+/* remove marker */
+
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* custom marker */
+
+summary::after {
+  content: '+';
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-size: 26px;
+}
+
+details[open] summary::after {
+  content: '-';
+  font-size: 36px;
+}
+
+
 /*# sourceMappingURL=main.css.map */
