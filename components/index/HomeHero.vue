@@ -40,8 +40,8 @@
   
 <script>
 // internal
-import bg_1 from "~/assets/img/slider/slider-1.jpg";
-import bg_2 from "~/assets/img/slider/slider-2.jpg";
+import bg_1 from "~/assets/img/slider/slider-2.png";
+import bg_2 from "~/assets/img/slider/slider-1.jpg";
 import bg_3 from "~/assets/img/slider/slider-3.jpg";
 // import SliderForm from "~~/components/forms/SliderForm.vue";
 // external
@@ -62,20 +62,20 @@ export default {
       slider_data: [
         {
           id: 1,
-          pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
-          title: "Empower your sales team with impactful revenue solutions",
-          bg: bg_1,
+          // pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
+          title: "Captive demand generation operational solutions for global agencies and publishers ",
+          // bg: bg_1,
         },
         {
           id: 2,
-          pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
-          title: "Empower your sales team with impactful revenue solutions",
+          // pre_title: "Captive demand generation operational solutions for global agencies and publishers.",
+          title: "Captive lead generation support ecosystem ",
           bg: bg_2,
         },
         {
           id: 3,
-          pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
-          title: "Empower your sales team with impactful revenue solutions",
+          // pre_title: "Delivering your vision through shared innovation ",
+          title: "Delivering your vision through shared innovation",
           bg: bg_3,
         },
       ],
