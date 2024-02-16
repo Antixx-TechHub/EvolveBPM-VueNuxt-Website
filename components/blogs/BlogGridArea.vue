@@ -19,7 +19,7 @@
       </div>
 
 
-      <div class="row justify-content-center" v-if="blogs !== []">
+      <div class="row justify-content-center">
         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6" v-for="blog in blogs.slice(
           (currentPage - 1) * perPage,
           currentPage * perPage,
