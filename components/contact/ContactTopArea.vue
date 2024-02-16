@@ -8,10 +8,10 @@
       <div class="row justify-content-center">
         <div class="col-xl-8">
           <div class="tp-section-wrapper-2 text-center">
-            <span class="tp-section-subtitle-2 subtitle-mb-9">{{title}}</span>
             <h3 class="tp-section-title-2 font-70">
               {{subtitle}}
             </h3>
+            <span class="tp-section-subtitle-2 subtitle-mb-9">{{title}}</span>
           </div>
         </div>
       </div>
