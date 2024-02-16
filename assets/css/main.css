@@ -3380,13 +3380,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .tp-btn-blue-2 {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--tp-common-white);
-  background-color: var(--tp-theme-5);
-  padding: 9px 24px;
-  font-family: var(--tp-ff-roboto);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--tp-common-white);
+    background-color: #FD5257;
+    padding: 2px 25px;
+    border-radius: 5px;
+    font-family: var(--tp-ff-roboto);
 }
 
 .tp-btn-blue-2 span {
@@ -3395,7 +3396,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .tp-btn-blue-2:hover {
   color: var(--tp-common-white);
-  background-color: var(--tp-common-black-9);
+  background-color: #165EC9;
 }
 
 .bg-btn {
@@ -6787,9 +6788,9 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 
 .services-bg {
   background-image: url(../img/home/dot-shape.png), linear-gradient(to bottom, #FD5257 60%, white 40%);
-  background-repeat: no-repeat, repeat;
-  background-position: center top, center top;
-  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
 }
 
 .grey-bg-10 {
@@ -27291,7 +27292,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__item-5-inner {
-  padding: 35px 40px 35px;
+  padding: 20px 30px 30px 30px;
   box-shadow: 0px 30px 40px rgba(2, 45, 62, 0.08);
   border-radius: 10px;
 }
@@ -27782,14 +27783,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__title-5 {
-  font-family: var(--tp-ff-inter);
+  font-family: var(--tp-ff-poppins);
   font-size: 24px;
   letter-spacing: -0.04em;
   margin-bottom: 12px;
   font-size: 16px;
   color: #050748;
   margin-bottom: 12px;
-  margin-top: 40px;
+  margin-top: 15px;
+  font-weight: 500;
 }
 
 .services__title-5 a:hover {

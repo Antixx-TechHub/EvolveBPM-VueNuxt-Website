@@ -7,10 +7,10 @@
       <div class="row justify-content-center">
         <div class="col-xl-8 col-lg-10">
           <div class="about__heading-content text-center p-relative z-index-1">
-            <span class="about__heading-subtitle">Connect Metrics</span>
             <h3 class="about__heading-title">
-              Effortless Connection Building
+              Connect Metrics
             </h3>
+            <span class="about__heading-subtitle">Effortless Connection Building</span>
           </div>
         </div>
       </div>

@@ -7,10 +7,10 @@
       <div class="row justify-content-center">
         <div class="col-xl-8 col-lg-10">
           <div class="about__heading-content text-center p-relative z-index-1">
-            <span class="about__heading-subtitle">ilntel</span>
             <h3 class="about__heading-title">
-              Elevating Strategic Insights
+              ilntel
             </h3>
+            <span class="about__heading-subtitle">Elevating Strategic Insights</span>
           </div>
         </div>
       </div>
