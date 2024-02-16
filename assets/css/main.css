@@ -56304,7 +56304,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   font-size: 15px;
   line-height: 1.47;
   color: var(--tp-text-1);
-  margin-bottom: 69px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
