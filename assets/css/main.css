@@ -6788,9 +6788,9 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 
 .services-bg {
   background-image: url(../img/home/dot-shape.png), linear-gradient(to bottom, #FD5257 60%, white 40%);
-  background-repeat: no-repeat, repeat;
-  background-position: center top, center top;
-  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
 }
 
 .grey-bg-10 {

@@ -29,17 +29,15 @@
                 </h3>
                 <!-- <p>{{ item.subtitle }}</p> -->
 
-                <div class="services__btn-5">
-                  <div class="tp-button-demo">
-                    <nuxt-link href="/" class="tp-link-btn-2 mr-15"> Know More <span><svg
-                          width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                          <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                        </svg></span>
-                      </nuxt-link>
-                      </div>
+                <div class="tp-button-demo">
+                  <nuxt-link href="/" class="tp-link-btn-2 mr-15"> Know More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                        <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                      </svg></span>
+                  </nuxt-link>
                 </div>
               </div>
             </div>

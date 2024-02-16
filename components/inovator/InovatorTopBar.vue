@@ -7,10 +7,10 @@
       <div class="row justify-content-center">
         <div class="col-xl-8 col-lg-10">
           <div class="about__heading-content text-center p-relative z-index-1">
-            <span class="about__heading-subtitle">Innovator</span>
             <h3 class="about__heading-title">
-              Content Strategy Redefined
+              Innovator
             </h3>
+            <span class="about__heading-subtitle">Content Strategy Redefined</span>
           </div>
         </div>
       </div>

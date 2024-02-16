@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
         <div v-for="item in service_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
           <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="item.delay"
             data-sal-duration="1000">
@@ -22,19 +22,21 @@
               <div class="services__thumb-5">
                 <img :src="item.img" alt="" />
               </div>
+              <div class="tp-button-demo"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a></div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
-                  <!-- <nuxt-link href="/service-details">{{ item.title }}</nuxt-link> -->
+                  <nuxt-link href="/service-details">{{ item.title }}</nuxt-link>
                 </h3>
                 <p>{{ item.subtitle }}</p>
 
-                <div class="services__btn-5">
-                  <nuxt-link href="/" class="tp-link-btn-circle justify-content-center">
-                    See More
-                    <span>
-                      <i class="fa-regular fa-arrow-right"></i>
-                      <i class="fa-regular fa-arrow-right"></i>
-                    </span>
+                <div class="tp-button-demo">
+                  <nuxt-link href="/" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                        <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                      </svg></span>
                   </nuxt-link>
                 </div>
               </div>
@@ -48,9 +50,7 @@
   
 <script>
 // service image
-import agn_ser_1 from "~/assets/img/home/app-img1.png";
-import agn_ser_2 from "~/assets/img/home/app-img2.png";
-import agn_ser_3 from "~/assets/img/home/app-img3.png";
+import agn_ser_1 from "~/assets/img/home/app-img2.png";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
@@ -62,25 +62,46 @@ export default {
           id: 1,
           delay: "130",
           img: agn_ser_1,
-          title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
-          subtitle:
-            "Juggling between using all your energy in planning, applying, and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things that make up your campaign.",
+          product: "Predictor",
+          title: "ABM Precision Made Easy",
+          // subtitle:
+          //   "Juggling between using all your energy in planning, applying, and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things that make up your campaign.",
         },
         {
           id: 2,
           delay: "150",
-          img: agn_ser_2,
-          title: "data build, cleanse, verify, validate, intent, install base.",
-          subtitle:
-            "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
+          img: agn_ser_1,
+          product: "Intello",
+          title: "Real-Time Metrics Mastery",
+          // subtitle:
+          //   "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
         },
         {
           id: 3,
           delay: "170",
-          img: agn_ser_3,
-          title: "research services for company and market research",
-          subtitle:
-            "All those numbers we keep referring our audience as it's time to strengthen our base foundation with client connections! The perfect tech helps you eliminate communication barriers and build long-term trust – want to build yours?",
+          img: agn_ser_1,
+          product: "Connect Metrics",
+          title: "Effortless Connection Building",
+          // subtitle:
+          //   "All those numbers we keep referring our audience as it's time to strengthen our base foundation with client connections! The perfect tech helps you eliminate communication barriers and build long-term trust – want to build yours?",
+        },
+        {
+          id: 4,
+          delay: "150",
+          img: agn_ser_1,
+          product: "Profile Forge",
+          title: "Unveiling Prospect Potential",
+          // subtitle:
+          //   "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
+        },
+        {
+          id: 5,
+          delay: "170",
+          img: agn_ser_1,
+          product: "Innovator",
+          title: "Content Strategy Redefined",
+          // subtitle:
+          //   "All those numbers we keep referring our audience as it's time to strengthen our base foundation with client connections! The perfect tech helps you eliminate communication barriers and build long-term trust – want to build yours?",
         },
       ],
     };
