@@ -30,7 +30,7 @@
         </div>
       </SwiperSlide>
 
-      <div class="main-slider-dot d-none d-lg-flex"></div>
+      <!-- <div class="main-slider-dot d-none d-lg-flex"></div> -->
     </Swiper>
     <div class="mouse-scroll">
       <a href="#tpabout" class="mouse-scroll-btn"></a>
@@ -63,7 +63,7 @@ export default {
         {
           id: 1,
           // pre_title: "Our state-of-the-art AI, Intent, and Tech Insights-driven demand generation solutions are designed to supercharge your sales force.",
-          // title: "Captive demand generation operational solutions for global agencies and publishers ",
+          title: "Captive demand generation operational solutions for global agencies and publishers.",
           bg: bg_1,
         },
         {

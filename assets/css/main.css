@@ -6787,10 +6787,10 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .services-bg {
-  background-image: url(../img/home/dot-shape.png), linear-gradient(to bottom, #FD5257 60%, white 40%);
+  background-image: url(../img/home/dot-shape.png), linear-gradient(to bottom, #FD5257 100%, white 40%);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto;
+  background-size: cover;
 }
 
 .grey-bg-10 {
@@ -25211,7 +25211,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .about__list-item {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .about__list-icon {
