@@ -1,5 +1,5 @@
 <template>
-  <section class="services__area services-bg pt-110 pb-50 p-relative z-index-1">
+  <section id="tpabout" class="services__area services-bg pt-110 pb-50 p-relative z-index-1">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-10 col-xl-10 col-lg-10">
@@ -72,7 +72,7 @@ export default {
           delay: "150",
           img: agn_ser_2,
           product: "iData",
-          title: "data build, cleanse, verify, validate, intent, install base.",
+          title: "data build, cleanse, verify, validate, intent & install base.",
           subtitle:
             "Your one stop shop for all your data needs. Whether it is to build a data base, cleanse an existing database, verify and validate or study intent – our expert data analysts have you covered.",
         },
