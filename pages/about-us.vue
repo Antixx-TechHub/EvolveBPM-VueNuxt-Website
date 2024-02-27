@@ -52,7 +52,7 @@ export default {
   },
   setup() {
     useHead({
-      title: "About - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "About - Revenue Impact Solution in USA",
     });
   },
 };

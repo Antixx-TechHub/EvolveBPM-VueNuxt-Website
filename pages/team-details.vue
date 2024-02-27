@@ -4,7 +4,7 @@
     <team-details-area/>
     <team-details-about/>
     <lawyer-blogs :style_2="true" />
-    <footer-six :style_2="true" />
+    <Footer />
     <back-to-top />
   </div>
 </template>
@@ -14,7 +14,7 @@ import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import TeamDetailsArea from '~~/components/team-details/TeamDetailsArea.vue';
 import TeamDetailsAbout from '~~/components/team-details/TeamDetailsAbout.vue';
 import LawyerBlogs from '~~/components/blogs/LawyerBlogs.vue';
-import FooterSix from "~~/layouts/footers/FooterSix.vue";
+import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
@@ -23,12 +23,12 @@ export default {
     TeamDetailsArea,
     TeamDetailsAbout,
     LawyerBlogs,
-    FooterSix,
+    Footer,
     BackToTop,
   },
   setup() {
     useHead({
-      title: "Team - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "Team Details - Revenue Impact Solution in USA",
     });
   },
 };

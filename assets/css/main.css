@@ -25401,7 +25401,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 }
 
 .about__text-title {
-  font-size: 30px;
+  font-size: 27px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
@@ -25412,6 +25412,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   font-size: 16px;
   line-height: 1.62;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

@@ -36,11 +36,11 @@
                     <span class="contact-item-subtitle">Social Media</span>
                     <p>Follow on social media</p>
                     <div class="contact__social">
-                      <a href="https://www.facebook.com/EvolveBPM"><i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="https://twitter.com/evolvebpm"><i class="fa-brands fa-twitter"></i></a>
-                      <a href="https://www.linkedin.com/company/evolve-bpm"><i class="fa-brands fa-linkedin-in"></i></a>
-                      <a href="https://www.instagram.com/evolvebpm/"><i class="fa-brands fa-instagram"></i></a>
-                      <a href="https://www.youtube.com/@evolvebpmllc7151/videos"><i class="fa-brands fa-youtube"></i></a>
+                      <a href="https://www.facebook.com/EvolveBPM" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/evolvebpm" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/company/evolve-bpm" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://www.instagram.com/evolvebpm/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@evolvebpmllc7151/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
 
                     </div>
                 </div>

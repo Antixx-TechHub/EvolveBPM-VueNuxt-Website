@@ -34,7 +34,7 @@ export default {
   },
   setup() {
     useHead({
-      title: "Team - Creative Agency & Portfolio Vue Nuxt 3 Template",
+      title: "Team - Revenue Impact Solution in USA",
     });
   },
 };

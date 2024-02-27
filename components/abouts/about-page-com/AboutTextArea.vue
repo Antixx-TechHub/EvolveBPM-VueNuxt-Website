@@ -1,5 +1,5 @@
 <template>
-  <section class="about__text pt-115 pb-100">
+  <section class="about__text pt-100 pb-20">
     <div class="container">
       <div class="row">
         <div class="col-xl-4 col-lg-4">
@@ -12,9 +12,9 @@
         </div>
         <div class="col-xl-8 col-lg-8">
           <div class="about__text" data-sal="slide-up" data-sal-delay="160" data-sal-duration="1000">
-            <p>
+            <h3>
               EvolveBPM provides Revenue Impact Solutions enabling global sales teams to scale their revenues.
-            </p>
+            </h3>
 
             <p>
               At Evolve Global Corp., we aim to meet the needs and expectations of our customers while being compliant
