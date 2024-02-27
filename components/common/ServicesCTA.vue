@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4">
                     <div class="cta__btn-5 text-lg-end">
-                        <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+                        <nuxt-link href="/request-demo" class="tp-btn btn-cta bg-btn lnk">
                             Request A Demo
                             <i class="fas fa-chevron-right fa-icon"></i>
                             <span class="circle"></span>

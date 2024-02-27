@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="blog__more-6 text-md-end mb-30">
-                        <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+                        <nuxt-link href="/request-demo" class="tp-btn btn-cta bg-btn lnk">
                             Request A Demo
                             <i class="fas fa-chevron-right fa-icon"></i>
                             <span class="circle"></span>

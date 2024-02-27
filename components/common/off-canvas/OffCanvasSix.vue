@@ -101,7 +101,7 @@
         <!-- <div class="offcanvas__btn">
               <a href="#" class="tp-btn-offcanvas">Getting Started <i class="fa-regular fa-chevron-right"></i></a>
             </div> -->
-        <nuxt-link href="/" class="tp-btn btn-cta bg-btn lnk">
+        <nuxt-link href="/contact-us" class="tp-btn btn-cta bg-btn lnk">
           Getting Started
           <i class="fas fa-chevron-right fa-icon"></i>
           <span class="circle"></span>
