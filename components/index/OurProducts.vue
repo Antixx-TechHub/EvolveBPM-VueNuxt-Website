@@ -50,6 +50,9 @@
   
 <script>
 // service image
+import predictor from "~/assets/img/home/predictor.png";
+import intello from "~/assets/img/home/intello.png";
+import connectmetrics from "~/assets/img/home/connect-metrics.png";
 import agn_ser_1 from "~/assets/img/home/app-img2.png";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
@@ -61,7 +64,7 @@ export default {
         {
           id: 1,
           delay: "130",
-          img: agn_ser_1,
+          img: intello,
           product: "Predictor",
           title: "ABM Precision Made Easy",
           // subtitle:
@@ -70,7 +73,7 @@ export default {
         {
           id: 2,
           delay: "150",
-          img: agn_ser_1,
+          img: connectmetrics,
           product: "Intello",
           title: "Real-Time Metrics Mastery",
           // subtitle:
@@ -79,7 +82,7 @@ export default {
         {
           id: 3,
           delay: "170",
-          img: agn_ser_1,
+          img: predictor,
           product: "Connect Metrics",
           title: "Effortless Connection Building",
           // subtitle:

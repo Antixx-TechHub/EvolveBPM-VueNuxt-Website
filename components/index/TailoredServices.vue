@@ -50,7 +50,10 @@
   
 <script>
 // service image
-import agn_ser_2 from "~/assets/img/home/app-img2.png";
+import irev from "~/assets/img/home/irev.png";
+import idata from "~/assets/img/home/idata.png";
+import iintel from "~/assets/img/home/iintel.png";
+import imedia from "~/assets/img/home/imedia.png";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
@@ -61,7 +64,7 @@ export default {
         {
           id: 1,
           delay: "130",
-          img: agn_ser_2,
+          img: irev,
           product: "iRev",
           title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
           subtitle:
@@ -70,7 +73,7 @@ export default {
         {
           id: 2,
           delay: "150",
-          img: agn_ser_2,
+          img: idata,
           product: "iData",
           title: "data build, cleanse, verify, validate, intent & install base.",
           subtitle:
@@ -79,8 +82,8 @@ export default {
         {
           id: 3,
           delay: "170",
-          img: agn_ser_2,
-          product: "iIntel",
+          img: iintel,
+          product: "iintel",
           title: "research services for company and market research.",
           subtitle:
             "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you!.",
@@ -88,8 +91,8 @@ export default {
         {
           id: 4,
           delay: "170",
-          img: agn_ser_2,
-          product: "iMedia",
+          img: imedia,
+          product: "imedia",
           title: "digital services including programmatic display, LinkedIn, paid social media.",
           subtitle:
             "How strong would your social language be if your media content creation was built on two pillars – audience demand and our corresponding solutions? With expertise and in-depth research, we are set to hijack engagement!",
