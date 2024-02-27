@@ -78,6 +78,22 @@
                     <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
                 </div>
               </details>
+
+              <details class="accordion">
+                <summary class="accordion-header">
+                  <div class="accordion-header-content">
+                    <div class="itemss">
+                      <li><nuxt-link href="/">Company</nuxt-link></li>
+                    </div>
+                  </div>
+                </summary>
+                <div class="accordion-content">
+                  <li><nuxt-link href="/job">Careers</nuxt-link></li>
+                    <li><nuxt-link href="/team">Our Team</nuxt-link></li>
+                    <li><nuxt-link href="/faq">FAQ's</nuxt-link></li>
+                </div>
+              </details>
+              
               <li><nuxt-link href="/contact-us">Contact Us</nuxt-link></li>
             </ul>
           </nav>
@@ -90,7 +106,7 @@
           <i class="fas fa-chevron-right fa-icon"></i>
           <span class="circle"></span>
         </nuxt-link>
-        <div class="offcanvas__social">
+        <div class="offcanvas__social pt-30">
           <h3 class="offcanvas__social-title">Follow :</h3>
           <social />
         </div>

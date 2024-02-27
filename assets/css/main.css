@@ -7880,7 +7880,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .offcanvas__menu ul li a {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   color: var(--tp-common-black);
 }
@@ -7890,7 +7890,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .offcanvas__menu-ff-space ul li a {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
 }
 
 .offcanvas__menu-ff-oswald ul li a {
