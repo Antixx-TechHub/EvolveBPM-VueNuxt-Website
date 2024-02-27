@@ -42,10 +42,10 @@
                   <nuxt-link href="/">Products</nuxt-link>
                   <ul class="submenu">
                     <li><nuxt-link href="/predictor">Predictor</nuxt-link></li>
-                    <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
                     <li><nuxt-link href="/intello">lntello</nuxt-link></li>
                     <li><nuxt-link href="/connect-metrics">Connect Metrics</nuxt-link></li>
                     <li><nuxt-link href="/profile-forge">Profile Forge</nuxt-link></li>
+                    <li><nuxt-link href="/inovator">Innovator</nuxt-link></li>
                   </ul>
                 </li>
                 <li class="has-dropdown">

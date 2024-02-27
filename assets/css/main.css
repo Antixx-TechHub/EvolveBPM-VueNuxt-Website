@@ -18196,7 +18196,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .slider__title-5 {
   font-family: var(--tp-ff-space);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 45px;
   line-height: 1;
   color: #ffffff;
@@ -18207,13 +18207,13 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .slider__title-5 {
-    font-size: 45px;
+    font-size: 42px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .slider__title-5 {
-    font-size: 40px;
+    font-size: 38px;
   }
 }
 
