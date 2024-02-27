@@ -1,5 +1,5 @@
 <template>
-  <section class="features__area p-relative z-index-1 delivery-bg pt-110 pb-90">
+  <section class="features__area p-relative z-index-1 delivery-bg pt-80 pb-80">
     <div class="features__shape">
       <img class="features__shape-1" src="~/assets/img/features/features-shape-1.png" alt="features__shape" />
       <img class="features__shape-2" src="~/assets/img/features/features-shape-2.png" alt="features__shape" />
@@ -31,24 +31,32 @@
               </span>
             </h3>
           </div>
+          <div
+              class="elements__parallax-item p-relative z-index-1 jarallax"
+              :style="imageStyle"
+            ></div>
         </div>
       </div>
-      <div class="row">
+
+      <!-- <div class="row">
         <div v-for="item in feature_data" :key="item.id" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
           <DeliveryChannelsFeature :item="item" />
         </div>
-      </div>
+      </div> -->
+      
     </div>
   </section>
 </template>
 
 <script>
 import DeliveryChannelsFeature from './DeliveryChannelsFeature.vue';
+import bg from "~/assets/img/home/venn.jpg";
 
 export default {
   components: { DeliveryChannelsFeature },
   data() {
     return {
+      bg,
       feature_data: [
         {
           id: 1,
@@ -77,5 +85,12 @@ export default {
       ],
     };
   },
+  computed: {
+    imageStyle() {
+      return {
+        backgroundImage: `url(${this.bg})`,
+      }
+    }
+  }
 };
 </script>

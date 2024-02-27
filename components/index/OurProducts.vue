@@ -54,6 +54,7 @@ import predictor from "~/assets/img/home/predictor.png";
 import intello from "~/assets/img/home/intello.png";
 import connectmetrics from "~/assets/img/home/connect-metrics.png";
 import agn_ser_1 from "~/assets/img/home/app-img2.png";
+import innovator from "~/assets/img/home/innovator.png";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
@@ -100,7 +101,7 @@ export default {
         {
           id: 5,
           delay: "170",
-          img: agn_ser_1,
+          img: innovator,
           product: "Innovator",
           title: "Content Strategy Redefined",
           // subtitle:
