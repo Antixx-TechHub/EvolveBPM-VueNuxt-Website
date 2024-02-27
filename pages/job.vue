@@ -4,7 +4,7 @@
     <job-section-title/>
     <job-thumb-area/>
     <job-area :style_2="true"/>
-    <footer-six :style_2="true" />
+    <Footer />
     <back-to-top />
   </div>
 </template>
@@ -14,7 +14,7 @@ import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import JobSectionTitle from '~~/components/job/JobSectionTitle.vue';
 import JobThumbArea from '~~/components/job/JobThumbArea.vue';
 import JobArea from '~~/components/job-position/JobArea.vue';
-import FooterSix from "~~/layouts/footers/FooterSix.vue";
+import Footer from "~~/layouts/footers/Footer.vue";
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
@@ -23,7 +23,7 @@ export default {
     JobSectionTitle,
     JobThumbArea,
     JobArea,
-    FooterSix,
+    Footer,
     BackToTop,
   },
   setup() {
