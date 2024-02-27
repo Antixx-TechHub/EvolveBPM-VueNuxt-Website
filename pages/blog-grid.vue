@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header-one :header_solid="true" :commonOffcanvas="true" />
+    <header-one :top_bar="false" :commonOffcanvas="true" />
     <BlogTopBar />
     <FeaturedGrid />
     <blog-grid-area/>

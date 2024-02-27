@@ -2,7 +2,7 @@
   <header-one :top_bar="false" :commonOffcanvas="true" />
   <DemoTopBar />
 
-  <div class="container">
+  <div class="container pt-100 pb-100">
     <div class="contact__form-2">
       <h3 class="contact__form-2-title">Send a message</h3>
       <contact-form />
