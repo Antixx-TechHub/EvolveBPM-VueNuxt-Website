@@ -15,7 +15,7 @@
               src="~/assets/img/about/15/about-thumb-shape-2.png"
               alt=""
             />
-            <img src="~/assets/img/about/15/about-img-1.jpg" alt="shape" />
+            <img src="~/assets/img/home/irev.png" alt="shape" />
           </div>
         </div>
         <div class="col-xl-6 col-lg-6">
