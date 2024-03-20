@@ -698,6 +698,9 @@ input[type=color] {
 
 .m-img img {
   max-width: 100%;
+  height: var(--framer-aspect-ratio-supported, 453px);
+  overflow: visible;
+  position: relative;
 }
 
 .fix {
@@ -1533,8 +1536,8 @@ input[type=color] {
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .box-plr-5-245 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
@@ -16629,7 +16632,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .slider__height-5 {
-  min-height: 870px;
+  min-height: 678px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -39673,7 +39676,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .brand__item-5 {
   width: 260px !important;
   height: 160px;
-  border: 1px solid rgba(4, 18, 31, 0.1019607843);
+  /* border: 1px solid rgba(4, 18, 31, 0.1019607843); */
   text-align: center;
   line-height: 160px;
   border-radius: 14px;
