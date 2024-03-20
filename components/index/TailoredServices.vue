@@ -22,7 +22,7 @@
               <div class="services__thumb-5">
                 <img :src="item.img" alt="" />
               </div>
-              <div class="tp-button-demo"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a></div>
+              <div class="tp-button-demo pt-30"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a></div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
                   <i> <nuxt-link href="/">{{ item.title }}</nuxt-link> </i>
@@ -50,10 +50,10 @@
   
 <script>
 // service image
-import irev from "~/assets/img/home/irev.png";
-import idata from "~/assets/img/home/idata.png";
-import iintel from "~/assets/img/home/iintel.png";
-import imedia from "~/assets/img/home/imedia.png";
+import irev from "~/assets/img/home/irev.svg";
+import idata from "~/assets/img/home/idata.svg";
+import iintel from "~/assets/img/home/iintel.svg";
+import imedia from "~/assets/img/home/imedia.svg";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
