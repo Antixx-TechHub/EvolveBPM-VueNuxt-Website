@@ -62,6 +62,7 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 .footer__widget ul li a::after,
 .footer__info .tp-link-btn-text::after,
@@ -2168,7 +2169,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-block;
   position: absolute;
   left: 0;
-  background: var(--tp-common-white);
+  background: #165ec9;
   height: 2px;
   width: 25px;
   opacity: 1;
@@ -4286,10 +4287,10 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   font-weight: 500;
   font-size: 15px;
   text-align: center;
-  color: var(--tp-common-black-11);
+  color: #ffffff;
   border-radius: 30px;
-  padding: 13px 39px 11px;
-  background-color: var(--tp-common-yellow-3);
+  padding: 2px 15px 2px;
+  background-color: #fd5257;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -4324,13 +4325,13 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 
 .tp-btnr-border-2 {
   display: inline-block;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 22px;
   text-align: center;
-  color: var(--tp-common-black-11);
+  color: var(--tp-common-white);
   border-radius: 30px;
   padding: 10px 33px 10px 36px;
-  background-color: transparent;
+  background-color: #165ec9;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -6795,6 +6796,10 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 
 .grey-bg-10 {
   background-color: var(--tp-grey-10);
+}
+
+.hero-bg-5 {
+  background-color: #f4fdea;
 }
 
 .grey-bg-12 {
@@ -18195,11 +18200,11 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .slider__title-5 {
-  font-family: var(--tp-ff-space);
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 1;
-  color: #ffffff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 1 !important;
+  color: #0d1b26;
   line-height: 50px;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
@@ -18207,7 +18212,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .slider__title-5 {
-    font-size: 42px;
+    font-size: 72px;
   }
 }
 
@@ -18691,10 +18696,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-family: var(--tp-ff-space);
   font-weight: 500;
   font-size: 15px;
-  color: #4353FF;
-  background-color: #EEEFFF;
-  padding: 2px 20px;
-  border-radius: 20px;
+  color: #0d1b2a;
+  background-color: #fd525726;
+  padding: 6px 9px !important;
+  border-radius: 30px !important;
   margin-bottom: 10px;
 }
 
@@ -18867,11 +18872,18 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .slider__content-5>p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
-  color: #ffffff;
-  padding-right: 150px;
-  margin-bottom: 40px;
+  color: #888888;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+
+strong.framer-text {
+  font-family: var(--framer-font-family-bold);
+  font-style: var(--framer-font-style-bold);
+  font-weight: var(--framer-font-weight-bold, bolder);
 }
 
 [dir=rtl] .slider__content-5>p {

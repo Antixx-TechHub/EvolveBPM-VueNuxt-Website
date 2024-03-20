@@ -1,6 +1,7 @@
 <template>
   <LayoutOne>
-    <HomeHero />
+    <agency-hero/>
+    <!-- <HomeHero /> -->
     <TailoredServices />
     <Statistics />
     <FunFact />
@@ -16,7 +17,8 @@
 
 <script setup>
 import LayoutOne from '~/layouts/LayoutOne.vue';
-import HomeHero from '~/components/index/HomeHero.vue'
+import AgencyHero from '~/components/index/AgencyHero.vue';
+// import HomeHero from '~/components/index/HomeHero.vue'
 import TailoredServices from '~/components/index/TailoredServices.vue';
 import Statistics from '~/components/index/Statistics.vue';
 import FunFact from '~~/components/index/FunFact.vue';

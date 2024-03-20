@@ -33,12 +33,12 @@
         <div class="container">
           <div class="mega-menu-wrapper p-relative">
             <div class="row align-items-center">
-              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-5 col-8">
+              <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-5 col-8">
                 <div class="logo logo-border">
                   <nuxt-link href="/" v-if="!header_solid && !header_black">
                     <img
                       class="logo-light"
-                      src="~/assets/img/logo/logo.svg"
+                      src="~/assets/img/logo/logo-black.svg"
                       alt="logo"
                     />
                     <img
@@ -55,7 +55,7 @@
                   </nuxt-link>
                 </div>
               </div>
-              <div class="col-xxl-7 col-xl-8 col-lg-8 d-none d-lg-block">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 d-none d-lg-block">
                 <div class="main-menu pl-55 main-menu-ff-space">
                   <nav id="mobile-menu">
                     <!-- menus start -->
@@ -64,7 +64,7 @@
                   </nav>
                 </div>
               </div>
-              <div class="col-xxl-3 col-xl-2 col-lg-2 col-md-8 col-sm-7 col-4">
+              <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-sm-7 col-4">
                 <div
                   class="header__bottom-right d-flex justify-content-end align-items-center pl-30"
                 >
