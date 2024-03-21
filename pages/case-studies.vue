@@ -1,22 +1,28 @@
 <template>
-    <header-one :top_bar="false" :commonOffcanvas="true" />
-    <CaseStudiesTopBar />
-    <CaseStudiesGrid />
-    <HomeCTA />
-    <Footer />
+  <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
+  <Breadcrumb />
+  <GridArea />
+  <HomeCTA />
+  <Footer />
+  <BackToTop />
 
 </template>
 
-<script setup>
+<script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import CaseStudiesTopBar from '~/components/casestudies/CaseStudiesTopBar.vue';
-import CaseStudiesGrid from '~/components/casestudies/CaseStudiesGrid.vue';
+import Breadcrumb from '~~/components/case-studies/Breadcrumb.vue';
+import GridArea from '~~/components/case-studies/GridArea.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
+import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 
-useHead({
-  title: "EvolveBPM - Revenue Impact Solution in USA",
-});
-
+export default {
+  components: { HeaderOne, Breadcrumb, GridArea, HomeCTA, Footer, BackToTop },
+  setup() {
+    useHead({
+      title: "Case Studies - Evolve BPM",
+    });
+  },
+};
 </script>
