@@ -1,6 +1,6 @@
 <template>
   <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-  <Breadcrumb />
+  <Breadcrumb title="Case Studies" subtitle="Case Studies" />
   <GridArea />
   <HomeCTA />
   <Footer />

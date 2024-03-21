@@ -6805,6 +6805,10 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
   background-color: #f4fdea;
 }
 
+.blog-bg-4 {
+  background-color: var(--tp-grey-4);;
+}
+
 .grey-bg-12 {
   background-color: var(--tp-grey-12);
 }
