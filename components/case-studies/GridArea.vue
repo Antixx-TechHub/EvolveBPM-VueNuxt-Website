@@ -95,7 +95,7 @@ export default {
     }
   },
   created: async function () {
-    const response = await axios.get('https://cms.dotglobaltech.com/api/case-studies?populate=*')
+    const response = await axios.get('https://evolvestrapi.pbwebvision.in/api/case-studies?populate=*')
     this.casestudies = response.data.data.sort((b, a) => a.id - b.id);
     this.rows = this.casestudies?.length;
   },

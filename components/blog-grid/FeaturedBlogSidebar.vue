@@ -60,14 +60,14 @@ export default {
     }
   },
   created: async function () {
-    axios.get('https://cms.dotglobaltech.com/api/featuredblogs?populate=*')
+    axios.get('https://evolvestrapi.pbwebvision.in/api/featuredblogs?populate=*')
       .then(response => {
         this.featuredblogs = response.data.data.sort((b, a) => a.id - b.id);
       })
       .catch(error => {
         console.error(error);
       });
-    const response = await axios.get('https://cms.dotglobaltech.com/api/featured-blog-categories')
+    const response = await axios.get('https://evolvestrapi.pbwebvision.in/api/featured-blog-categories')
     this.featuredcategories = response.data.data.sort((b, a) => a.id - b.id);
   },
 }

@@ -57,14 +57,14 @@ export default {
     }
   },
   created: async function () {
-    axios.get('https://cms.dotglobaltech.com/api/blogs?populate=*')
+    axios.get('https://evolvestrapi.pbwebvision.in/api/blogs?populate=*')
       .then(response => {
         this.blogs = response.data.data.sort((b, a) => a.id - b.id);
       })
       .catch(error => {
         console.error(error);
       });
-    const response = await axios.get('https://cms.dotglobaltech.com/api/blog-categories')
+    const response = await axios.get('https://evolvestrapi.pbwebvision.in/api/blog-categories')
     this.blogcategories = response.data.data.sort((b, a) => a.id - b.id);
   },
 }
