@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <BlogBreadcrumb />
+    <BlogBreadcrumb title="Blogs" subtitle="Blogs" />
     <BlogGridArea />
     <HomeCTA />
     <Footer />
