@@ -1,6 +1,6 @@
 <template>
   <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-  <blog-breadcrumb title="Our Blog categories" subtitle="Blog" />
+  <Breadcrumb title="Our Blog categories" subtitle="Blog" />
   <div>
     <div v-if="category !== null">
       <BlogGridCategoryArea v-bind:detailsContent="category" />
@@ -13,7 +13,7 @@
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogBreadcrumb from '~~/components/blog-grid/BlogBreadcrumb.vue';
+import Breadcrumb from '~~/components/blog-grid/Breadcrumb.vue';
 import BlogGridCategoryArea from '~~/components/blog-grid/BlogGridCategoryArea.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from "~~/layouts/footers/Footer.vue";
@@ -23,7 +23,7 @@ import { useRoute } from 'vue-router'
 export default {
   components: {
     HeaderOne,
-    BlogBreadcrumb,
+    Breadcrumb,
     BlogGridCategoryArea,
     HomeCTA,
     Footer,

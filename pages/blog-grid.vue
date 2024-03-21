@@ -1,24 +1,24 @@
 <template>
   <div>
     <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
-    <BlogBreadcrumb title="Blogs" subtitle="Blogs" />
+    <Breadcrumb title="Blogs" subtitle="Blogs" />
     <BlogGridArea />
     <HomeCTA />
     <Footer />
-    <back-to-top />
+    <BackToTop />
   </div>
 </template>
 
 <script>
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import BlogBreadcrumb from '~~/components/blog-grid/BlogBreadcrumb.vue';
+import Breadcrumb from '~~/components/blog-grid/Breadcrumb.vue';
 import BlogGridArea from '~~/components/blog-grid/BlogGridArea.vue';
 import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from "~~/layouts/footers/Footer.vue";
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
-  components: { HeaderOne, BlogBreadcrumb, BlogGridArea, HomeCTA, Footer, BackToTop },
+  components: { HeaderOne, Breadcrumb, BlogGridArea, HomeCTA, Footer, BackToTop },
   setup() {
     useHead({
       title: "Blogs - Evolve BPM ",
