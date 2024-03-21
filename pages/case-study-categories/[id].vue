@@ -6,9 +6,8 @@
       <CategoryGridContents v-bind:detailsContent="category" />
     </div>
     <HomeCTA />
-    <FooterFour />
-    <footer-eight />
-    <back-to-top />
+    <Footer />
+    <BackToTop />
   </div>
 </template>
 
@@ -16,9 +15,8 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import Breadcrumb from '~~/components/case-studies/Breadcrumb.vue';
 import CategoryGridContents from '~~/components/case-studies/CategoryGridContents.vue';
-import HomeCTA from "~~/components/subscribe/SubscribeNow.vue";
-import FooterFour from '~~/layouts/footers/FooterFour.vue';
-import FooterEight from '~~/layouts/footers/FooterEight.vue';
+import HomeCTA from "~/components/index/HomeCTA.vue";
+import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 import axios from 'axios';
 import { useRoute } from 'vue-router'
@@ -28,8 +26,7 @@ export default {
     Breadcrumb,
     CategoryGridContents,
     HomeCTA,
-    FooterFour,
-    FooterEight,
+    Footer,
     BackToTop,
   },
   data() {

@@ -4,17 +4,17 @@
       <h3 class="sidebar__widget-title">Recent Post</h3>
       <div class="sidebar__widget-content">
         <div class="sidebar__post">
-          <div class="rc__post d-flex align-items-center" v-for="successstory in successstories.slice(0, 3)"
-            :key="successstory.id">
+          <div class="rc__post d-flex align-items-center" v-for="casestudy in casestudies.slice(0, 3)"
+            :key="casestudy.id">
             <div class="rc__post-thumb">
-              <nuxt-link :to="'/success-details/' + successstory.attributes.slug">
-                <img :src="successstory.attributes.image.data.attributes.url" alt="blog">
+              <nuxt-link :to="'/case-details/' + casestudy.attributes.slug">
+                <img :src="casestudy.attributes.image.data.attributes.url" alt="blog">
               </nuxt-link>
             </div>
             <div class="rc__post-content">
               <h3 class="rc__post-title">
-                <nuxt-link :to="'/success-details/' + successstory.attributes.slug">
-                  {{ successstory.attributes.title }}</nuxt-link>
+                <nuxt-link :to="'/case-details/' + casestudy.attributes.slug">{{ casestudy.attributes.title
+                  }}</nuxt-link>
               </h3>
               <div class="rc__meta">
                 <span>
@@ -24,7 +24,7 @@
                       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M7.5 3.59961V7.49961L10.1 8.79961" stroke="currentColor" stroke-width="1.5"
                       stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>{{ successstory.attributes.date }}
+                  </svg>{{ casestudy.attributes.date }}
                 </span>
               </div>
             </div>
@@ -36,9 +36,9 @@
       <h3 class="sidebar__widget-title">Category</h3>
       <div class="sidebar__widget-content">
         <ul>
-          <li v-for="successcategory in successcategories" :key="successcategory.id">
-            <router-link :to="`/success-story-categories/${successcategory.attributes.slug}`">
-              {{ successcategory.attributes.name }}</router-link>
+          <li v-for="casestudiescategory in casestudiescategories" :key="casestudiescategory.id">
+            <router-link :to="`/case-study-categories/${casestudiescategory.attributes.slug}`">
+              {{ casestudiescategory.attributes.name }}</router-link>
           </li>
         </ul>
       </div>
@@ -54,20 +54,20 @@ export default {
   name: 'Sidebar',
   data() {
     return {
-      successcategories: [],
-      successstories: [],
+      casestudiescategories: [],
+      casestudies: [],
     }
   },
   created: async function () {
-    axios.get('https://evolvestrapi.pbwebvision.in/api/successstories?populate=*')
+    axios.get('https://evolvestrapi.pbwebvision.in/api/case-studies?populate=*')
       .then(response => {
-        this.successstories = response.data.data.sort((b, a) => a.id - b.id);
+        this.casestudies = response.data.data.sort((b, a) => a.id - b.id);
       })
       .catch(error => {
         console.error(error);
       });
-    const response = await axios.get('https://evolvestrapi.pbwebvision.in/api/successcategories?populate=*')
-    this.successcategories = response.data.data.sort((b, a) => a.id - b.id);
+    const response = await axios.get('https://evolvestrapi.pbwebvision.in/api/case-study-categories?populate=*')
+    this.casestudiescategories = response.data.data.sort((b, a) => a.id - b.id);
   },
 }
 </script>
