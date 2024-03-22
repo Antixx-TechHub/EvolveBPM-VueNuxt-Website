@@ -1,11 +1,7 @@
 <template>
-  <section :class="`features__list-area pt-50 pb-100 ${el_style?'':''}`">
+  <section class="features__area pt-50 homecta-bg pb-100">
     <div class="container">
-      <div
-        class="features__list-inner green-light-bg-4 pl-100 pr-100 p-relative z-index-1"
-      >
-        <div class="row">
-          <div class="col-xl-12">
+      <div class="col-xl-12">
                 <div class="section__title-wrapper pb-70 pt-60">
                   <!-- <span class="section__title-pre"></span> -->
                   <h3 class="section__title">
@@ -17,122 +13,23 @@
                   </h3>
                 </div>
             </div>
-        </div>
-        <div class="row">
-          <div class="col-xxl-5 col-xl-5 col-lg-6">
-            <div class="features__list-wrapper tp-tab">
-              <ul class="nav nav-tabs" id="featuresTab" role="tablist">
-                <nav-item
-                  :active="true"
-                  id="customer"
-                  icon='<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15 7H7V15H15V7Z" stroke="#04121F" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M4 21C5.65 21 7 19.65 7 18V15H4C2.35 15 1 16.35 1 18C1 19.65 2.35 21 4 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M4 7H7V4C7 2.35 5.65 1 4 1C2.35 1 1 2.35 1 4C1 5.65 2.35 7 4 7Z"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M15 7H18C19.65 7 21 5.65 21 4C21 2.35 19.65 1 18 1C16.35 1 15 2.35 15 4V7Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path opacity="0.4"
-                            d="M18 21C19.65 21 21 19.65 21 18C21 16.35 19.65 15 18 15H15V18C15 19.65 16.35 21 18 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>'
-                  title="133 mill LinkedIn verified global data contacts."
-                  subtitle=""
-                />
-                <nav-item
-                  id="ideation"
-                  icon='<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15 7H7V15H15V7Z" stroke="#04121F" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M4 21C5.65 21 7 19.65 7 18V15H4C2.35 15 1 16.35 1 18C1 19.65 2.35 21 4 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M4 7H7V4C7 2.35 5.65 1 4 1C2.35 1 1 2.35 1 4C1 5.65 2.35 7 4 7Z"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M15 7H18C19.65 7 21 5.65 21 4C21 2.35 19.65 1 18 1C16.35 1 15 2.35 15 4V7Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path opacity="0.4"
-                            d="M18 21C19.65 21 21 19.65 21 18C21 16.35 19.65 15 18 15H15V18C15 19.65 16.35 21 18 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>'
-                  title="Integrated with multiple intent signal providers including Bom borra, Cognism, Klarity, ZoomInfo."
-                  subtitle=""
-                />
-                <nav-item
-                  id="multiple"
-                  icon='<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15 7H7V15H15V7Z" stroke="#04121F" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M4 21C5.65 21 7 19.65 7 18V15H4C2.35 15 1 16.35 1 18C1 19.65 2.35 21 4 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M4 7H7V4C7 2.35 5.65 1 4 1C2.35 1 1 2.35 1 4C1 5.65 2.35 7 4 7Z"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M15 7H18C19.65 7 21 5.65 21 4C21 2.35 19.65 1 18 1C16.35 1 15 2.35 15 4V7Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path opacity="0.4"
-                            d="M18 21C19.65 21 21 19.65 21 18C21 16.35 19.65 15 18 15H15V18C15 19.65 16.35 21 18 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>'
-                  title="Install-base data through partnership with HG Insights."
-                  subtitle=""
-                />
-                <nav-item
-                  id="software"
-                  icon='<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15 7H7V15H15V7Z" stroke="#04121F" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M4 21C5.65 21 7 19.65 7 18V15H4C2.35 15 1 16.35 1 18C1 19.65 2.35 21 4 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M4 7H7V4C7 2.35 5.65 1 4 1C2.35 1 1 2.35 1 4C1 5.65 2.35 7 4 7Z"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M15 7H18C19.65 7 21 5.65 21 4C21 2.35 19.65 1 18 1C16.35 1 15 2.35 15 4V7Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path opacity="0.4"
-                            d="M18 21C19.65 21 21 19.65 21 18C21 16.35 19.65 15 18 15H15V18C15 19.65 16.35 21 18 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>'
-                  title="Data refresh every 90 days through automated web crawlers."
-                  subtitle=""
-                />
-                <nav-item
-                  id="software"
-                  icon='<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15 7H7V15H15V7Z" stroke="#04121F" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M4 21C5.65 21 7 19.65 7 18V15H4C2.35 15 1 16.35 1 18C1 19.65 2.35 21 4 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path d="M4 7H7V4C7 2.35 5.65 1 4 1C2.35 1 1 2.35 1 4C1 5.65 2.35 7 4 7Z"
-                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                          <path d="M15 7H18C19.65 7 21 5.65 21 4C21 2.35 19.65 1 18 1C16.35 1 15 2.35 15 4V7Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <path opacity="0.4"
-                            d="M18 21C19.65 21 21 19.65 21 18C21 16.35 19.65 15 18 15H15V18C15 19.65 16.35 21 18 21Z"
-                            stroke="#04121F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>'
-                  title="Access to over 65 mill direct numbers."
-                  subtitle=""
-                />
-              </ul>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="features__wrapper-9 mr-30">
+            <div v-for="list in feature_contents" :key="list.id" @click="handleServiceActive(list.id)" :class="`features__content-9 features-item-content ${serviceActive === `features-img-${list.id}` ? 'active' : ''
+              }`" :rel="serviceActive">
+              <span>{{ list.subtitle }}</span>
+              <h3 class="features__title-9">{{ list.title }}</h3>
             </div>
           </div>
-
-          <div class="col-xxl-7 col-xl-7 col-lg-6">
-            <div class="tab-content" id="myTabContent">
-              <tab-content :active="true" id="customer" />
-              <tab-content id="ideation" />
-              <tab-content id="multiple" />
-              <tab-content id="software" />
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-6 d-none d-md-block">
+          <div class="features__thumb-wrapper-9 pl-20">
+            <div id="features-item-thumb" :class="serviceActive">
+              <div v-for="(item, i) in feature_thumbs" :key="i" :class="`features__thumb-9 transition-3 ${item.ref} ${serviceActive === item.ref ? 'active' : ''
+              }`">
+                <img :src="item.img" alt="image" />
+              </div>
             </div>
           </div>
         </div>
@@ -142,16 +39,36 @@
 </template>
 
 <script>
-import NavItem from "./NavItem.vue";
-import TabContent from "./TabContent.vue";
+import feature_thumb_1 from "~/assets/img/home/data-strategy-1.jpg";
+import feature_thumb_2 from "~/assets/img/home/data-strategy-2.jpg";
+import feature_thumb_3 from "~/assets/img/home/data-strategy-3.jpg";
+import feature_thumb_4 from "~/assets/img/home/data-strategy-4.jpg";
+import feature_thumb_5 from "~/assets/img/home/data-strategy-5.jpg";
 
 export default {
-  props:{
-    el_style:{
-      type:Boolean,
-      default:false
-    }
+  data() {
+    return {
+      serviceActive: "features-img-5",
+      feature_contents: [
+        { id: 1, subtitle: "", title: "133 mill LinkedIn verified global data contacts." },
+        { id: 5, subtitle: "", title: "Integrated with multiple intent signal providers including Bom borra, Cognism, Klarity, ZoomInfo." },
+        { id: 3, subtitle: "", title: "Install-base data through partnership with HG Insights." },
+        { id: 4, subtitle: "", title: "Data refresh every 90 days through automated web crawlers." },
+        { id: 2, subtitle: "", title: "Access to over 65 mill direct numbers." },
+      ],
+      feature_thumbs: [
+        { ref: "features-img-1", img: feature_thumb_1 },
+        { ref: "features-img-5", img: feature_thumb_5 },
+        { ref: "features-img-3", img: feature_thumb_3 },
+        { ref: "features-img-4", img: feature_thumb_4 },
+        { ref: "features-img-2", img: feature_thumb_2 },
+      ],
+    };
   },
-  components: { NavItem, TabContent },
+  methods: {
+    handleServiceActive(id) {
+      this.serviceActive = `features-img-${id}`;
+    },
+  },
 };
 </script>

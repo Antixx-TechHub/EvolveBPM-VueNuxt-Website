@@ -46624,9 +46624,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .features__title-9 {
-  font-family: var(--tp-ff-syne);
-  font-weight: 700;
-  font-size: 44px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
   line-height: 1;
   letter-spacing: -0.02em;
   position: relative;

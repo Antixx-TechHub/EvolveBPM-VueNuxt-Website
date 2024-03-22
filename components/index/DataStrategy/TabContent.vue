@@ -11,7 +11,7 @@
         src="~/assets/img/features/7/features-img-1.png"
         alt="features__list-thumb"
       />
-      <img
+      <!-- <img
         class="features__list-thumb-2"
         src="~/assets/img/features/7/features-img-2.png"
         alt="features__list-thumb"
@@ -20,7 +20,7 @@
         class="features__list-thumb-3"
         src="~/assets/img/features/7/features-img-3.png"
         alt="features__list-thumb"
-      />
+      /> -->
 
       <img
         class="features__shape-7"
