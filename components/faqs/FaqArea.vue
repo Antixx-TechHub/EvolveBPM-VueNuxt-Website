@@ -1,14 +1,6 @@
 <template>
   <section class="faq__area pt-100 pb-25">
     <div class="container">
-      <div v-if="el_style" class="row">
-        <div class="col-xxl-12">
-            <div class="tp-section-wrapper-3 mb-50 text-center">
-              <span class="tp-section-subtitle-3">Minimal &amp; Clean Design</span>
-              <h3 class="tp-section-title-3">Accordion with tab</h3>
-            </div>
-        </div>
-      </div>
       <div class="row">
         <div class="col-xxl-12">
           <div class="faq__tab-2 tp-tab mb-50">
@@ -34,8 +26,8 @@
                 </button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="community-tab" data-bs-toggle="tab" data-bs-target="#community" type="button"
-                  role="tab" aria-controls="community" aria-selected="false">
+                <button class="nav-link" id="community-tab" data-bs-toggle="tab" data-bs-target="#community"
+                  type="button" role="tab" aria-controls="community" aria-selected="false">
                   <span>
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -83,14 +75,13 @@
 
         <div class="tab-content" id="faqTabContent">
 
-          <div v-for="(item, i) in tab_faqs" :key="i" 
-          :class="`tab-pane fade ${item.active ? 'show active' : ''}`"
+          <div v-for="(item, i) in tab_faqs" :key="i" :class="`tab-pane fade ${item.active ? 'show active' : ''}`"
             :id="item.id" role="tabpanel" :aria-labelledby="`${item.id}-tab`">
             <div v-for="(faq_item, index) in item.faq_content" :key="index" class="faq__item pb-95">
               <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-4">
-                  <div class="faq__content">
-                    <h3 class="faq__title-2" v-html="faq_item.title"></h3>
+                <div class="faq__inner p-relative col-xl-3 col-lg-3 col-md-4">
+                  <div class="faq__text d-none d-lg-block">
+                    <h3 data-text="faq">faq</h3>
                   </div>
                 </div>
                 <div class="col-xl-9 col-lg-9 col-md-8">
@@ -115,10 +106,10 @@
 import SingleFaq from './SingleFaq.vue';
 export default {
   components: { SingleFaq },
-  props:{
-    el_style:{
-      type:Boolean,
-      default:false,
+  props: {
+    el_style: {
+      type: Boolean,
+      default: false,
     }
   },
   data() {
@@ -130,161 +121,145 @@ export default {
           faq_content: [
             {
               id: "general",
-              title: "Orders <br>& Shipping",
+              title: "FAQ:",
               accordions: [
                 {
                   id: "One",
-                  title: "Global search engine optimization",
+                  title: "What sets you apart from other digital marketing and lead generation service providers?",
                   show: true,
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                  desc: "Evolve BPM stands out due to our tailored approach to each client's needs, leveraging cutting-edge technology, deep industry expertise, and a commitment to delivering measurable results. We prioritize long-term partnerships and customize strategies to ensure maximum ROI for our clients.",
                   parent: "general-1_accordion",
                 },
                 {
                   id: "Two",
-                  title: " Complete Social Media Integration",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                  title: "How do you ensure the quality of leads generated?",
+                  desc: "Quality is paramount at Evolve BPM. We employ a multi-step validation process that includes data cleansing, lead scoring, and rigorous quality checks. Our team continuously monitors and optimizes campaigns to ensure that only high-quality, relevant leads are delivered to our clients.",
                   parent: "general-1_accordion",
                 },
                 {
                   id: "Three",
-                  title: "Branding Strategy for startups",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                  title: "What industries does Evolve BPM specialize in serving?",
+                  desc: "We specialize in serving media agencies and publishing houses globally. However, our expertise extends across various industries, including technology, healthcare, finance, education, and more. We tailor our solutions to meet the unique needs of each industry we serve.",
                   parent: "general-1_accordion",
                 },
                 {
                   id: "four",
-                  title: "How long do I get support & updates?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                  title: "How do you drive high-volume campaigns?",
+                  desc: "We leverage a combination of advanced data analytics, targeted marketing strategies, and scalable technology infrastructure to drive high-volume campaigns. We have robust systems in place to handle large-scale campaigns efficiently while maintaining quality and ensuring optimal performance.",
+                  parent: "general-1_accordion",
+                },
+                {
+                  id: "Five",
+                  title: "Can you provide examples of successful campaigns or case studies?",
+                  desc: "Absolutely! We have a portfolio of successful campaigns and case studies that demonstrate our track record of delivering results for clients. Please contact us to request specific examples relevant to your industry or objectives.",
+                  parent: "general-1_accordion",
+                },
+                {
+                  id: "Six",
+                  title: "How does you handle data privacy and security?",
+                  desc: "At Evolve BPM, we take data privacy and security seriously. We comply with all relevant data protection regulations (such as GDPR) and implement stringent security measures to safeguard our clients' data. Our systems are regularly audited and updated to ensure compliance and protect against potential threats.",
+                  parent: "general-1_accordion",
+                },
+                {
+                  id: "Seven",
+                  title: "What level of customization do you offer for your services?",
+                  desc: "We understand that one size does not fit all when it comes to digital marketing and lead generation. Evolve BPM offers highly customizable solutions tailored to each client's unique goals, target audience, and budget. Whether you need a comprehensive end-to-end solution or specific services, we can tailor our offerings to meet your needs.",
+                  parent: "general-1_accordion",
+                },
+                {
+                  id: "Eight",
+                  title: "How do you measure the success of campaigns?",
+                  desc: "Success metrics vary depending on the objectives of each campaign. However, common performance indicators include lead quality, conversion rates, return on investment (ROI), customer acquisition cost (CAC), and overall campaign performance. We provide detailed reporting and analytics to track progress and demonstrate the impact of our efforts.",
+                  parent: "general-1_accordion",
+                },
+                {
+                  id: "Nine",
+                  title: "What support do you provide during and after the campaign?",
+                  desc: "We is committed to providing exceptional customer support throughout the duration of our partnership and beyond. Our dedicated account managers work closely with clients to ensure smooth campaign execution, provide regular updates, and address any concerns promptly. We also offer post-campaign analysis and optimization to maximize results and long-term success.",
+                  parent: "general-1_accordion",
+                },
+                {
+                  id: "Ten",
+                  title: "How can potential clients get started with Evolve BPM's services?",
+                  desc: "Getting started with Evolve BPM is easy! Simply reach out to us via our website or contact our sales team directly. We'll schedule a consultation to discuss your goals, objectives, and specific needs. From there, we'll work together to develop a customized strategy tailored to your business and get your campaigns up and running efficiently.",
                   parent: "general-1_accordion",
                 },
               ]
             },
-            {
-              id: "general",
-              title: "Returns <br>& Exchanges",
-              accordions: [
-                {
-                  id: "five",
-                  title: "How do I know my package has shipped?",
-                  show: true,
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "general-2_accordion",
-                },
-                {
-                  id: "six",
-                  title:
-                    "Why are certain products unavailable to ship to Internationally?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "general-2_accordion",
-                },
-                {
-                  id: "seven",
-                  title: "Why is my tracking number not updating?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "general-2_accordion",
-                },
-              ]
-            },
-            {
-              id: "general",
-              title: "Discounts",
-              accordions: [
-                {
-                  id: "eight",
-                  title: "How do I know my package has shipped?",
-                  show: true,
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "general-3_accordion",
-                },
-                {
-                  id: "nine",
-                  title:
-                    "Why are certain products unavailable to ship to Internationally?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "general-3_accordion",
-                },
-                {
-                  id: "ten",
-                  title: "Why is my tracking number not updating?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "general-3_accordion",
-                },
-              ]
-            },
           ],
         },
-        {
-          id: "community",
-          faq_content: [
-            {
-              id: "community",
-              title: "Returns <br>& Exchanges",
-              accordions: [
-                {
-                  id: "eleven",
-                  title: "Can I cancel my account at any time?",
-                  show: true,
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "community-1_accordion",
-                },
-                {
-                  id: "twelve",
-                  title: "What happens after the license expires?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "community-1_accordion",
-                },
-                {
-                  id: "thirteen",
-                  title: "Does Harry have any documentations?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "community-1_accordion",
-                },
-                {
-                  id: "fourteen",
-                  title: "How long do I get support & updates?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "community-1_accordion",
-                },
-              ]
-            },
-          ],
-        },
-        {
-          id: "support",
-          faq_content: [
-            {
-              id: "support",
-              title: "Discounts",
-              accordions: [
-                {
-                  id: "fifteen",
-                  title: "Can I cancel my account at any time?",
-                  show: true,
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "support-1_accordion",
-                },
-                {
-                  id: "sixteen",
-                  title: "What happens after the license expires?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "support-1_accordion",
-                },
-                {
-                  id: "seventeen",
-                  title: "Does Harry have any documentations?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "support-1_accordion",
-                },
-                {
-                  id: "eighteen",
-                  title: "How long do I get support & updates?",
-                  desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
-                  parent: "support-1_accordion",
-                },
-              ]
-            },
-          ],
-        },
+        // {
+        //   id: "community",
+        //   faq_content: [
+        //     {
+        //       id: "community",
+        //       title: "Returns <br>& Exchanges",
+        //       accordions: [
+        //         {
+        //           id: "eleven",
+        //           title: "Can I cancel my account at any time?",
+        //           show: true,
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "community-1_accordion",
+        //         },
+        //         {
+        //           id: "twelve",
+        //           title: "What happens after the license expires?",
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "community-1_accordion",
+        //         },
+        //         {
+        //           id: "thirteen",
+        //           title: "Does Harry have any documentations?",
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "community-1_accordion",
+        //         },
+        //         {
+        //           id: "fourteen",
+        //           title: "How long do I get support & updates?",
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "community-1_accordion",
+        //         },
+        //       ]
+        //     },
+        //   ],
+        // },
+        // {
+        //   id: "support",
+        //   faq_content: [
+        //     {
+        //       id: "support",
+        //       title: "Discounts",
+        //       accordions: [
+        //         {
+        //           id: "fifteen",
+        //           title: "Can I cancel my account at any time?",
+        //           show: true,
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "support-1_accordion",
+        //         },
+        //         {
+        //           id: "sixteen",
+        //           title: "What happens after the license expires?",
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "support-1_accordion",
+        //         },
+        //         {
+        //           id: "seventeen",
+        //           title: "Does Harry have any documentations?",
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "support-1_accordion",
+        //         },
+        //         {
+        //           id: "eighteen",
+        //           title: "How long do I get support & updates?",
+        //           desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+        //           parent: "support-1_accordion",
+        //         },
+        //       ]
+        //     },
+        //   ],
+        // },
       ],
     };
   },

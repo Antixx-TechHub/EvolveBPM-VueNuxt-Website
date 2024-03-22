@@ -1,30 +1,30 @@
 <template>
   <div>
-    <LayoutOne>
-    <!-- <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" /> -->
+    <header-one :top_bar="false" :header_solid="true" :commonOffcanvas="true" />
     <about-top-bar />
-    <faq-area/>
-    <!-- <footer-six :style_2="true"/> -->
-    <back-to-top/>
-  </LayoutOne>
+    <faq-area />
+    <HomeCTA />
+    <Footer />
+    <BackToTop />
+
   </div>
 </template>
 
 <script>
-// import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
-import LayoutOne from '~/layouts/LayoutOne.vue';
+import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import AboutTopBar from "~~/components/faqs/AboutTopBar.vue";
 import FaqArea from '~~/components/faqs/FaqArea.vue';
-// import FooterSix from '~~/layouts/footers/FooterSix.vue';
+import HomeCTA from "~/components/index/HomeCTA.vue";
+import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 
 export default {
   components: {
-    // HeaderOne,
-    LayoutOne,
+    HeaderOne,
     AboutTopBar,
     FaqArea,
-    // FooterSix,
+    HomeCTA,
+    Footer,
     BackToTop,
   },
   setup() {
