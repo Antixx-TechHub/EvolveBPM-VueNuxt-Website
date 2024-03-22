@@ -91,7 +91,7 @@
                       <div class="col-md-5">
                         <img
                           :class="`portfolio-2-${item.image[0].id} 
-                                                                                                       wow fadeInRightPortfolio${item.image[0].id}`"
+                          wow fadeInRightPortfolio${item.image[0].id}`"
                           :src="item.image[0].img" data-sal="slide-down" data-sal-delay="170" data-sal-duration="1000"
                           alt="image" />
                       </div>
@@ -142,6 +142,7 @@ import portfolio_3 from "~/assets/img/portfolio/2/portfolio-3.jpg";
 import portfolio_4 from "~/assets/img/portfolio/2/portfolio-4.jpg";
 import portfolio_5 from "~/assets/img/portfolio/2/portfolio-5.jpg";
 import portfolio_6 from "~/assets/img/portfolio/2/portfolio-6.png";
+import statistics from "~/assets/img/home/statistics.png";
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {
@@ -167,7 +168,7 @@ export default {
                     </svg>`,
           tags: ["User Research", "UX Design"],
           // title: "Statistics",
-          image: [{ id: 6, img: portfolio_6 }],
+          image: [{ id: 6, img: statistics }],
           bg_color: "pink",
         },
       ],
