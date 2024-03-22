@@ -39685,8 +39685,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .brand__item-5 {
-  width: 260px !important;
+  width: 200px !important;
   height: 154px;
+  padding-right: 30px;
+  padding-left: 30px;
   /* border: 1px solid rgba(4, 18, 31, 0.1019607843); */
   text-align: center;
   line-height: 160px;

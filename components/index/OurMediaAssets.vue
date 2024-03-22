@@ -88,30 +88,23 @@
 
 <script>
 // external
+import OurMediaAssetsItems from './OurMediaAssetsItems.vue';
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from 'swiper';
 // internal
-import brand_1 from "~/assets/img/brand/5/brand-1.png";
-import brand_2 from "~/assets/img/brand/5/brand-2.png";
-import brand_3 from "~/assets/img/brand/5/brand-3.png";
-import brand_4 from "~/assets/img/brand/5/brand-4.png";
-import brand_5 from "~/assets/img/brand/5/brand-5.png";
-import brand_6 from "~/assets/img/brand/5/brand-6.png";
-import brand_7 from "~/assets/img/brand/5/brand-7.png";
-import brand_8 from "~/assets/img/brand/5/brand-8.png";
-
-
-//skill images
-import skill_icon_1 from "~/assets/img/skill/skill-icon-1.png";
-import skill_icon_2 from "~/assets/img/skill/skill-icon-2.png";
-import skill_icon_3 from "~/assets/img/skill/skill-icon-3.png";
-import skill_icon_4 from "~/assets/img/skill/skill-icon-4.png";
-import skill_icon_5 from "~/assets/img/skill/skill-icon-5.png";
-import skill_icon_6 from "~/assets/img/skill/skill-icon-6.png";
-// company icon
-// import company_icon_1 from "~/assets/img/skill/company/company-icon-1.png";
-// SingleCarrerItem
-import OurMediaAssetsItems from './OurMediaAssetsItems.vue';
+import brand_1 from "~/assets/img/brand/5/microsites-1.svg";
+import brand_2 from "~/assets/img/brand/5/microsites-2.svg";
+import brand_3 from "~/assets/img/brand/5/microsites-3.svg";
+import brand_4 from "~/assets/img/brand/5/microsites-4.svg";
+import brand_5 from "~/assets/img/brand/5/microsites-5.svg";
+import brand_6 from "~/assets/img/brand/5/microsites-6.svg";
+import brand_7 from "~/assets/img/brand/5/microsites-7.svg";
+import brand_8 from "~/assets/img/brand/5/microsites-8.svg";
+import brand_9 from "~/assets/img/brand/5/microsites-9.svg";
+import brand_10 from "~/assets/img/brand/5/microsites-10.svg";
+import brand_11 from "~/assets/img/brand/5/microsites-11.svg";
+import brand_12 from "~/assets/img/brand/5/microsites-12.svg";
+import brand_13 from "~/assets/img/brand/5/microsites-13.svg";
 
 export default {
   components: { OurMediaAssetsItems, Swiper, SwiperSlide },
@@ -142,40 +135,15 @@ export default {
         { brand: brand_4 },
         { brand: brand_5 },
         { brand: brand_6 },
-        { brand: brand_7 },
-        { brand: brand_2 },
-        { brand: brand_4 },
-        { brand: brand_6 },
-        { brand: brand_1 },
       ],
       brand_2_data: [
-        { brand: brand_1 },
-        { brand: brand_3 },
-        { brand: brand_6 },
-        { brand: brand_5 },
-        { brand: brand_8 },
-        { brand: brand_2 },
         { brand: brand_7 },
-        { brand: brand_2 },
-        { brand: brand_5 },
-        { brand: brand_1 },
-        { brand: brand_6 },
-      ],
-      skill_data: [
-        {
-          skill_items: [
-            { icon: skill_icon_1, },
-            { icon: skill_icon_2, },
-            { icon: skill_icon_6, },
-          ],
-        },
-        {
-          skill_items: [
-            { icon: skill_icon_3, },
-            { icon: skill_icon_4, },
-            { icon: skill_icon_5, },
-          ],
-        },
+        { brand: brand_8 },
+        { brand: brand_9 },
+        { brand: brand_10 },
+        { brand: brand_11 },
+        { brand: brand_12 },
+        { brand: brand_13 },
       ],
       career_data: [
         {
