@@ -128,8 +128,14 @@ import brand_3 from "~/assets/img/brand/5/brand-3.png";
 import brand_4 from "~/assets/img/brand/5/brand-4.png";
 import brand_5 from "~/assets/img/brand/5/brand-5.png";
 import brand_6 from "~/assets/img/brand/5/brand-6.png";
-import brand_7 from "~/assets/img/brand/5/brand-7.png";
-import brand_8 from "~/assets/img/brand/5/brand-8.png";
+import brand_9 from "~/assets/img/brand/5/brand-9.png";
+import brand_10 from "~/assets/img/brand/5/brand-10.png";
+import brand_11 from "~/assets/img/brand/5/brand-11.png";
+import brand_12 from "~/assets/img/brand/5/brand-12.png";
+import brand_13 from "~/assets/img/brand/5/brand-13.png";
+import brand_14 from "~/assets/img/brand/5/brand-14.png";
+import brand_15 from "~/assets/img/brand/5/brand-15.png";
+import brand_16 from "~/assets/img/brand/5/brand-16.png";
 
 export default {
     components: { Swiper, SwiperSlide },
@@ -160,24 +166,30 @@ export default {
                 { brand: brand_4 },
                 { brand: brand_5 },
                 { brand: brand_6 },
-                { brand: brand_7 },
-                { brand: brand_2 },
-                { brand: brand_4 },
-                { brand: brand_6 },
-                { brand: brand_1 },
+                { brand: brand_9 },
+                { brand: brand_10 },
+                { brand: brand_11 },
+                { brand: brand_12 },
+                { brand: brand_13 },
+                { brand: brand_14 },
+                { brand: brand_15 },
+                { brand: brand_16 },
             ],
             brand_2_data: [
                 { brand: brand_1 },
+                { brand: brand_2 },
                 { brand: brand_3 },
-                { brand: brand_6 },
+                { brand: brand_4 },
                 { brand: brand_5 },
-                { brand: brand_8 },
-                { brand: brand_2 },
-                { brand: brand_7 },
-                { brand: brand_2 },
-                { brand: brand_5 },
-                { brand: brand_1 },
                 { brand: brand_6 },
+                { brand: brand_9 },
+                { brand: brand_10 },
+                { brand: brand_11 },
+                { brand: brand_12 },
+                { brand: brand_13 },
+                { brand: brand_14 },
+                { brand: brand_15 },
+                { brand: brand_16 },
             ],
         };
     },
