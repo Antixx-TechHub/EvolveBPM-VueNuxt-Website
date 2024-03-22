@@ -34,27 +34,27 @@
                     <div :class="`brand__slider-5 ${square ? square : ''}`">
                         <div class="brand__slider-5">
                             <swiper class="brand__slider-active-5" :freeMode="true" :loop="true" :autoplay="{
-                                delay: 1,
-                                pauseOnMouseEnter: true,
-                            }" :slidesPerView="1" :centeredSlides="true" :centeredSlidesBounds="true" :speed="4000"
+        delay: 1,
+        pauseOnMouseEnter: true,
+    }" :slidesPerView="1" :centeredSlides="true" :centeredSlidesBounds="true" :speed="4000"
                                 :modules="modules" :shortSwipes="false" :longSwipes="false" :allowTouchMove="false"
                                 :grabCursor="false" :breakpoints="{
-                                    '0': {
-                                        slidesPerView: 1,
-                                    },
-                                    '576': {
-                                        slidesPerView: 2,
-                                    },
-                                    '768': {
-                                        slidesPerView: 4,
-                                    },
-                                    '991': {
-                                        slidesPerView: 5,
-                                    },
-                                    '1200': {
-                                        slidesPerView: 7,
-                                    },
-                                }">
+        '0': {
+            slidesPerView: 1,
+        },
+        '576': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 4,
+        },
+        '991': {
+            slidesPerView: 5,
+        },
+        '1200': {
+            slidesPerView: 7,
+        },
+    }">
                                 <swiper-slide v-for="(brand, i) in brand_1_data" :key="i">
                                     <div class="brand__item-5">
                                         <img :src="brand.brand" alt="brand" />
@@ -81,28 +81,28 @@
                         <div class="brand__slider-5">
                             <swiper ref="swiper_slide" class="brand__slider-active-5-1" :freeMode="true" :loop="true"
                                 :autoplay="{
-                                    delay: 1,
-                                    disableOnInteraction: true,
-                                    reverseDirection: true,
-                                }" :slidesPerView="1" :centeredSlides="true" :speed="5000" :modules="modules"
+        delay: 1,
+        disableOnInteraction: true,
+        reverseDirection: true,
+    }" :slidesPerView="1" :centeredSlides="true" :speed="5000" :modules="modules"
                                 :shortSwipes="false" :longSwipes="false" :allowTouchMove="false" :grabCursor="false"
                                 :breakpoints="{
-                                    '0': {
-                                        slidesPerView: 1,
-                                    },
-                                    '576': {
-                                        slidesPerView: 2,
-                                    },
-                                    '768': {
-                                        slidesPerView: 4,
-                                    },
-                                    '991': {
-                                        slidesPerView: 5,
-                                    },
-                                    '1200': {
-                                        slidesPerView: 7,
-                                    },
-                                }">
+        '0': {
+            slidesPerView: 1,
+        },
+        '576': {
+            slidesPerView: 2,
+        },
+        '768': {
+            slidesPerView: 4,
+        },
+        '991': {
+            slidesPerView: 5,
+        },
+        '1200': {
+            slidesPerView: 7,
+        },
+    }">
                                 <swiper-slide v-for="(brand, i) in brand_2_data" :key="i">
                                     <div class="brand__item-5">
                                         <img :src="brand.brand" alt="brand" />
@@ -116,7 +116,7 @@
         </div>
     </section>
 </template>
-  
+
 <script>
 // external
 import { Swiper, SwiperSlide } from "swiper/vue";

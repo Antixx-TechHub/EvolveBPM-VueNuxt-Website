@@ -73,8 +73,7 @@
                   </div>
                 </summary>
                 <div class="accordion-content">
-                  <li><nuxt-link href="/blog-grid">Blogs</nuxt-link></li>
-                    <li><nuxt-link href="/success-stories">Success Stories</nuxt-link></li>
+                  <li><nuxt-link href="/blogs">Blogs</nuxt-link></li>
                     <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
                 </div>
               </details>

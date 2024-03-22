@@ -92,9 +92,8 @@ export default {
           title: "Resourcs",
           link: "/",
           submenus: [
-            { title: "Blogs", link: "/" },
-            { title: "Success Stories", link: "/" },
-            { title: "Case Studies", link: "/" },
+            { title: "Blogs", link: "/blogs" },
+            { title: "Case Studies", link: "/case-studies" },
           ],
         },
         {

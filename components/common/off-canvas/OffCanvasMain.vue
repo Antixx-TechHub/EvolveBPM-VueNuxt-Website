@@ -51,8 +51,7 @@
                 <li class="has-dropdown">
                   <nuxt-link href="/">Resources</nuxt-link>
                   <ul class="submenu">
-                    <li><nuxt-link href="/blog-grid">Blogs</nuxt-link></li>
-                    <li><nuxt-link href="/success-stories">Success Stories</nuxt-link></li>
+                    <li><nuxt-link href="/blogs">Blogs</nuxt-link></li>
                     <li><nuxt-link href="/case-studies">Case studies</nuxt-link></li>
                   </ul>
                 </li>
