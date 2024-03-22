@@ -45923,7 +45923,11 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   letter-spacing: -0.02em;
   color: #525258;
   margin-bottom: 0;
-  word-wrap: break-word;
+  word-break: break-all;
+}
+
+p.c {
+  word-break: break-all;
 }
 
 .contact__location-content p a:hover {
