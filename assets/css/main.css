@@ -20395,8 +20395,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .slider__shape-5 {
   position: absolute;
-  top: 15%;
-  left: 2%;
+  max-width: 75px;
+  top: 64%;
+  left: 35%;
   -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
   -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
   animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
@@ -20404,8 +20405,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .slider__shape-6 {
   position: absolute;
-  bottom: 32%;
-  left: 6%;
+  max-width: 70px;
+  bottom: 8%;
+  left: 28%;
   -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
   -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
   animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
@@ -20422,11 +20424,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .slider__shape-8 {
   position: absolute;
-  top: 19%;
-  left: 37%;
-  -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
-  -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
-  animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+  max-width: 42px;
+  top: 32%;
+  left: 30%;
+  -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
 }
 
 .slider__shape-9 {
@@ -25468,6 +25471,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .about__gallery-slider .slick-list {
     overflow: hidden;
   }
+}
+
+.dropshowdow {
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
 .about__gallery-slider .slick-slide>div {

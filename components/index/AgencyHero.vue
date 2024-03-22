@@ -3,9 +3,10 @@
     class="slider__area box-plr-5-245 pt-150 pb-50 slider__height-5 d-flex align-items-center hero-bg-5 p-relative z-index-1 fix">
     <div class="slider__shape">
       <img class="slider__shape-5" src="~/assets/img/slider/5/shape/slider-shape-1.png" alt="shape">
-      <img class="slider__shape-6" src="~/assets/img/slider/5/shape/slider-shape-2.png" alt="shape">
       <img class="slider__shape-7" src="~/assets/img/slider/5/shape/slider-shape-3.png" alt="shape">
-      <img class="slider__shape-8" src="~/assets/img/slider/5/shape/slider-shape-4.png" alt="shape">
+      <img class="slider__shape-5" src="~/assets/img/slider/5/shape/slider-shape-5.svg" alt="shape">
+      <img class="slider__shape-8" src="~/assets/img/slider/5/shape/slider-shape-6.svg" alt="shape">
+      <img class="slider__shape-6" src="~/assets/img/slider/5/shape/slider-shape-7.svg" alt="shape">
     </div>
     <div class="container-fluid">
       <div class="row">
@@ -31,7 +32,7 @@
 
           <div :class="`brand__slider-5 ${square ? square : ''}`">
             <div class="brand__slider-5">
-              <swiper class="brand__slider-active-5" :freeMode="true" :loop="true" :autoplay="{
+              <swiper class="brand__slider-active-5 dropshowdow" :freeMode="true" :loop="true" :autoplay="{
             delay: 3,
             pauseOnMouseEnter: true,
           }" :slidesPerView="2" :centeredSlides="true" :centeredSlidesBounds="true" :speed="8000" :modules="modules"
