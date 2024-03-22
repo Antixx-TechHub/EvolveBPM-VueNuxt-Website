@@ -22,7 +22,8 @@
               <div class="services__thumb-5">
                 <img :src="item.img" alt="" />
               </div>
-              <div class="tp-button-demo"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a></div>
+              <div class="tp-button-demo pt-30"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a>
+              </div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
                   <nuxt-link href="/">{{ item.title }}</nuxt-link>
@@ -47,14 +48,15 @@
     </div>
   </section>
 </template>
-  
+
 <script>
 // service image
-import predictor from "~/assets/img/home/predictor.png";
-import intello from "~/assets/img/home/intello.png";
-import connectmetrics from "~/assets/img/home/connect-metrics.png";
+import predictor from "~/assets/img/home/predictor-abm.svg";
+import profilepioneer from "~/assets/img/home/profile-pioneer.svg";
+import Intello from "~/assets/img/home/Intello.svg";
+import connectmetrics from "~/assets/img/home/connect-metrics.svg";
+import innovator from "~/assets/img/home/innovator.svg";
 import agn_ser_1 from "~/assets/img/home/app-img2.png";
-import innovator from "~/assets/img/home/innovator.png";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
@@ -63,38 +65,20 @@ export default {
     return {
       service_data: [
         {
-          id: 1,
-          delay: "130",
-          img: intello,
-          product: "Predictor",
-          title: "ABM Precision Made Easy",
-          // subtitle:
-          //   "Juggling between using all your energy in planning, applying, and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things that make up your campaign.",
-        },
-        {
-          id: 2,
-          delay: "150",
-          img: connectmetrics,
-          product: "Intello",
-          title: "Real-Time Metrics Mastery",
-          // subtitle:
-          //   "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
-        },
-        {
           id: 3,
           delay: "170",
-          img: predictor,
+          img: connectmetrics,
           product: "Connect Metrics",
-          title: "Effortless Connection Building",
+          title: "LinkedIn Relationship Metrics Tool.",
           // subtitle:
           //   "All those numbers we keep referring our audience as it's time to strengthen our base foundation with client connections! The perfect tech helps you eliminate communication barriers and build long-term trust – want to build yours?",
         },
         {
           id: 4,
           delay: "150",
-          img: agn_ser_1,
-          product: "Profile Forge",
-          title: "Unveiling Prospect Potential",
+          img: profilepioneer,
+          product: "Profile Pioneer",
+          title: "Evolve’s LinkedIn Profiling Tool.",
           // subtitle:
           //   "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
         },
@@ -103,9 +87,27 @@ export default {
           delay: "170",
           img: innovator,
           product: "Innovator",
-          title: "Content Strategy Redefined",
+          title: "AI-based Digital Marketing Platform.",
           // subtitle:
           //   "All those numbers we keep referring our audience as it's time to strengthen our base foundation with client connections! The perfect tech helps you eliminate communication barriers and build long-term trust – want to build yours?",
+        },
+        {
+          id: 1,
+          delay: "130",
+          img: predictor,
+          product: "PredictorABM",
+          title: "Intelligent AI-Driven Account Management.",
+          // subtitle:
+          //   "Juggling between using all your energy in planning, applying, and executing ABM campaigns while demand gen funnel side by side in a broken ecosystem? Let us give you more than just breathing space - a comprehensive habitat for all things that make up your campaign.",
+        },
+        {
+          id: 2,
+          delay: "150",
+          img: Intello,
+          product: "intello",
+          title: "Market & Competitive Intelligence Platform.",
+          // subtitle:
+          //   "Is AI smarter than us? Maybe when it comes to reading data. This is why it sees patterns, practices, and preferences that our clients display when interacting with our assets. Want to know what your clients value?",
         },
       ],
     };
