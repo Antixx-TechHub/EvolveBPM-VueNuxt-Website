@@ -38,7 +38,7 @@
                   <nuxt-link href="/" v-if="!header_solid && !header_black">
                     <img
                       class="logo-light"
-                      src="~/assets/img/logo/logo-black.svg"
+                      src="~/assets/img/logo/logo.svg"
                       alt="logo"
                     />
                     <img
