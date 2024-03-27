@@ -48,13 +48,13 @@
         </div>
       </div>
 
-      <div class="row justify-content-center">
+      <!-- <div class="row justify-content-center">
         <div class="col-xxl-4">
           <div class="tp-pagination mt-20">
             <blog-pagination />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
