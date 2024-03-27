@@ -18249,9 +18249,21 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media (max-width: 575px) {
   .slider__title-5 {
-    font-size: 38px;
+    font-size: 58px;
     line-height: 38px;
+    text-align: center;
   }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 32px;
+    top: 20%;
+    left: 78%;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
 }
 
 .slider__title-6 {
@@ -18934,6 +18946,37 @@ strong.framer-text {
 @media (max-width: 575px) {
   .slider__content-5>p {
     padding-right: 0;
+        text-align: center;
+  }
+
+  .slider__shape-8 {
+    position: absolute !important;
+    max-width: 32px !important;
+    top: 20% !important;
+    left: 78% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+
+  .slider__shape-5 {
+    position: absolute !important;
+    max-width: 56px !important;
+    top: 52% !important;
+    left: 55% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+
+  .slider__shape-6 {
+    position: absolute !important;
+    max-width: 50px !important;
+    top: 50% !important;
+    left: 75% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
   }
 
   [dir=rtl] .slider__content-5>p {
