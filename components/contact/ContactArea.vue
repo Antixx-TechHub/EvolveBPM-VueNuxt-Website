@@ -19,7 +19,7 @@
         <div class="col-xl-4 col-lg-4 col-md-6">
           <div class="contact__item text-center mb-30 transition-3 white-bg">
             <div class="contact__icon">
-              <img src="~/assets/img/contact/icon/contact-icon-3.png" alt="">
+              <img src="~/assets/img/contact/icon/contact-icon-2.png" alt="">
             </div>
             <div class="contact__content">
               <span class="contact-item-subtitle">Location</span>
@@ -32,7 +32,7 @@
         <div class="col-xl-4 col-lg-4 col-md-6">
           <div class="contact__item text-center mb-30 transition-3 white-bg">
             <div class="contact__icon">
-              <img src="~/assets/img/contact/icon/contact-icon-2.png" alt="">
+              <img src="~/assets/img/contact/icon/contact-icon-3.png" alt="">
             </div>
             <div class="contact__content">
               <span class="contact-item-subtitle">Social Media</span>
