@@ -89,8 +89,8 @@
                   AI-based Digital Marketing Platform.
                 </h3>
                 <div class="tp-button-demo">
-                  <nuxt-link href="/inovator" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14"
-                        height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <nuxt-link href="/inovator" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                           stroke-linejoin="round"></path>
                         <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
@@ -118,8 +118,8 @@
                   Intelligent AI-Driven Account Management.
                 </h3>
                 <div class="tp-button-demo">
-                  <nuxt-link href="/predictor" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14"
-                        height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <nuxt-link href="/predictor" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                           stroke-linejoin="round"></path>
                         <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
@@ -147,8 +147,8 @@
                   Market & Competitive Intelligence Platform.
                 </h3>
                 <div class="tp-button-demo">
-                  <nuxt-link href="/intello" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14"
-                        height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <nuxt-link href="/intello" class="tp-link-btn-2 mr-15"> Learn More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                           stroke-linejoin="round"></path>
                         <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
