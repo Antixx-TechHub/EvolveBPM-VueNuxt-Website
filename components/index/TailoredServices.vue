@@ -14,23 +14,107 @@
           </div>
         </div>
       </div>
+
       <div class="row">
-        <div v-for="item in service_data" :key="item.id" class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
-          <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="item.delay"
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+          <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="130"
             data-sal-duration="1000">
             <div class="services__item-5-inner text-center transition-3 white-bg">
               <div class="services__thumb-5">
-                <img :src="item.img" alt="" />
+                <img src="~/assets/img/home/irev.svg" />
               </div>
-              <div class="tp-button-demo pt-30"><a href="#" class="tp-btn-blue-2 tp-link-btn-3">{{ item.product }}</a></div>
+              <div class="tp-button-demo pt-30"><nuxt-link href="/iRev"
+                  class="tp-btn-blue-2 tp-link-btn-3">iRev</nuxt-link></div>
               <div class="services__content-5">
                 <h3 class="services__title-5">
-                  <i> <nuxt-link href="/">{{ item.title }}</nuxt-link> </i>
+                  <i> cross funnel lead generation including MQL / SQL & HQL- appointment set-up. </i>
                 </h3>
-                <!-- <p>{{ item.subtitle }}</p> -->
-
                 <div class="tp-button-demo">
-                  <nuxt-link href="/" class="tp-link-btn-2 mr-15"> Know More <span><svg width="14" height="14"
+                  <nuxt-link href="/iRev" class="tp-link-btn-2 mr-15"> Know More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                        <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                      </svg></span>
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+          <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="130"
+            data-sal-duration="1000">
+            <div class="services__item-5-inner text-center transition-3 white-bg">
+              <div class="services__thumb-5">
+                <img src="~/assets/img/home/idata.svg" />
+              </div>
+              <div class="tp-button-demo pt-30"><nuxt-link href="/idata"
+                  class="tp-btn-blue-2 tp-link-btn-3">iData</nuxt-link></div>
+              <div class="services__content-5">
+                <h3 class="services__title-5">
+                  <i> data build, cleanse, verify, validate, intent & install base. </i>
+                </h3>
+                <div class="tp-button-demo">
+                  <nuxt-link href="/idata" class="tp-link-btn-2 mr-15"> Know More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                        <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                      </svg></span>
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+          <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="170"
+            data-sal-duration="1000">
+            <div class="services__item-5-inner text-center transition-3 white-bg">
+              <div class="services__thumb-5">
+                <img src="~/assets/img/home/iintel.svg" />
+              </div>
+              <div class="tp-button-demo pt-30"><nuxt-link href="/ilntel"
+                  class="tp-btn-blue-2 tp-link-btn-3">iintel</nuxt-link></div>
+              <div class="services__content-5">
+                <h3 class="services__title-5">
+                  research services for company and market research.
+                </h3>
+                <div class="tp-button-demo">
+                  <nuxt-link href="/ilntel" class="tp-link-btn-2 mr-15"> Know More <span><svg width="14" height="14"
+                        viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                        <path d="M7 1L13 7L7 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                      </svg></span>
+                  </nuxt-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+          <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-sal="slide-up" data-sal-delay="190"
+            data-sal-duration="1000">
+            <div class="services__item-5-inner text-center transition-3 white-bg">
+              <div class="services__thumb-5">
+                <img src="~/assets/img/home/imedia.svg" />
+              </div>
+              <div class="tp-button-demo pt-30"><nuxt-link href="/imedia"
+                  class="tp-btn-blue-2 tp-link-btn-3">imedia</nuxt-link></div>
+              <div class="services__content-5">
+                <h3 class="services__title-5">
+                  digital services including programmatic display, LinkedIn, paid social media.
+                </h3>
+                <div class="tp-button-demo">
+                  <nuxt-link href="/imedia" class="tp-link-btn-2 mr-15"> Know More <span><svg width="14" height="14"
                         viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 7H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                           stroke-linejoin="round"></path>
@@ -47,59 +131,11 @@
     </div>
   </section>
 </template>
-  
+
 <script>
-// service image
-import irev from "~/assets/img/home/irev.svg";
-import idata from "~/assets/img/home/idata.svg";
-import iintel from "~/assets/img/home/iintel.svg";
-import imedia from "~/assets/img/home/imedia.svg";
 import SalScrollAnimationMixin from '~/mixins/SalScrollAnimationMixin';
 
 export default {
   mixins: [SalScrollAnimationMixin],
-  data() {
-    return {
-      service_data: [
-        {
-          id: 1,
-          delay: "130",
-          img: irev,
-          product: "iRev",
-          title: "cross funnel lead generation including MQL / SQL & HQL- appointment set-up.",
-          subtitle:
-            "where the i stands for ‘Impact’ and Rev is for the leads we are all set to generate to add to your ‘Revenue’! Are you looking to create a community with high growth opportunities? ",
-        },
-        {
-          id: 2,
-          delay: "150",
-          img: idata,
-          product: "iData",
-          title: "data build, cleanse, verify, validate, intent & install base.",
-          subtitle:
-            "Your one stop shop for all your data needs. Whether it is to build a data base, cleanse an existing database, verify and validate or study intent – our expert data analysts have you covered.",
-        },
-        {
-          id: 3,
-          delay: "170",
-          img: iintel,
-          product: "iintel",
-          title: "research services for company and market research.",
-          subtitle:
-            "What would you call a disruptive lead data generator that has the capability to give you 70%-90% conversion ready data – a tool or a gold mine? We are set to dig for you!.",
-        },
-        {
-          id: 4,
-          delay: "170",
-          img: imedia,
-          product: "imedia",
-          title: "digital services including programmatic display, LinkedIn, paid social media.",
-          subtitle:
-            "How strong would your social language be if your media content creation was built on two pillars – audience demand and our corresponding solutions? With expertise and in-depth research, we are set to hijack engagement!",
-        },
-
-      ],
-    };
-  },
 };
 </script>
