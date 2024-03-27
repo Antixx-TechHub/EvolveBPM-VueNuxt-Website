@@ -8,7 +8,7 @@
         <div class="col-xl-8 col-lg-10">
           <div class="about__heading-content text-center p-relative z-index-1">
             <h3 class="about__heading-title">
-             Profile Forge
+              Profile Pioneer
             </h3>
             <span class="about__heading-subtitle">Unveiling Prospect Potential</span>
           </div>
