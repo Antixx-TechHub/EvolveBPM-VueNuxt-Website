@@ -73,32 +73,112 @@
                                 <p>Transparency – Of how your unit is functioning through access to operational metrics and systems.</p>
                             </div>
                         </div>
-                        <div class="about__list-item d-flex align-items-center">
+                        <!-- <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
                                 <p>Accountability – Of our deliveries.</p>
                             </div>
-                        </div>
-                        <div class="about__list-item d-flex align-items-center">
+                        </div> -->
+                        <!-- <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
                                 <p>Authenticity – Of every lead we capture.</p>
                             </div>
-                        </div>
-                        <div class="about__list-item d-flex align-items-center">
+                        </div> -->
+                        <!-- <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
                                 <p>Security – Of your & clients and data.</p>
                             </div>
+                        </div> -->
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                            <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top d-flex align-items-start justify-content-between">
+                                    <div class="services__icon-9">
+                                        <span>
+                                            <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
+                                                    alt="" /></span>
+                                            <!-- <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" /> -->
+                                        </span>
+                                    </div>
+                                    <div class="services__btn-9">
+                                        <nuxt-link href="/service-details">
+                                            <i class="fa-light fa-arrow-up-right"></i>
+                                        </nuxt-link>
+                                    </div>
+                                </div>
+                                <div class="services__content-9">
+                                    <h3 class="services__title-9">
+                                        Accountability
+                                    </h3>
+                                    <span class="services-project">Of our<br> deliveries.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                            <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top d-flex align-items-start justify-content-between">
+                                    <div class="services__icon-9">
+                                        <span>
+                                            <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
+                                                    alt="" /></span>
+                                            <!-- <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" /> -->
+                                        </span>
+                                    </div>
+                                    <div class="services__btn-9">
+                                        <nuxt-link href="/service-details">
+                                            <i class="fa-light fa-arrow-up-right"></i>
+                                        </nuxt-link>
+                                    </div>
+                                </div>
+                                <div class="services__content-9">
+                                    <h3 class="services__title-9">
+                                        Authenticity
+                                    </h3>
+                                    <span class="services-project">Of every lead we capture.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                            <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top d-flex align-items-start justify-content-between">
+                                    <div class="services__icon-9">
+                                        <span>
+                                            <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
+                                                    alt="" /></span>
+                                            <!-- <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" /> -->
+                                        </span>
+                                    </div>
+                                    <div class="services__btn-9">
+                                        <nuxt-link href="/service-details">
+                                            <i class="fa-light fa-arrow-up-right"></i>
+                                        </nuxt-link>
+                                    </div>
+                                </div>
+                                <div class="services__content-9">
+                                    <h3 class="services__title-9">
+                                        Security
+                                    </h3>
+                                    <span class="services-project">Of your & clients and data.</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                     <div class="blog__more-6 text-md-end mb-30">
                         <nuxt-link href="/request-demo" class="tp-btn btn-cta bg-btn lnk">
                             Request A Demo
                             <i class="fas fa-chevron-right fa-icon"></i>
                             <span class="circle"></span>
                         </nuxt-link>
-                    </div>
+                        </div>
+
                 </div>
 
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-5">
@@ -125,7 +205,7 @@
         </div>
     </section>
 </template>
-  
+
 <script>
 export default {
     props: {

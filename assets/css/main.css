@@ -27495,7 +27495,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__item-9 {
-  padding: 40px 42px 37px 40px;
+  padding: 30px 20px 20px 30px;
   border: 1px solid #EAEAEF;
   background-color: var(--tp-common-white);
   position: relative;
@@ -27759,7 +27759,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__icon-9 span img {
   position: absolute;
   bottom: -17px;
-  right: -19px;
+  right: -45px;
 }
 
 [dir=rtl] .services__icon-9 span img {
@@ -27897,7 +27897,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .services__title-9 {
   font-family: var(--tp-ff-syne);
   font-weight: 700;
-  font-size: 26px;
+  font-size: 15px;
   line-height: 1;
   color: var(--tp-common-black);
 }
