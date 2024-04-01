@@ -10,7 +10,7 @@
     <OurMediaAssets />
     <DataStrategy />
     <CertificationsAwards />
-    <HomeCTA />
+    <!-- <HomeCTA /> -->
     <Location />
   </LayoutOne>
 </template>
@@ -27,7 +27,7 @@ import DeliveryChannels from "~/components/index/DeliveryChannels.vue";
 import OurMediaAssets from '~/components/index/OurMediaAssets.vue';
 import DataStrategy from "~/components/index/DataStrategy";
 import CertificationsAwards from '~/components/index/CertificationsAwards.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+// import HomeCTA from "~/components/index/HomeCTA.vue";
 import Location from "~/components/index/Location.vue";
 
 useHead({

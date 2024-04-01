@@ -1,6 +1,6 @@
 <template>
   <section
-    class="slider__area box-plr-5-245 pt-150 pb-50 slider__height-5 d-flex align-items-center hero-bg-5 p-relative z-index-1 fix">
+    class="slider__area box-plr-5-245 pt-150 pb-60 slider__height-5 d-flex align-items-center hero-bg-5 p-relative z-index-1 fix">
     <div class="slider__shape">
       <img class="slider__shape-5" src="~/assets/img/slider/5/shape/slider-shape-1.png" alt="shape">
       <img class="slider__shape-7" src="~/assets/img/slider/5/shape/slider-shape-3.png" alt="shape">
@@ -12,16 +12,16 @@
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <div class="slider__content-5">
-            <span class="slider__title-pre-5">
+            <!-- <span class="slider__title-pre-5">
               <button class="tp-btnr-yellow tp-btn-shine-effect">
                 Updates</button>
               Evolve celebrates Women's Day!
-            </span>
+            </span> -->
             <h3 class="slider__title-5">Unleash<br>Demand Gen<br>Operational<br>Excellence</h3>
             <p>With EvolveBPM, The <strong class="framer-text">White-Labeled, Back-Office Superpower</strong> for global
               agencies and publishers.</p>
 
-            <nuxt-link href="/about" class="tp-btnr-border-2 mb-15 tp-btn-shine-effect tp-link-btn-3">
+            <nuxt-link href="/#tpabout" class="tp-btnr-border-2 mb-15 tp-mouse-scroll-btn-shine-effect tp-link-btn-3">
               Explore
               <span><i class="fa-regular fa-arrow-right"></i></span>
             </nuxt-link>

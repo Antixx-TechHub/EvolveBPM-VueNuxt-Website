@@ -76,9 +76,9 @@
                   <h3 class="contact__location-title">EvolveBPM, LLC (Global Headquarters)</h3>
 
                   <div class="contact__location-info d-sm-flex flex-wrap align-items-center">
-                    <div class="contact__location-icon mr-45">
+                    <!-- <div class="contact__location-icon mr-45">
                       <img src="~/assets/img/contact/contact-location-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="contact__location-content">
                       <p>99 Wall Street #3966 New York, NY 10005.
                       </p>
@@ -105,11 +105,11 @@
                   <h3 class="contact__location-title">EvolveBPM Inc. Ltd. (UK Registered Office)</h3>
 
                   <div class="contact__location-info d-sm-flex flex-wrap align-items-center">
-                    <div class="contact__location-icon mr-45">
+                    <!-- <div class="contact__location-icon mr-45">
                       <img src="~/assets/img/contact/contact-location-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="contact__location-content">
-                      <p>12 Constance Street, London, England<br>E16 2DQ, GB.
+                      <p>12 Constance Street, London, England E16 2DQ, GB.
                       </p>
                       <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
                       <p><a href="tel:+91-020-69029999"></a>+91-020-69029999</p>
@@ -134,12 +134,12 @@
                   <h3 class="contact__location-title">EvolveBPM Inc (PHL Registered Office)</h3>
 
                   <div class="contact__location-info d-sm-flex flex-wrap align-items-center">
-                    <div class="contact__location-icon mr-45">
+                    <!-- <div class="contact__location-icon mr-45">
                       <img src="~/assets/img/contact/contact-location-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="contact__location-content">
-                      <p>9th Floor, Arthaland Century Pacific Tower, <br>4th Avenue cor 30th Street Bonifacio Global<br>
-                        City, Taguig City, Philippines 1634 City.
+                      <p>9th Floor, Arthaland Century Pacific Tower, 4th Avenue cor <br>30th Street Bonifacio Global
+                        City, Taguig City, Philippines <br>1634 City.
                       </p>
                       <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
                       <p><a href="tel:+91-020-69029999"></a>+91-020-69029999</p>
@@ -164,11 +164,11 @@
                   <h3 class="contact__location-title">EvolveBPM OPC PVT Ltd (INDIA Head Office)</h3>
 
                   <div class="contact__location-info d-sm-flex flex-wrap align-items-center">
-                    <div class="contact__location-icon mr-45">
+                    <!-- <div class="contact__location-icon mr-45">
                       <img src="~/assets/img/contact/contact-location-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="contact__location-content">
-                      <p>Old Madras Road, 903 Brigade Paramount,<br> Bangalore, Karnataka 560093, IN.
+                      <p>Old Madras Road, 903 Brigade Paramount, Bangalore, <br>Karnataka 560093, IN.
                       </p>
                       <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
                       <p><a href="tel:+91-020-69029999"></a>+91-020-69029999</p>
@@ -193,11 +193,11 @@
                   <h3 class="contact__location-title">EvolveBPM OPC PVT Ltd (INDIA Operations Unit 1)</h3>
 
                   <div class="contact__location-info d-sm-flex flex-wrap align-items-center">
-                    <div class="contact__location-icon mr-45">
+                    <!-- <div class="contact__location-icon mr-45">
                       <img src="~/assets/img/contact/contact-location-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="contact__location-content">
-                      <p>BANGALORE - Ginserv, Incubator 4, 2nd Flr <br>HAL 3rd Stage, Kodihalli, Bangalore – 560008.
+                      <p>BANGALORE - Ginserv, Incubator 4, 2nd Flr HAL 3rd Stage,<br> Kodihalli, Bangalore – 560008.
                       </p>
                       <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
                       <p><a href="tel:+91-020-69029999"></a>+91-020-69029999</p>
@@ -222,12 +222,12 @@
                   <h3 class="contact__location-title">EvolveBPM OPC PVT Ltd (INDIA Operations Unit 2)</h3>
 
                   <div class="contact__location-info d-sm-flex flex-wrap align-items-center">
-                    <div class="contact__location-icon mr-45">
+                    <!-- <div class="contact__location-icon mr-45">
                       <img src="~/assets/img/contact/contact-location-1.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="contact__location-content">
-                      <p>PUNE - Vatika Business Centre & Co-working <br>Spaces, 3rd Floor, Sky Belvedere, Opp
-                        <br>Symbiosis Law College, New Airport Rd, <br>Viman Nagar, Pune 411014, Maharashtra, IN.
+                      <p>PUNE - Vatika Business Centre & Co-working Spaces, 3rd <br>Floor, Sky Belvedere, Opp
+                        Symbiosis Law College, New <br>Airport Rd, Viman Nagar, Pune 411014, Maharashtra, IN.
                       </p>
                       <p><a href="mailto:corporate@evolvebpm.com">corporate@evolvebpm.com</a></p>
                       <p><a href="tel:+91-020-69029999"></a>+91-020-69029999</p>
