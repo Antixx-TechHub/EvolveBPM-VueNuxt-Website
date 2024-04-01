@@ -136,6 +136,14 @@ import brand_13 from "~/assets/img/brand/5/brand-13.png";
 import brand_14 from "~/assets/img/brand/5/brand-14.png";
 import brand_15 from "~/assets/img/brand/5/brand-15.png";
 import brand_16 from "~/assets/img/brand/5/brand-16.png";
+import brand_17 from "~/assets/img/brand/5/brand-17.png";
+import brand_18 from "~/assets/img/brand/5/brand-18.png";
+import brand_19 from "~/assets/img/brand/5/brand-19.png";
+import brand_20 from "~/assets/img/brand/5/brand-20.png";
+import brand_21 from "~/assets/img/brand/5/brand-21.png";
+import brand_22 from "~/assets/img/brand/5/brand-22.png";
+import brand_23 from "~/assets/img/brand/5/brand-23.png";
+import brand_24 from "~/assets/img/brand/5/brand-24.png";
 
 export default {
     components: { Swiper, SwiperSlide },
@@ -160,36 +168,44 @@ export default {
     data() {
         return {
             brand_1_data: [
-                { brand: brand_1 },
-                { brand: brand_2 },
-                { brand: brand_3 },
-                { brand: brand_4 },
-                { brand: brand_5 },
-                { brand: brand_6 },
-                { brand: brand_9 },
-                { brand: brand_10 },
-                { brand: brand_11 },
-                { brand: brand_12 },
-                { brand: brand_13 },
-                { brand: brand_14 },
-                { brand: brand_15 },
-                { brand: brand_16 },
+                // { brand: brand_1 },
+                // { brand: brand_2 },
+                // { brand: brand_3 },
+                // { brand: brand_4 },
+                // { brand: brand_5 },
+                // { brand: brand_6 },
+                // { brand: brand_9 },
+                // { brand: brand_10 },
+                // { brand: brand_11 },
+                // { brand: brand_12 },
+                // { brand: brand_13 },
+                // { brand: brand_14 },
+                // { brand: brand_15 },
+                // { brand: brand_16 },
+                { brand: brand_20 },
+                { brand: brand_21 },
+                { brand: brand_22 },
+                { brand: brand_23 },
+                { brand: brand_24 },
             ],
             brand_2_data: [
-                { brand: brand_1 },
-                { brand: brand_2 },
-                { brand: brand_3 },
-                { brand: brand_4 },
-                { brand: brand_5 },
-                { brand: brand_6 },
-                { brand: brand_9 },
-                { brand: brand_10 },
-                { brand: brand_11 },
-                { brand: brand_12 },
-                { brand: brand_13 },
-                { brand: brand_14 },
-                { brand: brand_15 },
-                { brand: brand_16 },
+                // { brand: brand_1 },
+                // { brand: brand_2 },
+                // { brand: brand_3 },
+                // { brand: brand_4 },
+                // { brand: brand_5 },
+                // { brand: brand_6 },
+                // { brand: brand_9 },
+                // { brand: brand_10 },
+                // { brand: brand_11 },
+                // { brand: brand_12 },
+                // { brand: brand_13 },
+                // { brand: brand_14 },
+                // { brand: brand_15 },
+                // { brand: brand_16 },
+                { brand: brand_17 },
+                { brand: brand_18 },
+                { brand: brand_19 },
             ],
         };
     },
