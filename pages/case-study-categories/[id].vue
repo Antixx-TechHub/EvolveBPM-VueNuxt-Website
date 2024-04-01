@@ -5,7 +5,7 @@
     <div v-if="category !== null">
       <CategoryGridContents v-bind:detailsContent="category" />
     </div>
-    <HomeCTA />
+    <!-- <HomeCTA /> -->
     <Footer />
     <BackToTop />
   </div>
@@ -15,7 +15,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import Breadcrumb from '~~/components/case-studies/Breadcrumb.vue';
 import CategoryGridContents from '~~/components/case-studies/CategoryGridContents.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+// import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 import axios from 'axios';
@@ -25,7 +25,7 @@ export default {
     HeaderOne,
     Breadcrumb,
     CategoryGridContents,
-    HomeCTA,
+    // HomeCTA,
     Footer,
     BackToTop,
   },

@@ -20468,7 +20468,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__shape-8 {
   position: absolute;
   max-width: 42px;
-  top: 32%;
+  top: 25%;
   left: 30%;
   -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
@@ -40133,7 +40133,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .career__item {
-  padding: 43px 40px 37px;
+  padding: 10px 25px 10px;
   box-shadow: 0px 1px 3px rgba(22, 34, 19, 0.1), 0px 6px 0px #EDEDED;
   margin-bottom: 23px;
 }

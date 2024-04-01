@@ -1,16 +1,16 @@
 <template>
-  <section
-    class="about__heading about__heading-overlay about__spacing include-bg jarallax"
-    :style="{ backgroundImage: `url(${bg})` }"
-  >
+  <section class="about__heading about__heading-overlay about__spacing include-bg jarallax"
+    :style="{ backgroundImage: `url(${bg})` }">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8 col-lg-10">
           <div class="about__heading-content text-center p-relative z-index-1">
-            <span class="about__heading-subtitle">About us</span>
-            <h3 class="about__heading-title">
-              Need a design expert? You found one.
-            </h3>
+            <span class="about__heading-subtitle">Empowering Businesses with Advanced Data Research
+              and Management Solution.</span>
+            <!-- <h4 class="about__heading-title">
+             Empowering Businesses with Advanced Data Research
+and Management Solution.
+            </h4> -->
           </div>
         </div>
       </div>
@@ -23,8 +23,8 @@
 import bg from '~/assets/img/about/about-breadcrumb.jpg';
 
 export default {
-  data () {
-    return {bg}
+  data() {
+    return { bg }
   }
 };
 </script>

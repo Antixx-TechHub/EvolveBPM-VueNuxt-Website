@@ -3,7 +3,8 @@
     <agency-hero/>
     <!-- <HomeHero /> -->
     <TailoredServices />
-    <Statistics />
+    <FreelancerSkills />
+    <!-- <Statistics /> -->
     <FunFact />
     <OurProducts />
     <DeliveryChannels />
@@ -20,7 +21,9 @@ import LayoutOne from '~/layouts/LayoutOne.vue';
 import AgencyHero from '~/components/index/AgencyHero.vue';
 // import HomeHero from '~/components/index/HomeHero.vue'
 import TailoredServices from '~/components/index/TailoredServices.vue';
-import Statistics from '~/components/index/Statistics.vue';
+import FreelancerSkills from '~/components/statistics/FreelancerSkills.vue';
+
+// import Statistics from '~/components/index/Statistics.vue';
 import FunFact from '~~/components/index/FunFact.vue';
 import OurProducts from "~/components/index/OurProducts.vue";
 import DeliveryChannels from "~/components/index/DeliveryChannels.vue";

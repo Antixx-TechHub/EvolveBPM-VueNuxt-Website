@@ -4,12 +4,12 @@
     <about-top-bar />
     <about-text-area />
     <personal-port-services :style_2="true" />
-    <about-gallery />
+    <!-- <about-gallery /> -->
     <personal-port-awards :style_2="true" />
-    <about-faqs />
-    <home-teams :style_2="true" />
-    <agency-brands :spacing="true" :style_2="true" />
-    <about-cta/>
+    <!-- <about-faqs /> -->
+    <!-- <home-teams :style_2="true" /> -->
+    <!-- <agency-brands :spacing="true" :style_2="true" /> -->
+    <!-- <about-cta/> -->
     <Footer/>
     <back-to-top />
   </div>
@@ -25,7 +25,7 @@ import PersonalPortAwards from "~~/components/awards/PersonalPortAwards.vue";
 import AboutFaqs from "~~/components/faqs/AboutFaqs.vue";
 import HomeTeams from "~~/components/teams/HomeTeams.vue";
 import AgencyBrands from '~~/components/brands/AgencyBrands.vue';
-import AboutCta from '~~/components/cta/AboutCta.vue';
+// import AboutCta from '~~/components/cta/AboutCta.vue';
 import Footer from '~~/layouts/footers/Footer.vue';
 import BackToTop from "~~/layouts/footers/component/BackToTop.vue";
 
@@ -41,7 +41,7 @@ export default {
     AboutFaqs,
     HomeTeams,
     AgencyBrands,
-    AboutCta,
+    // AboutCta,
     Footer,
   },
   setup() {

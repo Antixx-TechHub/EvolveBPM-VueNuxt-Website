@@ -13,10 +13,12 @@
       <div class="row">
         <div class="col-xxl-12">
           <div v-for="item in portfolio_data" :key="item.id" :class="`portfolio__item-2 has-${item.bg_color} fix`">
-            <div class="portfolio__shape">
+            <!-- <div class="portfolio__shape">
               <img v-for="(s, i) in item.shapes" :key="i" :class="`portfolio__shape-${s.id} wow fadeInDown`"
                 data-sal="slide-down" data-sal-delay="150" data-sal-duration="1000" :src="s.shape" alt="shape" />
-            </div>
+            </div> -->
+
+
             <div v-if="!item.diff" class="row">
               <div class="col-xxl-5 col-xl-5 col-lg-6">
                 <div class="portfolio__content-2">
@@ -142,7 +144,7 @@ import portfolio_3 from "~/assets/img/portfolio/2/portfolio-3.jpg";
 import portfolio_4 from "~/assets/img/portfolio/2/portfolio-4.jpg";
 import portfolio_5 from "~/assets/img/portfolio/2/portfolio-5.jpg";
 import portfolio_6 from "~/assets/img/portfolio/2/portfolio-6.png";
-import statistics from "~/assets/img/home/statistics.png";
+import statistics from "~/assets/img/home/captive-unit.png";
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {

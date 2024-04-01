@@ -6,7 +6,7 @@
         <div v-if="details !== null">
             <BlogDetails v-bind:detailsContent="details" />
         </div>
-        <HomeCTA />
+        <!-- <HomeCTA /> -->
         <Footer />
         <back-to-top />
     </div>
@@ -16,7 +16,7 @@
 import HeaderOne from "~~/layouts/headers/HeaderOne.vue";
 import BlogDetailsBreadcrumb from '~~/components/blog-grid/BlogDetailsBreadcrumb.vue';
 import BlogDetails from '~~/components/blog-grid/BlogDetails.vue';
-import HomeCTA from "~/components/index/HomeCTA.vue";
+// import HomeCTA from "~/components/index/HomeCTA.vue";
 import Footer from "~~/layouts/footers/Footer.vue";
 import BackToTop from '~~/layouts/footers/component/BackToTop.vue';
 import axios from 'axios';
@@ -26,7 +26,7 @@ export default {
         HeaderOne,
         BlogDetailsBreadcrumb,
         BlogDetails,
-        HomeCTA,
+        // HomeCTA,
         Footer,
         BackToTop,
     },
