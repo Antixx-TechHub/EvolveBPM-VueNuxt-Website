@@ -102,7 +102,7 @@
                                         <span>
                                             <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
                                                     alt="" /></span>
-                                            <!-- <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" /> -->
+                                            <img src="~/assets/img/home/accountability.svg" alt="" />
                                         </span>
                                     </div>
                                     <div class="services__btn-9">
@@ -127,7 +127,7 @@
                                         <span>
                                             <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
                                                     alt="" /></span>
-                                            <!-- <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" /> -->
+                                                    <img src="~/assets/img/home/authenticity.svg" alt="" />
                                         </span>
                                     </div>
                                     <div class="services__btn-9">
@@ -152,7 +152,7 @@
                                         <span>
                                             <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
                                                     alt="" /></span>
-                                            <!-- <img src="~/assets/img/services/9/services-icon-shape.png" alt="shape" /> -->
+                                                    <img src="~/assets/img/home/security.svg" alt="" />
                                         </span>
                                     </div>
                                     <div class="services__btn-9">
