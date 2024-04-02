@@ -1,7 +1,7 @@
 <template>
   <section class="skill__area grey-bg-77 pt-145 pb-120">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xxl-12">
           <div class="section__title-wrapper-2 text-center mb-65">
             <span class="section__title-pre-2">Statistics</span>
@@ -9,13 +9,13 @@
             <p>Featured projects, which my best projects be choice to show</p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">
           <career-items :career_data="career_data" />
         </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6">
-          <div class="skill__item-wrapper">
+          <div class="about__thumb-15 p-relative z-index-1 w-img sal-animate">
             <img src="~/assets/img/home/captive-unit.png" />
           </div>
         </div>

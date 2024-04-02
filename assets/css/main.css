@@ -18952,7 +18952,7 @@ strong.framer-text {
   .slider__shape-8 {
     position: absolute !important;
     max-width: 32px !important;
-    top: 20% !important;
+    top: 16% !important;
     left: 78% !important;
     -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
     -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
@@ -18962,17 +18962,21 @@ strong.framer-text {
   .slider__shape-5 {
     position: absolute !important;
     max-width: 56px !important;
-    top: 52% !important;
+    top: 49% !important;
     left: 55% !important;
     -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
     -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
     animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
   }
 
+  .dropshowdow {
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 83%, rgba(0, 0, 0, 0) 103%) !important;
+}
+
   .slider__shape-6 {
     position: absolute !important;
     max-width: 50px !important;
-    top: 50% !important;
+    top: 48% !important;
     left: 75% !important;
     -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
     -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
@@ -27495,7 +27499,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .services__item-9 {
-  padding: 30px 20px 20px 30px;
+  padding: 15px 15px 10px 15px;
   border: 1px solid #EAEAEF;
   background-color: var(--tp-common-white);
   position: relative;
@@ -27731,8 +27735,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-weight: 400;
   font-size: 16px;
   display: inline-block;
-  width: 22px;
-  height: 40px;
+  width: 70px;
+  height: 50px;
   line-height: 40px;
   text-align: center;
   font-size: 40px;
@@ -27758,8 +27762,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .services__icon-9 span img {
   position: absolute;
-  bottom: -17px;
-  right: -45px;
+  bottom: -25px;
+  right: 0px;
 }
 
 [dir=rtl] .services__icon-9 span img {
@@ -27902,9 +27906,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: var(--tp-common-black);
 }
 
+.services__content-9 p {
+  font-family: var(--tp-ff-inter);
+  font-size: 14px;
+  color: #000;
+  line-height: 20px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .services__title-9 {
-    font-size: 22px;
+    font-size: 12px;
   }
 }
 
@@ -39728,6 +39739,20 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .brand__item-5 {
+  width: 420px !important;
+  height: 275px;
+  padding-right: 30px;
+  padding-left: 30px;
+  /* border: 1px solid rgba(4, 18, 31, 0.1019607843); */
+  text-align: center;
+  line-height: 160px;
+  border-radius: 14px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand__item-55 {
   width: 200px !important;
   height: 154px;
   padding-right: 30px;

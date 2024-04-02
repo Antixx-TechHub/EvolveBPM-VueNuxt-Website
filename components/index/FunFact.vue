@@ -67,12 +67,12 @@
                                 <p>Predictable outcomes through shared planning and execution.</p>
                             </div>
                         </div>
-                        <div class="about__list-item d-flex align-items-center">
+                        <!-- <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
                                 <p>Transparency – Of how your unit is functioning through access to operational metrics and systems.</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="about__list-item d-flex align-items-center">
                             <div class="about__list-icon"><span></span></div>
                             <div class="about__list-content">
@@ -95,34 +95,49 @@
 
 
                     <div class="row">
-                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                            <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
-                                <div class="services__item-9-top d-flex align-items-start justify-content-between">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div :class="`services__item-9 text-center 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top">
                                     <div class="services__icon-9">
                                         <span>
                                             <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
                                                     alt="" /></span>
-                                            <img src="~/assets/img/home/accountability.svg" alt="" />
+                                                    <img src="~/assets/img/home/transparence.svg" alt="" />
                                         </span>
                                     </div>
-                                    <div class="services__btn-9">
-                                        <nuxt-link href="/service-details">
-                                            <i class="fa-light fa-arrow-up-right"></i>
-                                        </nuxt-link>
+                                </div>
+                                <div class="services__content-9">
+                                    <h3 class="services__title-9">
+                                        Transparency 
+                                    </h3>
+                                    <p class="services__content-9">Of how your unit is functioning through access to operational metrics and systems.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div :class="`services__item-9 text-center 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top">
+                                    <div class="services__icon-9">
+                                        <span>
+                                            <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
+                                                    alt="" /></span>
+                                            <img src="~/assets/img/home/accountabily.svg" alt="" />
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="services__content-9">
                                     <h3 class="services__title-9">
                                         Accountability
                                     </h3>
-                                    <span class="services-project">Of our<br> deliveries.</span>
+                                    <p class="services__content-9">Of our<br> deliveries.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                            <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
-                                <div class="services__item-9-top d-flex align-items-start justify-content-between">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div :class="`services__item-9 text-center 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top">
                                     <div class="services__icon-9">
                                         <span>
                                             <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
@@ -130,24 +145,19 @@
                                                     <img src="~/assets/img/home/authenticity.svg" alt="" />
                                         </span>
                                     </div>
-                                    <div class="services__btn-9">
-                                        <nuxt-link href="/service-details">
-                                            <i class="fa-light fa-arrow-up-right"></i>
-                                        </nuxt-link>
-                                    </div>
                                 </div>
                                 <div class="services__content-9">
                                     <h3 class="services__title-9">
                                         Authenticity
                                     </h3>
-                                    <span class="services-project">Of every lead we capture.</span>
+                                    <p class="services__content-9">Of every lead we capture.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                            <div :class="`services__item-9 ${style_2 ? 'services__item-style-2' : ''} mb-30 transition-3`">
-                                <div class="services__item-9-top d-flex align-items-start justify-content-between">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div :class="`services__item-9 text-center 'services__item-style-2' : ''} mb-30 transition-3`">
+                                <div class="services__item-9-top">
                                     <div class="services__icon-9">
                                         <span>
                                             <span><img src="~/assets/img/counter/7/counter-icon-shape-1.png"
@@ -155,21 +165,18 @@
                                                     <img src="~/assets/img/home/security.svg" alt="" />
                                         </span>
                                     </div>
-                                    <div class="services__btn-9">
-                                        <nuxt-link href="/service-details">
-                                            <i class="fa-light fa-arrow-up-right"></i>
-                                        </nuxt-link>
-                                    </div>
                                 </div>
                                 <div class="services__content-9">
                                     <h3 class="services__title-9">
                                         Security
                                     </h3>
-                                    <span class="services-project">Of your & clients and data.</span>
+                                    <p class="services__content-9">Of your & clients and data.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    
 
                     <div class="blog__more-6 text-md-end mb-30">
                         <nuxt-link href="/request-demo" class="tp-btn btn-cta bg-btn lnk">

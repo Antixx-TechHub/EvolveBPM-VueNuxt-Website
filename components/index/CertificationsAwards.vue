@@ -33,7 +33,7 @@
                     </div>
                     <div :class="`brand__slider-5 ${square ? square : ''}`">
                         <div class="brand__slider-5">
-                            <swiper class="brand__slider-active-5" :freeMode="true" :loop="true" :autoplay="{
+                            <swiper class="brand__slider-active-5" :freeMode="true" :loop="false" :autoplay="{
         delay: 1,
         pauseOnMouseEnter: true,
     }" :slidesPerView="1" :centeredSlides="true" :centeredSlidesBounds="true" :speed="4000"
@@ -46,13 +46,13 @@
             slidesPerView: 2,
         },
         '768': {
-            slidesPerView: 4,
+            slidesPerView: 3,
         },
         '991': {
-            slidesPerView: 5,
+            slidesPerView: 3,
         },
         '1200': {
-            slidesPerView: 7,
+            slidesPerView: 3,
         },
     }">
                                 <swiper-slide v-for="(brand, i) in brand_1_data" :key="i">
@@ -79,12 +79,12 @@
                     </div>
                     <div :class="`brand__slider-5-1 ${square ? square : 'pb-120'}`">
                         <div class="brand__slider-5">
-                            <swiper ref="swiper_slide" class="brand__slider-active-5-1" :freeMode="true" :loop="true"
+                            <swiper ref="swiper_slide" class="brand__slider-active-5-1" :freeMode="true" :loop="false"
                                 :autoplay="{
         delay: 1,
         disableOnInteraction: true,
-        reverseDirection: true,
-    }" :slidesPerView="1" :centeredSlides="true" :speed="5000" :modules="modules"
+        reverseDirection: false,
+    }" :slidesPerView="1" :centeredSlides="true" :speed="6000" :modules="modules"
                                 :shortSwipes="false" :longSwipes="false" :allowTouchMove="false" :grabCursor="false"
                                 :breakpoints="{
         '0': {
@@ -94,13 +94,13 @@
             slidesPerView: 2,
         },
         '768': {
-            slidesPerView: 4,
+            slidesPerView: 3,
         },
         '991': {
-            slidesPerView: 5,
+            slidesPerView: 3,
         },
         '1200': {
-            slidesPerView: 7,
+            slidesPerView: 3,
         },
     }">
                                 <swiper-slide v-for="(brand, i) in brand_2_data" :key="i">

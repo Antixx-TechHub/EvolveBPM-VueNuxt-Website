@@ -39,7 +39,7 @@
             },
           }">
                   <swiper-slide v-for="(brand, i) in brand_1_data" :key="i">
-                    <div class="brand__item-5">
+                    <div class="brand__item-55">
                       <img :src="brand.brand" alt="brand" />
                     </div>
                   </swiper-slide>
@@ -72,7 +72,7 @@
             },
           }">
                   <swiper-slide v-for="(brand, i) in brand_2_data" :key="i">
-                    <div class="brand__item-5">
+                    <div class="brand__item-55">
                       <img :src="brand.brand" alt="brand" />
                     </div>
                   </swiper-slide>

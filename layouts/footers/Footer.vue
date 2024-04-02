@@ -14,9 +14,7 @@
 
                 <div class="footer__widget-content">
                   <div class="footer__info">
-                    <p>Lorem ipsum is simply dolor sit ametcn sectetur adipiscing elit. Phasellus vehic
-                      sagittis <br> euismod.</p>
-
+                    <p>The White-Labeled, Back-Office Superpower for global agencies and publishers.</p>
                     <div class="footer__social-10">
                       <social />
                     </div>
