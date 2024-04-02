@@ -37602,7 +37602,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .elements__parallax-item {
-  /* height: 600px; */
+  /* height: 200px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.elements__parallax-items {
+  height: 370px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -37662,6 +37668,18 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .testimonial__wrapper-8 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .elements__parallax-item {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .elements__parallax-items {
+    height: 255px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 

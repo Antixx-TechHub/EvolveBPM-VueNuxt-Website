@@ -32,7 +32,7 @@
             </h3>
           </div>
           <div
-              class="elements__parallax-item p-relative z-index-1 jarallax"
+              class="elements__parallax-items p-relative z-index-1 jarallax"
               :style="imageStyle"
             ></div>
         </div>
