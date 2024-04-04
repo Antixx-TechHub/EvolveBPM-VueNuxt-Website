@@ -1,6 +1,6 @@
 <template>
   <section
-    class="slider__area box-plr-5-245 pt-150 pb-60 slider__height-5 d-flex align-items-center hero-bg-5 p-relative z-index-1 fix">
+    class="slider__area box-plr-5-245 pt-160 pb-60 slider__height-5 d-flex align-items-center hero-bg-5 p-relative z-index-1 fix">
     <div class="slider__shape">
       <img class="slider__shape-5" src="~/assets/img/slider/5/shape/slider-shape-1.png" alt="shape">
       <img class="slider__shape-7" src="~/assets/img/slider/5/shape/slider-shape-3.png" alt="shape">

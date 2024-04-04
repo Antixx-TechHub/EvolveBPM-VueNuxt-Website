@@ -2172,7 +2172,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-block;
   position: absolute;
   left: 0;
-  background: #ffffff;
+  background: #165ec9;
   height: 4px;
   width: 25px;
   opacity: 1;
@@ -6802,11 +6802,11 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .hero-bg-5 {
-  background: -webkit-linear-gradient(#FD5257, #165EC9)
+  background: #f4fdea;
 }
 
 .blog-bg-4 {
-  background-color: var(--tp-grey-4);;
+  background-color: var(--tp-grey-4);
 }
 
 .grey-bg-12 {
@@ -13462,7 +13462,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .header__sticky.header-sticky .header__action ul li .hamburger-btn span {
-  background-color: var(--tp-common-black);
+  background-color: #165ec9;
 }
 
 .header__sticky.header-sticky .header__action ul li .hamburger-btn:hover {
@@ -18211,7 +18211,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-weight: 500;
   font-size: 72px;
   line-height: 1 !important;
-  color: #ffffff;
+  color: #0d1b2a;
   line-height: 50px;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
@@ -18893,7 +18893,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__content-5>p {
   font-size: 20px;
   line-height: 28px;
-  color: #ffffff;
+  color: #888888;
   font-family: "Inter", "Inter Placeholder", sans-serif;
   padding-right: 80px;
   margin-bottom: 20px;
