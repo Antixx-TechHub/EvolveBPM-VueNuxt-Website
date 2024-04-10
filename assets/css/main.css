@@ -1350,7 +1350,7 @@ input[type=color] {
 
 @media only screen and (min-width: 1700px) and (max-width: 1899px) {
   .header-box-plr-5-245 {
-    padding-left: 200px;
+    padding-left: 20px;
     padding-right: 200px;
   }
 }
@@ -1491,6 +1491,36 @@ input[type=color] {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 30px !important;
+    top: 28% !important;
+    left: 28% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
+  .slider__shape-5 {
+    position: absolute;
+    max-width: 60px !important;
+    top: 51% !important;
+    left: 31% !important;
+    -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+  }
+  
+  .slider__shape-6 {
+    position: absolute;
+    max-width: 55px !important;
+    bottom: 17% !important;
+    left: 28% !important;
+    -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1520,10 +1550,114 @@ input[type=color] {
   padding-right: 245px;
 }
 
+@media only screen and (min-width: 1900px) and (max-width: 2199px) {
+  .box-plr-5-245 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 38px !important;
+    top: 28% !important;
+    left: 34% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
+  .slider__shape-5 {
+    position: absolute;
+    max-width: 70px !important;
+    top: 62% !important;
+    left: 37% !important;
+    -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+  }
+  
+  .slider__shape-6 {
+    position: absolute;
+    max-width: 70px;
+    bottom: 10% !important;
+    left: 30% !important;
+    -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2599px) {
+  .box-plr-5-245 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 38px !important;
+    top: 28% !important;
+    left: 36% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
+  .slider__shape-5 {
+    position: absolute;
+    max-width: 70px !important;
+    top: 62% !important;
+    left: 39% !important;
+    -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+  }
+  
+  .slider__shape-6 {
+    position: absolute;
+    max-width: 70px;
+    bottom: 10% !important;
+    left: 33% !important;
+    -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+  }
+}
+
 @media only screen and (min-width: 1700px) and (max-width: 1899px) {
   .box-plr-5-245 {
     padding-left: 200px;
     padding-right: 200px;
+  }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 38px !important;
+    top: 28% !important;
+    left: 34% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
+  .slider__shape-5 {
+    position: absolute;
+    max-width: 70px !important;
+    top: 62% !important;
+    left: 37% !important;
+    -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+  }
+  
+  .slider__shape-6 {
+    position: absolute;
+    max-width: 70px;
+    bottom: 10% !important;
+    left: 30% !important;
+    -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
   }
 }
 
@@ -16643,6 +16777,36 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider__height-5 {
     min-height: 650px;
   }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 22px !important;
+    top: 30% !important;
+    left: 25% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
+  .slider__shape-5 {
+    position: absolute;
+    max-width: 48px !important;
+    top: 51% !important;
+    left: 30% !important;
+    -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+  }
+  
+  .slider__shape-6 {
+    position: absolute;
+    max-width: 50px !important;
+    bottom: 18% !important;
+    left: 27% !important;
+    -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -18225,13 +18389,43 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .slider__title-5 {
-    font-size: 38px;
+    font-size: 55px;
+  }
+
+  .slider__shape-8 {
+    position: absolute;
+    max-width: 35px !important;
+    top: 28% !important;
+    left: 22% !important;
+    -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+    animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
+  }
+  
+  .slider__shape-5 {
+    position: absolute;
+    max-width: 65px !important;
+    top: 55% !important;
+    left: 29% !important;
+    -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+    animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
+  }
+  
+  .slider__shape-6 {
+    position: absolute;
+    max-width: 60px !important;
+    bottom: 16% !important;
+    left: 24% !important;
+    -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
+    animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider__title-5 {
-    font-size: 35px;
+    font-size: 45px;
   }
 }
 
@@ -18925,6 +19119,7 @@ strong.framer-text {
   .slider__content-5>p {
     padding-right: 40px;
   }
+  
 
   [dir=rtl] .slider__content-5>p {
     padding-right: 0;
@@ -18952,8 +19147,8 @@ strong.framer-text {
   .slider__shape-8 {
     position: absolute !important;
     max-width: 32px !important;
-    top: 16% !important;
-    left: 78% !important;
+    top: 17% !important;
+    left: 81% !important;
     -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
     -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
     animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
@@ -20443,7 +20638,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__shape-5 {
   position: absolute;
   max-width: 75px;
-  top: 64%;
+  top: 60%;
   left: 35%;
   -moz-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
   -webkit-animation: tpupdown 1.5s ease-in-out 1.5s forwards infinite alternate;
@@ -20453,8 +20648,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__shape-6 {
   position: absolute;
   max-width: 70px;
-  bottom: 8%;
-  left: 28%;
+  bottom: 10%;
+  left: 26%;
   -moz-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
   -webkit-animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
   animation: tprotate 3s ease-in-out 3s forwards infinite alternate;
@@ -20472,7 +20667,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__shape-8 {
   position: absolute;
   max-width: 42px;
-  top: 25%;
+  top: 27%;
   left: 30%;
   -moz-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: tpswing 1s ease-in-out 1s forwards infinite alternate;
