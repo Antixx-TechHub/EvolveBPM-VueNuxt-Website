@@ -2172,7 +2172,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: inline-block;
   position: absolute;
   left: 0;
-  background: #165ec9;
+  background: #ffffff;
   height: 4px;
   width: 25px;
   opacity: 1;
@@ -6802,7 +6802,7 @@ span.circle2{background: rgba(255, 255, 255, 0.2); display: block; position: abs
 }
 
 .hero-bg-5 {
-  background: #f4fdea;
+  background: #155ec9;
 }
 
 .blog-bg-4 {
@@ -18211,7 +18211,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-weight: 500;
   font-size: 72px;
   line-height: 1 !important;
-  color: #0d1b2a;
+  color: #ffffff;
   line-height: 50px;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
@@ -18893,7 +18893,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .slider__content-5>p {
   font-size: 20px;
   line-height: 28px;
-  color: #888888;
+  color: #ffffff;
   font-family: "Inter", "Inter Placeholder", sans-serif;
   padding-right: 80px;
   margin-bottom: 20px;

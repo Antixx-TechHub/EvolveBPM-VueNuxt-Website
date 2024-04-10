@@ -80,9 +80,6 @@ import brand_4 from "~/assets/img/brand/1/brand_4.png";
 import brand_5 from "~/assets/img/brand/1/brand_5.png";
 import brand_6 from "~/assets/img/brand/1/brand_6.png";
 import brand_7 from "~/assets/img/brand/1/brand_7.png";
-import brand_8 from "~/assets/img/brand/1/brand_8.png";
-import brand_9 from "~/assets/img/brand/1/brand_9.png";
-import brand_10 from "~/assets/img/brand/1/brand_10.png";
 
 import MouseMove from '../mouse-move/MouseMove.vue';
 
@@ -111,16 +108,11 @@ export default {
       brand_1_data: [
         { brand: brand_1 },
         { brand: brand_2 },
-        { brand: brand_7 },
-        { brand: brand_8 },
         { brand: brand_3 },
         { brand: brand_4 },
         { brand: brand_5 },
         { brand: brand_6 },
         { brand: brand_7 },
-        { brand: brand_8 },
-        { brand: brand_9 },
-        { brand: brand_10 },
       ],
     };
   },
