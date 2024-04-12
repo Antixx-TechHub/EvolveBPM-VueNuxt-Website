@@ -1,11 +1,11 @@
 <template>
   <section
     class="slider__area box-plr-5-245 pt-160 pb-60 slider__height-5 d-flex align-items-center hero-bg-5 p-relative z-index-1 fix">
-    <div class="slider__shape">
+    <!-- <div class="slider__shape">
       <img class="slider__shape-5" src="~/assets/img/slider/5/shape/slider-shape-5.svg" alt="shape">
       <img class="slider__shape-8" src="~/assets/img/slider/5/shape/slider-shape-6.svg" alt="shape">
       <img class="slider__shape-6" src="~/assets/img/slider/5/shape/slider-shape-7.svg" alt="shape">
-    </div>
+    </div> -->
     <div class="container">
       <div class="row">
         <div class="col-xxl-6 col-xl-6 col-lg-6">

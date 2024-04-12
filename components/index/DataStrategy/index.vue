@@ -43,7 +43,7 @@ import feature_thumb_1 from "~/assets/img/home/data-strategy-1.jpg";
 import feature_thumb_2 from "~/assets/img/home/data-strategy-2.jpg";
 import feature_thumb_3 from "~/assets/img/home/data-strategy-3.jpg";
 import feature_thumb_4 from "~/assets/img/home/data-strategy-4.jpg";
-import feature_thumb_5 from "~/assets/img/home/data-strategy-5.jpg";
+import feature_thumb_5 from "~/assets/img/home/data-strategy.svg";
 
 export default {
   data() {

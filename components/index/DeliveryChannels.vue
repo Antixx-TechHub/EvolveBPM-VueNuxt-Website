@@ -50,7 +50,7 @@
 
 <script>
 import DeliveryChannelsFeature from './DeliveryChannelsFeature.vue';
-import bg from "~/assets/img/home/venn.jpg";
+import bg from "~/assets/img/home/venn.png";
 
 export default {
   components: { DeliveryChannelsFeature },
