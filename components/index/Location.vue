@@ -19,16 +19,14 @@
                 </div>
             </div>
 
-            <div class="container-fluid gx-0">
-      <div class="justify-content-center gx-0">
-        <div class="col-xl-12">
-            <div
-              class="elements__parallax-item p-relative z-index-1 jarallax"
-              :style="{ backgroundImage: `url(${bg})` }"
-            ></div>
-        </div>
-      </div>
-    </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="elements__parallax-item p-relative z-index-1 jarallax"
+                            :style="{ backgroundImage: `url(${bg})` }"></div>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -99,13 +97,13 @@
         </div>
     </section>
 </template>
-  
+
 <script>
 // internal
 import icon_1 from "~/assets/img/home/newyork.png";
 import icon_2 from "~/assets/img/home/uk.png";
 import icon_3 from "~/assets/img/home/india.png";
-import bg from "~/assets/img/testimonial/4/testimonial-bg.jpg";
+import bg from "~/assets/img/testimonial/4/testimonial-bg.svg";
 import SalScrollAnimationMixin from "~/mixins/SalScrollAnimationMixin";
 
 export default {
